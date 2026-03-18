@@ -1,0 +1,60 @@
+# catalog-years.yaml — Master index of catalog years and degrees
+# Add new years at the top. Each year lists its course file and available degrees.
+#
+# Aliasing convention: always point alias_of directly to the canonical year
+# (the year where the degree file actually lives). Never chain aliases.
+#
+# Adjacent-year equivalences (for reference only):
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (MEM-BBA)
+
+years:
+  - id: "2024-25"
+    label: "2024-2025"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        alias_of: "2025-26/music-enterprises-management-bba"
+
+  - id: "2023-24"
+    label: "2023-2024"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        alias_of: "2025-26/music-enterprises-management-bba"
+
+  - id: "2022-23"
+    label: "2022-2023"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        alias_of: "2025-26/music-enterprises-management-bba"
+
+  - id: "2021-22"
+    label: "2021-2022"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        alias_of: "2025-26/music-enterprises-management-bba"
+
+  - id: "2020-21"
+    label: "2020-2021"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        alias_of: "2025-26/music-enterprises-management-bba"
+
+  - id: "2025-26"
+    label: "2025-2026"
+    courses_file: "courses/courses-2025-26.yaml"
+    degrees:
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        file: "degrees/2025-26/computer-science-bs.yaml"
+      - id: music-enterprises-management-bba
+        label: "Music Enterprises Management (BBA)"
+        file: "degrees/2025-26/music-enterprises-management-bba.yaml"

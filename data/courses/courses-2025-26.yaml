@@ -1,0 +1,367 @@
+# courses-2025-26.yaml — All courses available in the 2025-26 catalog year
+# Format: CODE: { title, credits, prereqs[] }
+# prereqs lists course codes that must be completed before taking this course
+
+courses:
+
+  # ── General Education: Spanish ──────────────────────
+  GESP 1101:
+    title: "Literature and Communication: Narrative and Poetry"
+    credits: 3
+    prereqs: []
+  GESP 1102:
+    title: "Literature and Communication: Essay and Theatre"
+    credits: 3
+    prereqs: ["GESP 1101"]
+  GESP 2203:
+    title: "Literature and World View"
+    credits: 3
+    prereqs: ["GESP 1102"]
+
+  # ── General Education: English (Elementary Track) ───
+  GEEN 1101:
+    title: "English as a Second Language I: Oral Communication"
+    credits: 3
+    prereqs: []
+  GEEN 1102:
+    title: "English as a Second Language II: Reading"
+    credits: 3
+    prereqs: ["GEEN 1101"]
+  GEEN 1103:
+    title: "English as a Second Language III: Writing"
+    credits: 3
+    prereqs: ["GEEN 1102"]
+
+  # ── General Education: English (Intermediate Track) ─
+  GEEN 1201:
+    title: "English Communication I"
+    credits: 3
+    prereqs: []
+  GEEN 1202:
+    title: "English Communication II"
+    credits: 3
+    prereqs: ["GEEN 1201"]
+  GEEN 1203:
+    title: "English Communication III"
+    credits: 3
+    prereqs: ["GEEN 1202"]
+
+  # ── General Education: English (Advanced Track) ─────
+  GEEN 2311:
+    title: "Reading and Writing"
+    credits: 3
+    prereqs: []
+  GEEN 2312:
+    title: "Literature and Writing"
+    credits: 3
+    prereqs: ["GEEN 2311"]
+  GEEN 2313:
+    title: "Research and Writing"
+    credits: 3
+    prereqs: ["GEEN 2312"]
+
+  # ── General Education: Mathematics ──────────────────
+  GEMA 1000:
+    title: "Quantitative Reasoning"
+    credits: 3
+    prereqs: []
+  GEMA 1200:
+    title: "Fundamentals of Algebra"
+    credits: 3
+    prereqs: []
+
+  # ── General Education: Other ────────────────────────
+  GEIC 1010:
+    title: "Information and Computing Technologies"
+    credits: 3
+    prereqs: []
+  GECF 1010:
+    title: "Introduction to the Christian Faith"
+    credits: 3
+    prereqs: []
+  GEEC 2000:
+    title: "Entrepreneurial Culture"
+    credits: 3
+    prereqs: []
+
+  # ── General Education: Philosophical & Aesthetic ────
+  GEPE 3010:
+    title: "Art Appreciation"
+    credits: 3
+    prereqs: []
+  GEPE 3020:
+    title: "Music Appreciation"
+    credits: 3
+    prereqs: []
+  GEPE 3030:
+    title: "Theatre Appreciation"
+    credits: 3
+    prereqs: []
+  GEPE 4040:
+    title: "Ethics and Social Responsibility"
+    credits: 3
+    prereqs: []
+
+  # ── General Education: Historical & Social ──────────
+  GEHS 2010:
+    title: "Historical Process of Contemporary Puerto Rico"
+    credits: 3
+    prereqs: []
+  GEHS 4020:
+    title: "Ancient and Medieval Western Civilization"
+    credits: 3
+    prereqs: []
+  GEHS 4030:
+    title: "Modern and Contemporary Western Civilization"
+    credits: 3
+    prereqs: []
+  GEHS 3020:
+    title: "Global Society"
+    credits: 3
+    prereqs: []
+  GEHS 3050:
+    title: "Human Formation, Society, and Culture"
+    credits: 3
+    prereqs: []
+
+  # ── General Education: Scientific & Technological ───
+  GEST 2020:
+    title: "The Natural Environment and the Human Being"
+    credits: 3
+    prereqs: []
+  GEST 2030:
+    title: "Technology and Environment"
+    credits: 3
+    prereqs: []
+
+  # ── General Education: Health ───────────────────────
+  GEHP 3000:
+    title: "Integral Health and Quality of Life"
+    credits: 3
+    prereqs: []
+
+  # ── Mathematics (Core) ─────────────────────────────
+  MATH 1500:
+    title: "Precalculus"
+    credits: 4
+    prereqs: ["GEMA 1200"]
+  MATH 2251:
+    title: "Calculus I"
+    credits: 4
+    prereqs: ["MATH 1500"]
+  MATH 2252:
+    title: "Calculus II"
+    credits: 4
+    prereqs: ["MATH 2251"]
+  MATH 2100:
+    title: "Discrete Mathematics"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MATH 3200:
+    title: "Probability and Statistics"
+    credits: 3
+    prereqs: ["MATH 2251"]
+
+  # ── Computer Science (Major) ───────────────────────
+  COMP 2120:
+    title: "Programming Logic"
+    credits: 3
+    prereqs: []
+  COMP 2315:
+    title: "Structured Programming"
+    credits: 3
+    prereqs: ["COMP 2120"]
+  COMP 2400:
+    title: "Object Oriented Programming"
+    credits: 3
+    prereqs: ["COMP 2315"]
+  COMP 2900:
+    title: "Data Structures"
+    credits: 3
+    prereqs: ["COMP 2400"]
+  COMP 2501:
+    title: "Computer Architecture I"
+    credits: 3
+    prereqs: ["COMP 2120"]
+  COMP 2502:
+    title: "Computer Architecture II"
+    credits: 3
+    prereqs: ["COMP 2501"]
+  COMP 2700:
+    title: "Assembly Language"
+    credits: 3
+    prereqs: ["COMP 2501"]
+  COMP 2800:
+    title: "Database Management"
+    credits: 3
+    prereqs: ["COMP 2315"]
+  COMP 2850:
+    title: "Web Development"
+    credits: 3
+    prereqs: ["COMP 2315"]
+  COMP 3300:
+    title: "Operating Systems"
+    credits: 3
+    prereqs: ["COMP 2900", "COMP 2502"]
+  COMP 3350:
+    title: "Networking"
+    credits: 3
+    prereqs: ["COMP 3300"]
+  COMP 3401:
+    title: "Software Engineering I"
+    credits: 3
+    prereqs: ["COMP 2900"]
+  COMP 3402:
+    title: "Software Engineering II"
+    credits: 3
+    prereqs: ["COMP 3401"]
+  COMP 3500:
+    title: "Algorithms"
+    credits: 3
+    prereqs: ["COMP 2900", "MATH 2100"]
+  COMP 4250:
+    title: "Artificial Intelligence"
+    credits: 3
+    prereqs: ["COMP 3500"]
+  COMP 4910:
+    title: "Capstone Project"
+    credits: 3
+    prereqs: ["COMP 3401"]
+
+  # ── Prescribed Distributive Options ─────────────────
+  COMP 3600:
+    title: "Computer Graphics"
+    credits: 3
+    prereqs: ["COMP 2900"]
+  COMP 3800:
+    title: "Mobile Development"
+    credits: 3
+    prereqs: ["COMP 2400"]
+  COMP 4170:
+    title: "Machine Learning"
+    credits: 3
+    prereqs: ["COMP 3500", "MATH 3200"]
+  COMP 4415:
+    title: "Computer Security"
+    credits: 3
+    prereqs: ["COMP 3300"]
+  COMP 4480:
+    title: "Cloud Computing"
+    credits: 3
+    prereqs: ["COMP 3300"]
+  COMP 4580:
+    title: "Data Mining"
+    credits: 3
+    prereqs: ["COMP 2800", "MATH 3200"]
+
+  # ── Business Core ─────────────────────────────────────
+  ACCT 1161:
+    title: "Introduction to Financial Accounting"
+    credits: 4
+    prereqs: []
+  BADM 1900:
+    title: "Fundamentals of Business Management"
+    credits: 3
+    prereqs: []
+  MAEC 2140:
+    title: "Fundamentals of Quantitative Methods"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MAEC 2211:
+    title: "Principles of Microeconomics"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MAEC 2221:
+    title: "Basic Statistics"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  ENTR 2200:
+    title: "Foundations of Entrepreneurship"
+    credits: 3
+    prereqs: []
+
+  # ── Office Systems ────────────────────────────────────
+  OMSY 3030:
+    title: "Business Communication in Spanish"
+    credits: 3
+    prereqs: ["GESP 1102", "GEIC 1010"]
+  OMSY 3040:
+    title: "Business Communication in English"
+    credits: 3
+    prereqs: ["GEEN 1101", "GEIC 1010"]
+
+  # ── Marketing ─────────────────────────────────────────
+  MKTG 1210:
+    title: "Introduction to Marketing"
+    credits: 3
+    prereqs: []
+  MKTG 2220:
+    title: "Marketing Management"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 2223:
+    title: "Consumer Behavior"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3230:
+    title: "Integrated Marketing Communication"
+    credits: 3
+    prereqs: ["MKTG 2223"]
+  MKTG 3233:
+    title: "Public Relations in Organizations"
+    credits: 3
+    prereqs: ["MKTG 3230"]
+  MKTG 4244:
+    title: "Global Marketing"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+
+  # ── Music Business Management (Major) ─────────────────
+  MUBA 1000:
+    title: "Introduction to Business in the Music Industry"
+    credits: 3
+    prereqs: []
+  MUBA 1100:
+    title: "Music Marketing"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MUBA 1200:
+    title: "Principles of Management of Artists"
+    credits: 3
+    prereqs: ["MUBA 1000"]
+  MUBA 1300:
+    title: "Musical Fundamentals for Enterprises"
+    credits: 3
+    prereqs: ["GEPE 3020"]
+  MUBA 1400:
+    title: "Legal Aspects in The Music Business"
+    credits: 3
+    prereqs: []
+  MUBA 2000:
+    title: "Dissemination, Promotion and Distribution of Music in Internet"
+    credits: 3
+    prereqs: ["MUBA 1100"]
+  MUBA 3000:
+    title: "Introduction to Musical Production"
+    credits: 3
+    prereqs: ["MUBA 1100"]
+  MUBA 4000:
+    title: "Project Management in the Musical Industry"
+    credits: 3
+    prereqs: ["MUBA 2000", "MUBA 3000"]
+  MUBA 3971:
+    title: "Special Topics I"
+    credits: 1
+    prereqs: []
+  MUBA 3972:
+    title: "Special Topics II"
+    credits: 1
+    prereqs: []
+  MUBA 3973:
+    title: "Special Topics III"
+    credits: 1
+    prereqs: []
+  MUBA 4971:
+    title: "Integrated Seminar"
+    credits: 3
+    prereqs: ["MKTG 3230", "MUBA 4000"]

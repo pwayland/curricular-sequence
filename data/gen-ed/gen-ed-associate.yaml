@@ -1,0 +1,54 @@
+# gen-ed-associate.yaml — General Education Requirements for Associate Degrees
+# 24 credits total.
+
+id: gen-ed-associate
+total_credits: 24
+
+categories:
+  - id: spanish
+    label: "Spanish"
+    credits: 6
+    rule: sequence
+    category_type: gen-ed
+    courses: ["GESP 1101", "GESP 1102"]
+
+  - id: english
+    label: "English"
+    credits: 6
+    rule: choose_track
+    category_type: gen-ed
+    choose_track:
+      elementary: ["GEEN 1101", "GEEN 1102"]
+      intermediate: ["GEEN 1201", "GEEN 1202"]
+      advanced: ["GEEN 2311", "GEEN 2312"]
+    default_track: intermediate
+
+  - id: math
+    label: "Mathematics"
+    credits: 3
+    rule: pick
+    category_type: gen-ed
+    options: ["GEMA 1000", "GEMA 1200"]
+    default: "GEMA 1200"
+
+  - id: christian-thinking
+    label: "Christian Thinking"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GECF 1010"]
+
+  - id: info-computing
+    label: "Information & Computing"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GEIC 1010"]
+
+  - id: history-or-entrepreneurial
+    label: "History or Entrepreneurial Culture"
+    credits: 3
+    rule: pick
+    category_type: gen-ed
+    options: ["GEHS 2010", "GEEC 2000"]
+    default: "GEHS 2010"

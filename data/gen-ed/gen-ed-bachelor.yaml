@@ -1,0 +1,103 @@
+# gen-ed-bachelor.yaml — General Education Requirements for Bachelor's Degrees
+# 48 credits total. Shared template; degrees can override via gen_ed.overrides.
+
+id: gen-ed-bachelor
+total_credits: 48
+
+categories:
+  - id: spanish
+    label: "Spanish"
+    credits: 9
+    rule: sequence
+    category_type: gen-ed
+    courses: ["GESP 1101", "GESP 1102", "GESP 2203"]
+
+  - id: english
+    label: "English"
+    credits: 9
+    rule: choose_track
+    category_type: gen-ed
+    choose_track:
+      elementary: ["GEEN 1101", "GEEN 1102", "GEEN 1103"]
+      intermediate: ["GEEN 1201", "GEEN 1202", "GEEN 1203"]
+      advanced: ["GEEN 2311", "GEEN 2312", "GEEN 2313"]
+    default_track: intermediate
+
+  - id: math
+    label: "Mathematics"
+    credits: 3
+    rule: pick
+    category_type: gen-ed
+    options: ["GEMA 1000", "GEMA 1200"]
+    default: "GEMA 1200"
+
+  - id: info-computing
+    label: "Information & Computing"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GEIC 1010"]
+
+  - id: christian-thinking
+    label: "Christian Thinking"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GECF 1010"]
+
+  - id: entrepreneurial-culture
+    label: "Entrepreneurial Culture"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GEEC 2000"]
+
+  - id: philosophical-aesthetic
+    label: "Philosophical & Aesthetic Thought"
+    credits: 6
+    category_type: gen-ed
+    subcategories:
+      - id: appreciation
+        label: "Appreciation Elective"
+        credits: 3
+        rule: pick
+        options: ["GEPE 3010", "GEPE 3020", "GEPE 3030"]
+        default: "GEPE 3020"
+      - id: ethics
+        label: "Ethics"
+        credits: 3
+        rule: fixed
+        courses: ["GEPE 4040"]
+
+  - id: historical-social
+    label: "Historical & Social Context"
+    credits: 6
+    category_type: gen-ed
+    subcategories:
+      - id: historical
+        label: "Historical Component"
+        credits: 3
+        rule: pick
+        options: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+        default: "GEHS 2010"
+      - id: social
+        label: "Social Component"
+        credits: 3
+        rule: pick
+        options: ["GEHS 3020", "GEHS 3050"]
+        default: "GEHS 3050"
+
+  - id: scientific-technological
+    label: "Scientific & Technological Context"
+    credits: 3
+    rule: pick
+    category_type: gen-ed
+    options: ["GEST 2020", "GEST 2030"]
+    default: "GEST 2020"
+
+  - id: health-quality
+    label: "Health & Quality of Life"
+    credits: 3
+    rule: fixed
+    category_type: gen-ed
+    courses: ["GEHP 3000"]

@@ -1,0 +1,82 @@
+# computer-science-bs.yaml — Computer Science, Bachelor of Science (2025-26)
+
+id: computer-science-bs
+label: "Computer Science (BS)"
+degree_type: bachelor
+total_credits: 131
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+# Gen Ed: use bachelor template, no overrides for now
+gen_ed:
+  template: gen-ed-bachelor
+
+# Degree-specific requirement categories
+categories:
+  - id: core-math
+    label: "Core Mathematics"
+    credits: 18
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "MATH 1500"
+      - "MATH 2251"
+      - "MATH 2252"
+      - "MATH 2100"
+      - "MATH 3200"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 51
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMP 2120"
+      - "COMP 2315"
+      - "COMP 2400"
+      - "COMP 2900"
+      - "COMP 2501"
+      - "COMP 2502"
+      - "COMP 2700"
+      - "COMP 2800"
+      - "COMP 2850"
+      - "COMP 3300"
+      - "COMP 3350"
+      - "COMP 3401"
+      - "COMP 3402"
+      - "COMP 3500"
+      - "COMP 4250"
+      - "COMP 4910"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "COMP 3600"
+      - "COMP 3800"
+      - "COMP 4170"
+      - "COMP 4415"
+      - "COMP 4480"
+      - "COMP 4580"
+      - "MATH 2100"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+    # count = 5 + (9 / 3) = 8 fields (auto-calculated if omitted)
+
+# Pin specific courses to terms for a recommended sequence
+term_pins:
+  1: ["GESP 1101", "GEEN 1201", "GEMA 1200", "GEIC 1010", "GECF 1010", "COMP 2120"]
+  2: ["GESP 1102", "GEEN 1202", "GEEC 2000", "MATH 1500", "COMP 2315", "COMP 2501"]
+  3: ["GESP 2203", "GEEN 1203", "MATH 2251", "COMP 2400", "COMP 2502"]
+  4: ["GEHS 2010", "MATH 2252", "MATH 2100", "COMP 2900", "COMP 2800"]
+  5: ["GEHS 3050", "GEPE 3020", "MATH 3200", "COMP 3300", "COMP 3401", "COMP 2850"]
+  6: ["GEST 2020", "GEPE 4040", "COMP 3500", "COMP 3350", "COMP 3402"]
+  7: ["GEHP 3000", "COMP 2700", "COMP 4250", "COMP 4910"]

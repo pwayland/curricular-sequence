@@ -1,0 +1,84 @@
+# music-enterprises-management-bba.yaml — Music Enterprises Management, BBA (2025-26)
+
+id: music-enterprises-management-bba
+label: "Music Enterprises Management (BBA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 22
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2221"
+      - "MKTG 1210"
+      - "ENTR 2200"
+
+  - id: core-business-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MUBA 1000"
+      - "MUBA 1100"
+      - "MUBA 1200"
+      - "MUBA 1300"
+      - "MUBA 1400"
+      - "MUBA 2000"
+      - "MUBA 3000"
+      - "MUBA 4000"
+      - "MUBA 4971"
+
+  - id: major-special-topics
+    label: "Special Topics"
+    credits: 3
+    rule: fixed
+    category_type: major
+    courses:
+      - "MUBA 3971"
+      - "MUBA 3972"
+      - "MUBA 3973"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 15
+    rule: prereq-order
+    category_type: distributive
+    courses:
+      - "MKTG 2220"
+      - "MKTG 2223"
+      - "MKTG 3230"
+      - "MKTG 3233"
+      - "MKTG 4244"
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

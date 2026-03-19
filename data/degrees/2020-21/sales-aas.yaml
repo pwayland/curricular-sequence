@@ -1,0 +1,47 @@
+# sales-aas.yaml — Sales, AAS (2025-26)
+
+id: sales-aas
+label: "Sales (AAS)"
+degree_type: associate
+total_credits: 61
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 10
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "MAEC 2211"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 24
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MKTG 1210"
+      - "MKTG 2223"
+      - "MKTG 2910"
+      - "MKTG 2970"
+      - "MKTG 3230"
+      - "MKTG 3234"
+      - "MKTG 3235"
+      - "MKTG 3236"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

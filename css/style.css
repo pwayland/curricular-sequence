@@ -355,6 +355,9 @@ body {
     text-align: center;
     padding: 0.5rem 0.75rem;
   }
+  #btn-print {
+    display: none;
+  }
   .controls {
     position: static;          /* unstick header so it doesn't eat half the screen */
   }

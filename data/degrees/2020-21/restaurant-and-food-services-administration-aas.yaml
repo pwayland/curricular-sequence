@@ -1,0 +1,38 @@
+# restaurant-and-food-services-administration-aas.yaml — Restaurant and Food Services Administration, AAS (2025-26)
+
+id: restaurant-and-food-services-administration-aas
+label: "Restaurant and Food Services Administration (AAS)"
+degree_type: associate
+total_credits: 69
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 45
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "HRMT 1200"
+      - "HRMT 1300"
+      - "HRMT 1301"
+      - "HRMT 2200"
+      - "HRMT 2302"
+      - "HRMT 2500"
+      - "HRMT 2600"
+      - "HRMT 2650"
+      - "HRMT 2800"
+      - "HRMT 2850"
+      - "HRMT 2915"
+      - "HRMT 3500"
+      - "TURI 2000"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

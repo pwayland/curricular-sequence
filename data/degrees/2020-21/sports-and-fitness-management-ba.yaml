@@ -1,0 +1,59 @@
+# sports-and-fitness-management-ba.yaml — Sports and Fitness Management, BA (2025-26)
+
+id: sports-and-fitness-management-ba
+label: "Sports and Fitness Management (BA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 58
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "BADM 3300"
+      - "HRMA 2100"
+      - "HRMA 3100"
+      - "HRMA 3500"
+      - "ENTR 2200"
+      - "HPER 2270"
+      - "HPER 2330"
+      - "HPER 3040"
+      - "HPER 3480"
+      - "HPER 4170"
+      - "HPER 4305"
+      - "HPER 4308"
+      - "HPER 4310"
+      - "HPER 4444"
+      - "SRIM 1020"
+      - "SRIM 2300"
+      - "SRIM 3030"
+
+  - id: distributive-requirements
+    label: "Prescribed Distributive Requirements"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "HPER 3010"
+      - "HPER 3050"
+      - "HPER 3495"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,48 @@
+# computerized-management-information-systems-aas.yaml — Computerized Management Information Systems, AAS (2021-22)
+
+id: computerized-management-information-systems-aas
+label: "Computerized Management Information Systems (AAS)"
+degree_type: associate
+total_credits: 64
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: core-requirements
+    label: "Core Course Requirements"
+    credits: 16
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "MAEC 2221"
+      - "MAEC 2211"
+      - "MKTG 1210"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 21
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ITEC 1100"
+      - "ITEC 1200"
+      - "ITEC 2310"
+      - "ITEC 2450"
+      - "ITEC 3130"
+      - "ITEC 3350"
+      - "ITEC 3420"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

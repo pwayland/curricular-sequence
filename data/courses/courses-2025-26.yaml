@@ -315,6 +315,14 @@ courses:
     prereqs: ["GEEN 1101", "GEIC 1010"]
 
   # ── Marketing ─────────────────────────────────────────
+  MKTG 2910:
+    title: "Practice"
+    credits: 3
+    prereqs: []
+  MKTG 2970:
+    title: "Seminar in Sales"
+    credits: 3
+    prereqs: []
   MKTG 1210:
     title: "Introduction to Marketing"
     credits: 3
@@ -593,6 +601,26 @@ courses:
     title: "International Economics"
     credits: 3
     prereqs: ["MAEC 2212"]
+  MAEC 1213:
+    title: "History of Economic Thought"
+    credits: 3
+    prereqs: []
+  MAEC 3234:
+    title: "Labor Economics"
+    credits: 3
+    prereqs: ["MAEC 2211"]
+  MAEC 3330:
+    title: "Economic Development of Puerto Rico"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 4213:
+    title: "Macroeconomics Applied to Business"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 4220:
+    title: "Introduction to Econometrics"
+    credits: 3
+    prereqs: ["MAEC 2222", "MAEC 3240", "MAEC 4213"]
 
   # ── Political Science ──────────────────────────────────
   POLS 3150:
@@ -793,12 +821,68 @@ courses:
     title: "Internship in Hotel Management"
     credits: 5
     prereqs: ["HRMT 2800", "HRMT 3010", "HRMT 3330", "HRMT 3500", "HRMT 4400"]
+  HRMT 2650:
+    title: "Purchasing Systems and Inventory Control"
+    credits: 3
+    prereqs: []
+  HRMT 2850:
+    title: "Restaurant Management"
+    credits: 3
+    prereqs: ["ACCT 1161", "HRMT 2650", "HRMT 2800"]
+  HRMT 2915:
+    title: "Practicum in Restaurant Management"
+    credits: 4
+    prereqs: ["ACCT 1161", "HRMT 2650", "HRMT 2800"]
 
   # ── Tourism ────────────────────────────────────────────
   TURI 2000:
     title: "Tourism Legislation"
     credits: 3
     prereqs: ["HRMT 1200"]
+  TURI 1020:
+    title: "Fundamentals of Tourism"
+    credits: 3
+    prereqs: []
+  TURI 1200:
+    title: "Tourist Quality and Services"
+    credits: 3
+    prereqs: []
+  TURI 1900:
+    title: "Hotel and Accommodation Management"
+    credits: 3
+    prereqs: ["TURI 1020", "ACCT 1161", "BADM 1900"]
+  TURI 2060:
+    title: "Tourist Marketing"
+    credits: 3
+    prereqs: []
+  TURI 2200:
+    title: "Culture and Tourist Destinations of Puerto Rico"
+    credits: 3
+    prereqs: []
+  TURI 3010:
+    title: "Ecotourism and Sustainable Tourism"
+    credits: 3
+    prereqs: []
+  TURI 3210:
+    title: "Planning and Tourist Development"
+    credits: 3
+    prereqs: []
+  TURI 3220:
+    title: "Trip Reservation System"
+    credits: 3
+    prereqs: []
+  TURI 3230:
+    title: "Accommodations Department Administration"
+    credits: 3
+    prereqs: []
+  TURI 4400:
+    title: "Administration and Organization of Groups and Conventions"
+    credits: 3
+    prereqs: []
+  TURI 4910:
+    title: "Practicum in Tourism Administration"
+    credits: 3
+    prereqs: []
 
   # ── Information Technology ─────────────────────────────
   ITEC 1100:
@@ -1086,6 +1170,192 @@ courses:
     credits: 3
     prereqs: []
 
+  # ── Accounting (Major) ────────────────────────────────
+  ACCT 3030:
+    title: "Computerized Systems Applied to Accounting"
+    credits: 3
+    prereqs: ["GEIC 1010", "ACCT 3061"]
+  ACCT 3041:
+    title: "Puerto Rico Tax System for Individuals"
+    credits: 4
+    prereqs: ["ACCT 1161"]
+  ACCT 3055:
+    title: "Cost Accounting I"
+    credits: 4
+    prereqs: ["ACCT 1161"]
+  ACCT 3061:
+    title: "Intermediate Accounting I"
+    credits: 4
+    prereqs: ["ACCT 1161"]
+  ACCT 3062:
+    title: "Intermediate Accounting II"
+    credits: 4
+    prereqs: ["ACCT 3061"]
+  ACCT 3063:
+    title: "Intermediate Accounting III"
+    credits: 4
+    prereqs: ["ACCT 3062"]
+  ACCT 3085:
+    title: "Federal Taxes for Individuals"
+    credits: 3
+    prereqs: ["ACCT 1161"]
+  ACCT 3460:
+    title: "Accounting for Non Profit Organizations"
+    credits: 3
+    prereqs: ["ACCT 3062"]
+  ACCT 4010:
+    title: "Auditing and Ethics for Accountants"
+    credits: 4
+    prereqs: ["ACCT 3063"]
+
+  # ── Business Administration (additional) ──────────────
+  BADM 3300:
+    title: "Communication in Management"
+    credits: 3
+    prereqs: []
+
+  # ── Health, Physical Education and Recreation ─────────
+  HPER 2270:
+    title: "Kinesiology and Functional Anatomy"
+    credits: 3
+    prereqs: []
+  HPER 2330:
+    title: "First Aid and Personal Safety"
+    credits: 3
+    prereqs: []
+  HPER 3010:
+    title: "Sports Psychology"
+    credits: 3
+    prereqs: []
+  HPER 3040:
+    title: "Legal Foundations in Sports"
+    credits: 3
+    prereqs: []
+  HPER 3050:
+    title: "Introduction to Prevention and Management of Injuries"
+    credits: 3
+    prereqs: ["HPER 2270"]
+  HPER 3480:
+    title: "Nutrition in Sports, Exercise and Physical Activity"
+    credits: 3
+    prereqs: []
+  HPER 3495:
+    title: "Principles of Therapeutic Recreation"
+    credits: 3
+    prereqs: []
+  HPER 4170:
+    title: "Physiology of Human Movement"
+    credits: 3
+    prereqs: []
+  HPER 4305:
+    title: "Sport Training Methodology"
+    credits: 3
+    prereqs: []
+  HPER 4308:
+    title: "Design of Exercise Programs"
+    credits: 3
+    prereqs: ["HPER 4170"]
+  HPER 4310:
+    title: "Functional Training Methodology"
+    credits: 3
+    prereqs: []
+  HPER 4444:
+    title: "Clinical Experiences in Training"
+    credits: 3
+    prereqs: ["HPER 4308"]
+
+  # ── Sports and Recreation Management ──────────────────
+  SRIM 1020:
+    title: "Foundations of Sports and Recreation"
+    credits: 3
+    prereqs: []
+  SRIM 2300:
+    title: "Introduction to Sports Marketing"
+    credits: 3
+    prereqs: []
+  SRIM 3030:
+    title: "Development of Programming of Sport and Recreational Centers"
+    credits: 3
+    prereqs: []
+
+  # ── Communications ─────────────────────────────────────
+  COMU 1000:
+    title: "Introduction to Communications"
+    credits: 3
+    prereqs: []
+  COMU 2000:
+    title: "Fundamentals of Journalism"
+    credits: 3
+    prereqs: []
+  COMU 2001:
+    title: "Corporate Communication"
+    credits: 3
+    prereqs: []
+  COMU 2002:
+    title: "Administration of Corporate Communication"
+    credits: 3
+    prereqs: ["COMU 2001"]
+  COMU 2003:
+    title: "Trends in Communication Technology"
+    credits: 3
+    prereqs: []
+  COMU 2010:
+    title: "Writing for Mass Media"
+    credits: 3
+    prereqs: []
+  COMU 2030:
+    title: "Foundations of Public Relations"
+    credits: 3
+    prereqs: []
+  COMU 2031:
+    title: "Foundations of Advertising"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  COMU 2197:
+    title: "Creative Project"
+    credits: 3
+    prereqs: []
+  COMU 2250:
+    title: "Foundations in Social Media Administration"
+    credits: 3
+    prereqs: []
+  COMU 3001:
+    title: "Strategic Planning"
+    credits: 3
+    prereqs: ["COMU 2001"]
+  COMU 3002:
+    title: "Psychology of Communication"
+    credits: 3
+    prereqs: []
+  COMU 3013:
+    title: "Public Relations Plan"
+    credits: 3
+    prereqs: []
+  COMU 3015:
+    title: "Advertising Projects"
+    credits: 3
+    prereqs: []
+  COMU 3021:
+    title: "Production for Multimedia"
+    credits: 3
+    prereqs: []
+  COMU 3025:
+    title: "Integral Communication of Brand Names"
+    credits: 3
+    prereqs: ["COMU 2031", "MKTG 1210"]
+  COMU 3970:
+    title: "Current Topics in Communications"
+    credits: 3
+    prereqs: []
+  COMU 4493:
+    title: "Professional Practice"
+    credits: 3
+    prereqs: []
+  COMU 4494:
+    title: "Academic Internship"
+    credits: 3
+    prereqs: []
+
   # ── Entrepreneurial Development (Certificate) ─────────
   ENDE 1100:
     title: "Introduction to Entrepreneurial Development"
@@ -1103,3 +1373,95 @@ courses:
     title: "Electronic Commerce in Enterprise Development"
     credits: 4
     prereqs: []
+
+  # ── Tourism (Tour Guide program) ───────────────────────
+  TURI 1039:
+    title: "Communication Skills and Interpretation Techniques"
+    credits: 3
+    prereqs: []
+  TURI 1050:
+    title: "Tourism Guide"
+    credits: 3
+    prereqs: []
+  TURI 1201:
+    title: "Natural Resources Interpretive Guide"
+    credits: 3
+    prereqs: []
+  TURI 2021:
+    title: "Tourism Geography of the Caribbean"
+    credits: 3
+    prereqs: []
+  TURI 2040:
+    title: "Designing and Planning of Tourism Excursions"
+    credits: 3
+    prereqs: []
+  TURI 2201:
+    title: "Tourism Adventure Guide"
+    credits: 3
+    prereqs: ["TURI 1201"]
+  TURI 2913:
+    title: "Practice in Tour Guide"
+    credits: 3
+    prereqs: []
+
+  # ── Communications (PR & Advertising program) ──────────
+  COMU 1010:
+    title: "Fundamentals of Graphic Communication"
+    credits: 3
+    prereqs: []
+  COMU 1020:
+    title: "Introduction to Communication Media"
+    credits: 3
+    prereqs: []
+  COMU 2020:
+    title: "Communication and Society"
+    credits: 3
+    prereqs: []
+  COMU 3000:
+    title: "Research Processes in Communications"
+    credits: 3
+    prereqs: []
+  COMU 4320:
+    title: "Legal and Ethical Aspects"
+    credits: 3
+    prereqs: []
+  COMU 4920:
+    title: "Internship"
+    credits: 6
+    prereqs: []
+  COMU 4973:
+    title: "Seminar in Public Relations and Publicity"
+    credits: 3
+    prereqs: []
+
+  # ── English ─────────────────────────────────────────────
+  ENGL 3025:
+    title: "Writing of Professional Documents"
+    credits: 3
+    prereqs: []
+  ENGL 3310:
+    title: "Public Speaking"
+    credits: 3
+    prereqs: []
+
+  # ── Entrepreneurship (additional) ──────────────────────
+  ENTR 2212:
+    title: "Social Entrepreneurism"
+    credits: 3
+    prereqs: []
+
+  # ── Psychology ──────────────────────────────────────────
+  PSYC 3313:
+    title: "Introduction to Industrial-Organizational Psychology"
+    credits: 3
+    prereqs: []
+
+  # ── Spanish ─────────────────────────────────────────────
+  SPAN 3015:
+    title: "Oral Communication"
+    credits: 3
+    prereqs: ["GESP 2203"]
+  SPAN 3025:
+    title: "Writing of Professional Documents"
+    credits: 3
+    prereqs: ["GESP 2203"]

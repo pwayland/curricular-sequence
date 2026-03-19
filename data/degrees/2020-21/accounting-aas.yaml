@@ -1,0 +1,48 @@
+# accounting-aas.yaml — Accounting, AAS (2025-26)
+
+id: accounting-aas
+label: "Accounting (AAS)"
+degree_type: associate
+total_credits: 62
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 31
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ACCT 1161"
+      - "ACCT 3055"
+      - "ACCT 3061"
+      - "ACCT 3062"
+      - "ACCT 3030"
+      - "BADM 1900"
+      - "FINA 2101"
+      - "MAEC 2211"
+      - "MAEC 2221"
+
+  - id: major-tax
+    label: "Tax Course"
+    credits: 4
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "ACCT 3041"
+      - "ACCT 3085"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

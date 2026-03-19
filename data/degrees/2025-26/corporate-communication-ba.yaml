@@ -1,0 +1,60 @@
+# corporate-communication-ba.yaml — Corporate Communication, BA (2025-26)
+
+id: corporate-communication-ba
+label: "Corporate Communication (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 63
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMU 1000"
+      - "COMU 2001"
+      - "COMU 2002"
+      - "COMU 2003"
+      - "COMU 2030"
+      - "COMU 2031"
+      - "COMU 3001"
+      - "COMU 3013"
+      - "BADM 1900"
+      - "ENTR 2200"
+      - "INTB 2200"
+      - "MKTG 1210"
+      - "COMU 2000"
+      - "COMU 2010"
+      - "COMU 2197"
+      - "COMU 2250"
+      - "COMU 3002"
+      - "COMU 3015"
+      - "COMU 3021"
+      - "COMU 3025"
+      - "COMU 3970"
+
+  - id: distributive-requirements
+    label: "Prescribed Distributive Requirements"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "COMU 4493"
+      - "COMU 4494"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

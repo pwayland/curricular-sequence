@@ -1,0 +1,56 @@
+# communications-in-public-relations-and-advertising-ba.yaml — Communications in Public Relations and Advertising, BA (2021-22)
+
+id: communications-in-public-relations-and-advertising-ba
+label: "Communications in Public Relations and Advertising (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 33
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "COMU 1000"
+      - "COMU 1010"
+      - "COMU 1020"
+      - "COMU 2010"
+      - "COMU 2020"
+      - "COMU 3000"
+      - "COMU 3002"
+      - "COMU 3021"
+      - "COMU 4320"
+      - "BADM 1900"
+      - "MKTG 1210"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 30
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMU 2000"
+      - "COMU 2030"
+      - "COMU 2031"
+      - "COMU 3013"
+      - "COMU 3015"
+      - "COMU 3025"
+      - "COMU 3970"
+      - "COMU 4920"
+      - "COMU 4973"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -6,15 +6,38 @@
 #
 # Adjacent-year equivalences (for reference only):
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (MEM-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Music Business Mgmt Associate)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Marketing-BBA)
-#   2020-21 ≡ 2021-22                                              (EMD-BBA)
-#                       2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (EMD-BBA)
+#   2020-21 ≡ 2021-22                                              (EMD-BBA v1)
+#                       2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26    (EMD-BBA v2)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Entrepreneurial Dev Certificate)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Finance-BBA)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (GBA-BBA)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (HSA-BBA)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Hotel-BBA)
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (HRM-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (OSA-AA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (OSA-BA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Operations Mgmt BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Real-Estate-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Sales-AAS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Sports-and-Fitness-BA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Restaurant-and-Food-Services-AAS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Tourism-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Managerial-Economics-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Accounting-AAS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Accounting-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Business-Admin-AAS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Marketing-Digital-Media-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (MOI-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (International-Business-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Tourism-AS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (IT-BBA)
+#   2020-21 ≡ 2021-22                                              (Communications-PR-Advertising-BA)
+#   2020-21 ≡ 2021-22                                              (Computerized-Mgmt-Info-Systems-AAS)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25              (Corporate-Communication-BA v1)
+#                                                       2025-26    (Corporate-Communication-BA v2)
+#              2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26              (Organizational-Behavior-BBA)
 
 years:
   - id: "2024-25"
@@ -23,28 +46,91 @@ years:
     degrees:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        alias_of: "2025-26/music-enterprises-management-bba"
+        alias_of: "2020-21/music-enterprises-management-bba"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        alias_of: "2020-21/music-business-management-associate"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        alias_of: "2025-26/marketing-bba"
+        alias_of: "2020-21/marketing-bba"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        alias_of: "2022-23/entrepreneurial-and-managerial-development-bba"
       - id: entrepreneurial-development-certificate
         label: "Entrepreneurial Development (Post-Associate Certificate)"
-        alias_of: "2025-26/entrepreneurial-development-certificate"
+        alias_of: "2020-21/entrepreneurial-development-certificate"
       - id: finance-bba
         label: "Finance (BBA)"
-        alias_of: "2025-26/finance-bba"
+        alias_of: "2020-21/finance-bba"
       - id: general-business-administration-bba
         label: "General Business Administration (BBA)"
-        alias_of: "2025-26/general-business-administration-bba"
+        alias_of: "2020-21/general-business-administration-bba"
       - id: health-services-administration-bba
         label: "Health Services Administration (BBA)"
-        alias_of: "2025-26/health-services-administration-bba"
+        alias_of: "2020-21/health-services-administration-bba"
       - id: hotel-and-restaurant-management-bba
         label: "Hotel and Restaurant Management (BBA)"
-        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+        alias_of: "2020-21/hotel-and-restaurant-management-bba"
       - id: human-resources-management-bba
         label: "Human Resources Management (BBA)"
-        alias_of: "2025-26/human-resources-management-bba"
+        alias_of: "2020-21/human-resources-management-bba"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        alias_of: "2020-21/office-systems-administration-aa"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        alias_of: "2020-21/office-systems-administration-ba"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        alias_of: "2020-21/operations-management-of-manufacturing-and-services-bba"
+      - id: organizational-behavior-bba
+        label: "Organizational Behavior (BBA)"
+        alias_of: "2022-23/organizational-behavior-bba"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        alias_of: "2020-21/real-estate-bba"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        alias_of: "2020-21/sales-aas"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        alias_of: "2020-21/sports-and-fitness-management-ba"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        alias_of: "2020-21/restaurant-and-food-services-administration-aas"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: "2020-21/tourism-bba"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        alias_of: "2020-21/managerial-economics-bba"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        alias_of: "2020-21/accounting-aas"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        alias_of: "2020-21/accounting-bba"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        alias_of: "2020-21/business-administration-aas"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        alias_of: "2020-21/marketing-for-digital-media-bba"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        alias_of: "2020-21/management-and-organizational-innovation-bba"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        alias_of: "2020-21/international-business-bba"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        alias_of: "2020-21/tourism-as"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        alias_of: "2020-21/corporate-communication-ba"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        alias_of: "2020-21/information-technology-bba"
 
   - id: "2023-24"
     label: "2023-2024"
@@ -52,28 +138,91 @@ years:
     degrees:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        alias_of: "2025-26/music-enterprises-management-bba"
+        alias_of: "2020-21/music-enterprises-management-bba"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        alias_of: "2020-21/music-business-management-associate"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        alias_of: "2025-26/marketing-bba"
+        alias_of: "2020-21/marketing-bba"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        alias_of: "2022-23/entrepreneurial-and-managerial-development-bba"
       - id: entrepreneurial-development-certificate
         label: "Entrepreneurial Development (Post-Associate Certificate)"
-        alias_of: "2025-26/entrepreneurial-development-certificate"
+        alias_of: "2020-21/entrepreneurial-development-certificate"
       - id: finance-bba
         label: "Finance (BBA)"
-        alias_of: "2025-26/finance-bba"
+        alias_of: "2020-21/finance-bba"
       - id: general-business-administration-bba
         label: "General Business Administration (BBA)"
-        alias_of: "2025-26/general-business-administration-bba"
+        alias_of: "2020-21/general-business-administration-bba"
       - id: health-services-administration-bba
         label: "Health Services Administration (BBA)"
-        alias_of: "2025-26/health-services-administration-bba"
+        alias_of: "2020-21/health-services-administration-bba"
       - id: hotel-and-restaurant-management-bba
         label: "Hotel and Restaurant Management (BBA)"
-        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+        alias_of: "2020-21/hotel-and-restaurant-management-bba"
       - id: human-resources-management-bba
         label: "Human Resources Management (BBA)"
-        alias_of: "2025-26/human-resources-management-bba"
+        alias_of: "2020-21/human-resources-management-bba"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        alias_of: "2020-21/office-systems-administration-aa"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        alias_of: "2020-21/office-systems-administration-ba"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        alias_of: "2020-21/operations-management-of-manufacturing-and-services-bba"
+      - id: organizational-behavior-bba
+        label: "Organizational Behavior (BBA)"
+        alias_of: "2022-23/organizational-behavior-bba"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        alias_of: "2020-21/real-estate-bba"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        alias_of: "2020-21/sales-aas"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        alias_of: "2020-21/sports-and-fitness-management-ba"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        alias_of: "2020-21/restaurant-and-food-services-administration-aas"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: "2020-21/tourism-bba"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        alias_of: "2020-21/managerial-economics-bba"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        alias_of: "2020-21/accounting-aas"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        alias_of: "2020-21/accounting-bba"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        alias_of: "2020-21/business-administration-aas"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        alias_of: "2020-21/marketing-for-digital-media-bba"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        alias_of: "2020-21/management-and-organizational-innovation-bba"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        alias_of: "2020-21/international-business-bba"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        alias_of: "2020-21/tourism-as"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        alias_of: "2020-21/corporate-communication-ba"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        alias_of: "2020-21/information-technology-bba"
 
   - id: "2022-23"
     label: "2022-2023"
@@ -81,28 +230,91 @@ years:
     degrees:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        alias_of: "2025-26/music-enterprises-management-bba"
+        alias_of: "2020-21/music-enterprises-management-bba"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        alias_of: "2020-21/music-business-management-associate"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        alias_of: "2025-26/marketing-bba"
+        alias_of: "2020-21/marketing-bba"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        file: "degrees/2022-23/entrepreneurial-and-managerial-development-bba.yaml"
       - id: entrepreneurial-development-certificate
         label: "Entrepreneurial Development (Post-Associate Certificate)"
-        alias_of: "2025-26/entrepreneurial-development-certificate"
+        alias_of: "2020-21/entrepreneurial-development-certificate"
       - id: finance-bba
         label: "Finance (BBA)"
-        alias_of: "2025-26/finance-bba"
+        alias_of: "2020-21/finance-bba"
       - id: general-business-administration-bba
         label: "General Business Administration (BBA)"
-        alias_of: "2025-26/general-business-administration-bba"
+        alias_of: "2020-21/general-business-administration-bba"
       - id: health-services-administration-bba
         label: "Health Services Administration (BBA)"
-        alias_of: "2025-26/health-services-administration-bba"
+        alias_of: "2020-21/health-services-administration-bba"
       - id: hotel-and-restaurant-management-bba
         label: "Hotel and Restaurant Management (BBA)"
-        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+        alias_of: "2020-21/hotel-and-restaurant-management-bba"
       - id: human-resources-management-bba
         label: "Human Resources Management (BBA)"
-        alias_of: "2025-26/human-resources-management-bba"
+        alias_of: "2020-21/human-resources-management-bba"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        alias_of: "2020-21/office-systems-administration-aa"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        alias_of: "2020-21/office-systems-administration-ba"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        alias_of: "2020-21/operations-management-of-manufacturing-and-services-bba"
+      - id: organizational-behavior-bba
+        label: "Organizational Behavior (BBA)"
+        file: "degrees/2022-23/organizational-behavior-bba.yaml"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        alias_of: "2020-21/real-estate-bba"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        alias_of: "2020-21/sales-aas"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        alias_of: "2020-21/sports-and-fitness-management-ba"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        alias_of: "2020-21/restaurant-and-food-services-administration-aas"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: "2020-21/tourism-bba"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        alias_of: "2020-21/managerial-economics-bba"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        alias_of: "2020-21/accounting-aas"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        alias_of: "2020-21/accounting-bba"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        alias_of: "2020-21/business-administration-aas"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        alias_of: "2020-21/marketing-for-digital-media-bba"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        alias_of: "2020-21/management-and-organizational-innovation-bba"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        alias_of: "2020-21/international-business-bba"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        alias_of: "2020-21/tourism-as"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        alias_of: "2020-21/corporate-communication-ba"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        alias_of: "2020-21/information-technology-bba"
 
   - id: "2021-22"
     label: "2021-2022"
@@ -110,31 +322,94 @@ years:
     degrees:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        alias_of: "2025-26/music-enterprises-management-bba"
+        alias_of: "2020-21/music-enterprises-management-bba"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        alias_of: "2020-21/music-business-management-associate"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        alias_of: "2025-26/marketing-bba"
+        alias_of: "2020-21/marketing-bba"
       - id: entrepreneurial-and-managerial-development-bba
         label: "Entrepreneurial and Managerial Development (BBA)"
-        file: "degrees/2021-22/entrepreneurial-and-managerial-development-bba.yaml"
+        alias_of: "2020-21/entrepreneurial-and-managerial-development-bba"
       - id: entrepreneurial-development-certificate
         label: "Entrepreneurial Development (Post-Associate Certificate)"
-        alias_of: "2025-26/entrepreneurial-development-certificate"
+        alias_of: "2020-21/entrepreneurial-development-certificate"
       - id: finance-bba
         label: "Finance (BBA)"
-        alias_of: "2025-26/finance-bba"
+        alias_of: "2020-21/finance-bba"
       - id: general-business-administration-bba
         label: "General Business Administration (BBA)"
-        alias_of: "2025-26/general-business-administration-bba"
+        alias_of: "2020-21/general-business-administration-bba"
       - id: health-services-administration-bba
         label: "Health Services Administration (BBA)"
-        alias_of: "2025-26/health-services-administration-bba"
+        alias_of: "2020-21/health-services-administration-bba"
       - id: hotel-and-restaurant-management-bba
         label: "Hotel and Restaurant Management (BBA)"
-        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+        alias_of: "2020-21/hotel-and-restaurant-management-bba"
       - id: human-resources-management-bba
         label: "Human Resources Management (BBA)"
-        alias_of: "2025-26/human-resources-management-bba"
+        alias_of: "2020-21/human-resources-management-bba"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        alias_of: "2020-21/office-systems-administration-aa"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        alias_of: "2020-21/office-systems-administration-ba"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        alias_of: "2020-21/operations-management-of-manufacturing-and-services-bba"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        alias_of: "2020-21/real-estate-bba"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        alias_of: "2020-21/sales-aas"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        alias_of: "2020-21/sports-and-fitness-management-ba"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        alias_of: "2020-21/restaurant-and-food-services-administration-aas"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: "2020-21/tourism-bba"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        alias_of: "2020-21/managerial-economics-bba"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        alias_of: "2020-21/accounting-aas"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        alias_of: "2020-21/accounting-bba"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        alias_of: "2020-21/business-administration-aas"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        alias_of: "2020-21/marketing-for-digital-media-bba"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        alias_of: "2020-21/management-and-organizational-innovation-bba"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        alias_of: "2020-21/international-business-bba"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        alias_of: "2020-21/tourism-as"
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        alias_of: "2020-21/communications-in-public-relations-and-advertising-ba"
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        alias_of: "2020-21/computerized-management-information-systems-aas"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        alias_of: "2020-21/corporate-communication-ba"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        alias_of: "2020-21/information-technology-bba"
 
   - id: "2020-21"
     label: "2020-2021"
@@ -142,31 +417,94 @@ years:
     degrees:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        alias_of: "2025-26/music-enterprises-management-bba"
+        file: "degrees/2020-21/music-enterprises-management-bba.yaml"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        file: "degrees/2020-21/music-business-management-associate.yaml"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        alias_of: "2025-26/marketing-bba"
+        file: "degrees/2020-21/marketing-bba.yaml"
       - id: entrepreneurial-and-managerial-development-bba
         label: "Entrepreneurial and Managerial Development (BBA)"
-        alias_of: "2021-22/entrepreneurial-and-managerial-development-bba"
+        file: "degrees/2020-21/entrepreneurial-and-managerial-development-bba.yaml"
       - id: entrepreneurial-development-certificate
         label: "Entrepreneurial Development (Post-Associate Certificate)"
-        alias_of: "2025-26/entrepreneurial-development-certificate"
+        file: "degrees/2020-21/entrepreneurial-development-certificate.yaml"
       - id: finance-bba
         label: "Finance (BBA)"
-        alias_of: "2025-26/finance-bba"
+        file: "degrees/2020-21/finance-bba.yaml"
       - id: general-business-administration-bba
         label: "General Business Administration (BBA)"
-        alias_of: "2025-26/general-business-administration-bba"
+        file: "degrees/2020-21/general-business-administration-bba.yaml"
       - id: health-services-administration-bba
         label: "Health Services Administration (BBA)"
-        alias_of: "2025-26/health-services-administration-bba"
+        file: "degrees/2020-21/health-services-administration-bba.yaml"
       - id: hotel-and-restaurant-management-bba
         label: "Hotel and Restaurant Management (BBA)"
-        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+        file: "degrees/2020-21/hotel-and-restaurant-management-bba.yaml"
       - id: human-resources-management-bba
         label: "Human Resources Management (BBA)"
-        alias_of: "2025-26/human-resources-management-bba"
+        file: "degrees/2020-21/human-resources-management-bba.yaml"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        file: "degrees/2020-21/office-systems-administration-aa.yaml"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        file: "degrees/2020-21/office-systems-administration-ba.yaml"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        file: "degrees/2020-21/operations-management-of-manufacturing-and-services-bba.yaml"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        file: "degrees/2020-21/real-estate-bba.yaml"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        file: "degrees/2020-21/sales-aas.yaml"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        file: "degrees/2020-21/sports-and-fitness-management-ba.yaml"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        file: "degrees/2020-21/restaurant-and-food-services-administration-aas.yaml"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        file: "degrees/2020-21/tourism-bba.yaml"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        file: "degrees/2020-21/managerial-economics-bba.yaml"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        file: "degrees/2020-21/accounting-aas.yaml"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        file: "degrees/2020-21/accounting-bba.yaml"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        file: "degrees/2020-21/business-administration-aas.yaml"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        file: "degrees/2020-21/marketing-for-digital-media-bba.yaml"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        file: "degrees/2020-21/management-and-organizational-innovation-bba.yaml"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        file: "degrees/2020-21/international-business-bba.yaml"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        file: "degrees/2020-21/tourism-as.yaml"
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        file: "degrees/2020-21/communications-in-public-relations-and-advertising-ba.yaml"
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        file: "degrees/2020-21/computerized-management-information-systems-aas.yaml"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        file: "degrees/2020-21/corporate-communication-ba.yaml"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        file: "degrees/2020-21/information-technology-bba.yaml"
 
   - id: "2025-26"
     label: "2025-2026"
@@ -177,58 +515,88 @@ years:
         file: "degrees/2025-26/computer-science-bs.yaml"
       - id: marketing-bba
         label: "Marketing (BBA)"
-        file: "degrees/2025-26/marketing-bba.yaml"
+        alias_of: "2020-21/marketing-bba"
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
-        file: "degrees/2025-26/music-enterprises-management-bba.yaml"
-      - id: entrepreneurial-and-managerial-development-bba
-        label: "Entrepreneurial and Managerial Development (BBA)"
-        file: "degrees/2025-26/entrepreneurial-and-managerial-development-bba.yaml"
-      - id: entrepreneurial-development-certificate
-        label: "Entrepreneurial Development (Post-Associate Certificate)"
-        file: "degrees/2025-26/entrepreneurial-development-certificate.yaml"
-      - id: finance-bba
-        label: "Finance (BBA)"
-        file: "degrees/2025-26/finance-bba.yaml"
-      - id: general-business-administration-bba
-        label: "General Business Administration (BBA)"
-        file: "degrees/2025-26/general-business-administration-bba.yaml"
-      - id: health-services-administration-bba
-        label: "Health Services Administration (BBA)"
-        file: "degrees/2025-26/health-services-administration-bba.yaml"
-      - id: hotel-and-restaurant-management-bba
-        label: "Hotel and Restaurant Management (BBA)"
-        file: "degrees/2025-26/hotel-and-restaurant-management-bba.yaml"
-      - id: human-resources-management-bba
-        label: "Human Resources Management (BBA)"
-        file: "degrees/2025-26/human-resources-management-bba.yaml"
-      - id: information-technology-bba
-        label: "Information Technology (BBA)"
-        file: "degrees/2025-26/information-technology-bba.yaml"
-      - id: international-business-bba
-        label: "International Business (BBA)"
-        file: "degrees/2025-26/international-business-bba.yaml"
-      - id: management-and-organizational-innovation-bba
-        label: "Management and Organizational Innovation (BBA)"
-        file: "degrees/2025-26/management-and-organizational-innovation-bba.yaml"
-      - id: marketing-for-digital-media-bba
-        label: "Marketing for Digital Media (BBA)"
-        file: "degrees/2025-26/marketing-for-digital-media-bba.yaml"
+        alias_of: "2020-21/music-enterprises-management-bba"
       - id: music-business-management-associate
         label: "Music Business Management (Associate)"
-        file: "degrees/2025-26/music-business-management-associate.yaml"
+        alias_of: "2020-21/music-business-management-associate"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        alias_of: "2022-23/entrepreneurial-and-managerial-development-bba"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2020-21/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2020-21/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2020-21/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2020-21/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2020-21/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2020-21/human-resources-management-bba"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        alias_of: "2020-21/information-technology-bba"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        alias_of: "2020-21/international-business-bba"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        alias_of: "2020-21/management-and-organizational-innovation-bba"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        alias_of: "2020-21/marketing-for-digital-media-bba"
       - id: office-systems-administration-aa
         label: "Office Systems Administration (AA)"
-        file: "degrees/2025-26/office-systems-administration-aa.yaml"
+        alias_of: "2020-21/office-systems-administration-aa"
       - id: office-systems-administration-ba
         label: "Office Systems Administration (BA)"
-        file: "degrees/2025-26/office-systems-administration-ba.yaml"
+        alias_of: "2020-21/office-systems-administration-ba"
       - id: operations-management-of-manufacturing-and-services-bba
         label: "Operations Management of Manufacturing and Services (BBA)"
-        file: "degrees/2025-26/operations-management-of-manufacturing-and-services-bba.yaml"
+        alias_of: "2020-21/operations-management-of-manufacturing-and-services-bba"
       - id: organizational-behavior-bba
         label: "Organizational Behavior (BBA)"
-        file: "degrees/2025-26/organizational-behavior-bba.yaml"
+        alias_of: "2022-23/organizational-behavior-bba"
       - id: real-estate-bba
         label: "Real Estate (BBA)"
-        file: "degrees/2025-26/real-estate-bba.yaml"
+        alias_of: "2020-21/real-estate-bba"
+      - id: accounting-bba
+        label: "Accounting (BBA)"
+        alias_of: "2020-21/accounting-bba"
+      - id: corporate-communication-ba
+        label: "Corporate Communication (BA)"
+        file: "degrees/2025-26/corporate-communication-ba.yaml"
+      - id: sports-and-fitness-management-ba
+        label: "Sports and Fitness Management (BA)"
+        alias_of: "2020-21/sports-and-fitness-management-ba"
+      - id: accounting-aas
+        label: "Accounting (AAS)"
+        alias_of: "2020-21/accounting-aas"
+      - id: business-administration-aas
+        label: "Business Administration (AAS)"
+        alias_of: "2020-21/business-administration-aas"
+      - id: sales-aas
+        label: "Sales (AAS)"
+        alias_of: "2020-21/sales-aas"
+      - id: restaurant-and-food-services-administration-aas
+        label: "Restaurant and Food Services Administration (AAS)"
+        alias_of: "2020-21/restaurant-and-food-services-administration-aas"
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: "2020-21/tourism-bba"
+      - id: tourism-as
+        label: "Tourism with Major in Tour Guide (AS)"
+        alias_of: "2020-21/tourism-as"
+      - id: managerial-economics-bba
+        label: "Managerial Economics (BBA)"
+        alias_of: "2020-21/managerial-economics-bba"

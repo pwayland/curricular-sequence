@@ -1,0 +1,73 @@
+# office-systems-administration-ba.yaml — Office Systems Administration, BA (2025-26)
+
+id: office-systems-administration-ba
+label: "Office Systems Administration (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 56
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "OMSY 1010"
+      - "OMSY 1101"
+      - "OMSY 1102"
+      - "OMSY 2000"
+      - "OMSY 2040"
+      - "OMSY 2060"
+      - "OMSY 2233"
+      - "OMSY 2240"
+      - "OMSY 2250"
+      - "OMSY 3000"
+      - "OMSY 3050"
+      - "OMSY 3080"
+      - "OMSY 3500"
+      - "OMSY 4010"
+      - "OMSY 4500"
+      - "OMSY 4920"
+      - "OMSY 4970"
+
+  - id: major-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: major-practicum
+    label: "Professional Practicum"
+    credits: 3
+    rule: fixed
+    category_type: major
+    courses:
+      - "OMSY 4910"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 7
+    rule: prereq-order
+    category_type: distributive
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

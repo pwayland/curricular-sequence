@@ -1,0 +1,60 @@
+# management-and-organizational-innovation-bba.yaml — Management and Organizational Innovation, BBA (2025-26)
+
+id: management-and-organizational-innovation-bba
+label: "Management and Organizational Innovation (BBA)"
+degree_type: bachelor
+total_credits: 124
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "ACCT 1162"
+      - "BADM 1900"
+      - "BADM 3900"
+      - "BADM 4300"
+      - "FINA 2101"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MAEC 2222"
+      - "MKTG 1210"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 35
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HRMA 3000"
+      - "BADM 3313"
+      - "HRMA 2100"
+      - "OPMS 3820"
+      - "ENTR 2200"
+      - "ENTR 3900"
+      - "MGOI 2100"
+      - "MGOI 3240"
+      - "MGOI 3300"
+      - "MGOI 3400"
+      - "MGOI 4245"
+      - "MGOI 4900"
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

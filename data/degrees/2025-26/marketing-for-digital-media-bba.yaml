@@ -1,0 +1,69 @@
+# marketing-for-digital-media-bba.yaml — Marketing for Digital Media, BBA (2025-26)
+
+id: marketing-for-digital-media-bba
+label: "Marketing for Digital Media (BBA)"
+degree_type: bachelor
+total_credits: 125
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "ACCT 1162"
+      - "BADM 1900"
+      - "BADM 3900"
+      - "BADM 4300"
+      - "FINA 2101"
+      - "MKTG 1210"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MAEC 2222"
+
+  - id: core-business-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: concentration-requirements
+    label: "Concentration Requirements"
+    credits: 33
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MDME 1101"
+      - "DGDM 1104"
+      - "MDME 2201"
+      - "MDME 2203"
+      - "MDME 3020"
+      - "MDME 3045"
+      - "MDME 3115"
+      - "MDME 4012"
+      - "MDME 4041"
+      - "MDME 4910"
+      - "MDME 4973"
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

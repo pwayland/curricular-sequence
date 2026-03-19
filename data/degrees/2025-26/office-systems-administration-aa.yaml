@@ -1,0 +1,45 @@
+# office-systems-administration-aa.yaml — Office Systems Administration, AA (2025-26)
+
+id: office-systems-administration-aa
+label: "Office Systems Administration (AA)"
+degree_type: associate
+total_credits: 59
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    math:
+      default: "GEMA 1000"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 32
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "OMSY 1101"
+      - "OMSY 1102"
+      - "OMSY 2000"
+      - "OMSY 2040"
+      - "OMSY 2060"
+      - "OMSY 2233"
+      - "OMSY 2240"
+      - "OMSY 2250"
+      - "OMSY 3080"
+
+  - id: major-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

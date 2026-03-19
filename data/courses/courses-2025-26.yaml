@@ -461,3 +461,645 @@ courses:
     title: "Integrated Seminar"
     credits: 3
     prereqs: ["MKTG 3230", "MUBA 4000"]
+
+  # ── Business Administration (shared) ──────────────────
+  BADM 3313:
+    title: "The Law and The Businesses"
+    credits: 3
+    prereqs: []
+  BADM 3330:
+    title: "Human Resources Management"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  BADM 4340:
+    title: "Protective Labor Legislation"
+    credits: 3
+    prereqs: ["BADM 3330"]
+
+  # ── International Business ─────────────────────────────
+  INTB 2100:
+    title: "Introduction to International Business"
+    credits: 3
+    prereqs: []
+
+  # ── Operations Management ──────────────────────────────
+  OPMS 3000:
+    title: "Operations Management of Manufacturing and Service"
+    credits: 3
+    prereqs: ["BADM 1900", "MAEC 2140"]
+  OPMS 3340:
+    title: "Management Policies and Strategies"
+    credits: 3
+    prereqs: ["BADM 1900"]
+
+  # ── Entrepreneurship (EMD) ─────────────────────────────
+  ENTR 2100:
+    title: "Organizations: Dynamics and Evolution"
+    credits: 3
+    prereqs: ["GEEC 2000"]
+  ENTR 2300:
+    title: "Innovation and Entrepreneurship"
+    credits: 3
+    prereqs: ["ENTR 2100"]
+  ENTR 3900:
+    title: "Entrepreneurial and Managerial Strategies"
+    credits: 3
+    prereqs: ["ENTR 2200", "MKTG 1210"]
+  ENTR 4100:
+    title: "Digital Entrepreneurship"
+    credits: 3
+    prereqs: ["BADM 3900", "ENTR 3900"]
+  ENTR 4400:
+    title: "Design and Development of a Business Plan"
+    credits: 3
+    prereqs: ["ENTR 3900", "ACCT 1162"]
+  ENTR 4910:
+    title: "Entrepreneurial and Managerial Supervised Practicum"
+    credits: 3
+    prereqs: ["ACCT 1162", "ENTR 4400"]
+  ENTR 3910:
+    title: "Family Businesses"
+    credits: 3
+    prereqs: ["ENTR 3900"]
+  ENTR 4930:
+    title: "Entrepreneurial or Managerial Integrated Project"
+    credits: 3
+    prereqs: ["ENTR 4400"]
+
+  # ── Finance ────────────────────────────────────────────
+  FINA 1000:
+    title: "Ethics in Finance"
+    credits: 3
+    prereqs: []
+  FINA 2102:
+    title: "Corporate Finance II"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 2150:
+    title: "Electronic Spreadsheet in Finance"
+    credits: 3
+    prereqs: []
+  FINA 3130:
+    title: "Credit Risk Management"
+    credits: 3
+    prereqs: ["FINA 2101", "MAEC 2222"]
+  FINA 3150:
+    title: "Personal Finance"
+    credits: 3
+    prereqs: []
+  FINA 3235:
+    title: "Money and Banking"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  FINA 3300:
+    title: "Financial Markets"
+    credits: 3
+    prereqs: ["FINA 2102", "MAEC 2222"]
+  FINA 3400:
+    title: "Introduction to Risk and Insurance"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 3500:
+    title: "Introduction to Real Estate"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 3700:
+    title: "Fundamentals of Investment"
+    credits: 3
+    prereqs: ["FINA 3300"]
+  FINA 4100:
+    title: "International Finance"
+    credits: 3
+    prereqs: ["FINA 3700"]
+  FINA 4910:
+    title: "Practicum in Finance"
+    credits: 3
+    prereqs: []
+  FINA 4970:
+    title: "Seminar in Finance"
+    credits: 3
+    prereqs: ["FINA 4100"]
+
+  # ── Managerial Economics (advanced) ───────────────────
+  MAEC 3236:
+    title: "Public Finance and Fiscal Policy"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 3240:
+    title: "Mathematics for Decision-Making"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+  MAEC 3243:
+    title: "International Economics"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+
+  # ── Political Science ──────────────────────────────────
+  POLS 3150:
+    title: "Introduction to International Relations"
+    credits: 3
+    prereqs: []
+
+  # ── Organizational Behavior ────────────────────────────
+  ORBE 2100:
+    title: "Group Dynamics"
+    credits: 3
+    prereqs: ["BADM 2050"]
+  ORBE 3100:
+    title: "Research Methods and Their Applications in Organizational Behavior"
+    credits: 3
+    prereqs: ["MAEC 2221"]
+  ORBE 4000:
+    title: "Ethics and Organizational Management"
+    credits: 3
+    prereqs: []
+  ORBE 4100:
+    title: "Organizational Development"
+    credits: 3
+    prereqs: []
+  ORBE 4200:
+    title: "Integrating Seminar in Organizational Behavior"
+    credits: 3
+    prereqs: []
+
+  # ── Real Estate ────────────────────────────────────────
+  REAL 2500:
+    title: "Real Estate Economics"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  REAL 2600:
+    title: "Legal Principles of Real Estate"
+    credits: 3
+    prereqs: []
+  REAL 2700:
+    title: "Obligations and Contracts in Real Estate"
+    credits: 3
+    prereqs: ["REAL 2600"]
+  REAL 3800:
+    title: "Real Estate Funding"
+    credits: 3
+    prereqs: ["FINA 3500"]
+  REAL 3900:
+    title: "Administration Principles in Real Estate"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  REAL 4000:
+    title: "Introduction to The Appraisal of Real Estate"
+    credits: 3
+    prereqs: ["MAEC 2221", "FINA 3500"]
+  REAL 4100:
+    title: "Ethics in the Real Estate Business"
+    credits: 2
+    prereqs: ["FINA 3500"]
+  REAL 4400:
+    title: "Financial Markets and the Banking Sector in Real Estate"
+    credits: 3
+    prereqs: ["FINA 3500"]
+  REAL 4910:
+    title: "Internship in Real Estate"
+    credits: 3
+    prereqs: []
+
+  # ── Human Resources Management ─────────────────────────
+  HRMA 2100:
+    title: "Human Resource Administration"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3000:
+    title: "Organization Behavior"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3100:
+    title: "Leadership and Supervision"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3200:
+    title: "Labor Security and Hygiene"
+    credits: 3
+    prereqs: []
+  HRMA 3400:
+    title: "Training and Development"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 3500:
+    title: "Labor Legislation"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 3600:
+    title: "Wage and Salary Management"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 4100:
+    title: "Syndication and Collective Bargaining"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 4915:
+    title: "Supervised Practice"
+    credits: 3
+    prereqs: []
+  HRMA 4970:
+    title: "Integration Seminar"
+    credits: 3
+    prereqs: []
+
+  # ── Health Services Administration ────────────────────
+  HCAD 1100:
+    title: "Fundamentals in Health Care Service"
+    credits: 3
+    prereqs: []
+  HCAD 2100:
+    title: "Introduction to Public Health Policy"
+    credits: 3
+    prereqs: ["HCAD 1100"]
+  HCAD 2200:
+    title: "Ethical and Legal Aspects in Health Care Service"
+    credits: 3
+    prereqs: ["HCAD 2100"]
+  HCAD 3000:
+    title: "Information Technology and Communication in Healthcare Administration"
+    credits: 3
+    prereqs: ["GEIC 1010", "HCAD 2200"]
+  HCAD 4000:
+    title: "Financial Aspects in the Healthcare Service"
+    credits: 3
+    prereqs: ["ACCT 1162", "FINA 2101"]
+  HCAD 4200:
+    title: "Integrated Seminar"
+    credits: 3
+    prereqs: []
+
+  # ── Hotel and Restaurant Management ───────────────────
+  HRMT 1200:
+    title: "Introduction to Tourism and Hospitality Industry"
+    credits: 3
+    prereqs: []
+  HRMT 1300:
+    title: "Introduction to Food and Beverages Management"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  HRMT 1301:
+    title: "Production Lab and Basic Food Services"
+    credits: 2
+    prereqs: ["HRMT 1300"]
+  HRMT 2100:
+    title: "Professional Communication Skills in English for Hospitality/Tourism"
+    credits: 3
+    prereqs: []
+  HRMT 2200:
+    title: "Introduction to Marketing in The Hospitality Industry"
+    credits: 3
+    prereqs: []
+  HRMT 2302:
+    title: "Production Lab and Advanced Food Services"
+    credits: 2
+    prereqs: ["HRMT 1300", "HRMT 1301"]
+  HRMT 2500:
+    title: "Human Resources Management in Hospitality Industry"
+    credits: 3
+    prereqs: ["HRMT 1200"]
+  HRMT 2600:
+    title: "Drinks Management and Service"
+    credits: 3
+    prereqs: ["HRMT 1200"]
+  HRMT 2800:
+    title: "Restaurant Development and Management"
+    credits: 3
+    prereqs: ["HRMT 2302"]
+  HRMT 3010:
+    title: "Reception Department"
+    credits: 3
+    prereqs: ["HRMT 1200"]
+  HRMT 3300:
+    title: "Physical Facilities Management"
+    credits: 3
+    prereqs: ["HRMT 1200"]
+  HRMT 3330:
+    title: "Financial Management for Hospitality Organizations"
+    credits: 3
+    prereqs: ["HRMT 1200", "ACCT 1162"]
+  HRMT 3400:
+    title: "Management of Casinos"
+    credits: 3
+    prereqs: ["HRMT 1200", "ACCT 1161"]
+  HRMT 3500:
+    title: "Technology and Information Systems in Hospitality Industry"
+    credits: 3
+    prereqs: ["GEIC 1010", "HRMT 1200", "ACCT 1161"]
+  HRMT 4400:
+    title: "Meetings and Convention Management"
+    credits: 3
+    prereqs: ["HRMT 2200"]
+  HRMT 4915:
+    title: "Internship in Hotel Management"
+    credits: 5
+    prereqs: ["HRMT 2800", "HRMT 3010", "HRMT 3330", "HRMT 3500", "HRMT 4400"]
+
+  # ── Tourism ────────────────────────────────────────────
+  TURI 2000:
+    title: "Tourism Legislation"
+    credits: 3
+    prereqs: ["HRMT 1200"]
+
+  # ── Information Technology ─────────────────────────────
+  ITEC 1100:
+    title: "Introduction to Information Technology"
+    credits: 3
+    prereqs: []
+  ITEC 1200:
+    title: "Programming Algorithms"
+    credits: 3
+    prereqs: []
+  ITEC 2310:
+    title: "Visual Programming in Information Systems"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 2450:
+    title: "Development of Web Page"
+    credits: 3
+    prereqs: []
+  ITEC 2560:
+    title: "Mobile Applications Programming"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 3130:
+    title: "Database Design and Management"
+    credits: 3
+    prereqs: ["ITEC 2310"]
+  ITEC 3350:
+    title: "Telecommunications and Business Networks"
+    credits: 3
+    prereqs: ["ITEC 2450"]
+  ITEC 3420:
+    title: "Information System Analysis and Design"
+    credits: 3
+    prereqs: ["ITEC 3130"]
+  ITEC 3570:
+    title: "Programming of Internet"
+    credits: 3
+    prereqs: ["ITEC 2450"]
+  ITEC 4500:
+    title: "Auditing and Security of Information Systems"
+    credits: 3
+    prereqs: ["ITEC 3420"]
+  ITEC 4915:
+    title: "Practicum"
+    credits: 3
+    prereqs: []
+  ITEC 4916:
+    title: "Project"
+    credits: 3
+    prereqs: []
+  ITEC 4970:
+    title: "Seminar in Information Systems"
+    credits: 3
+    prereqs: ["ITEC 3420"]
+
+  # ── International Business (additional) ───────────────
+  INTB 2200:
+    title: "Cultural Awareness in International Business"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  INTB 2301:
+    title: "Principles of Imports and Exports"
+    credits: 3
+    prereqs: ["INTB 2100"]
+  INTB 2302:
+    title: "Licenses and Regulations for Imports and Exports"
+    credits: 3
+    prereqs: ["INTB 2100"]
+  INTB 3330:
+    title: "Management of Human Resources at the International Level"
+    credits: 3
+    prereqs: ["INTB 2100", "BADM 1900"]
+  INTB 3600:
+    title: "International Business Environment in the Americas, Europe and the Pacific"
+    credits: 3
+    prereqs: ["INTB 2200", "INTB 2301", "INTB 2302"]
+  INTB 3710:
+    title: "International Sales Contracts and Terms of International Business"
+    credits: 3
+    prereqs: ["INTB 2301"]
+  INTB 3750:
+    title: "Financial Institutions and International Investments"
+    credits: 3
+    prereqs: ["FINA 2101", "INTB 2100"]
+  INTB 3800:
+    title: "Administration of International Transportation"
+    credits: 3
+    prereqs: ["INTB 2301"]
+  INTB 3900:
+    title: "Management Information Systems in International Business"
+    credits: 3
+    prereqs: ["INTB 2100", "INTB 2200"]
+  INTB 4220:
+    title: "International Business Strategy"
+    credits: 3
+    prereqs: ["INTB 2100", "MKTG 1210"]
+  INTB 4911:
+    title: "Practice in International Business"
+    credits: 3
+    prereqs: ["INTB 2301", "INTB 2302", "MAEC 3243"]
+
+  # ── Management and Organizational Innovation ──────────
+  MGOI 2100:
+    title: "Organizational Design"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  MGOI 3240:
+    title: "Ethics and Social Responsibility"
+    credits: 3
+    prereqs: []
+  MGOI 3300:
+    title: "Leadership and Organizational Change"
+    credits: 3
+    prereqs: ["ENTR 2200"]
+  MGOI 3400:
+    title: "Organizational Communication"
+    credits: 3
+    prereqs: ["MGOI 3300"]
+  MGOI 4245:
+    title: "Innovation and Creativity"
+    credits: 3
+    prereqs: ["ENTR 3900", "MGOI 3300"]
+  MGOI 4900:
+    title: "Management Simulation"
+    credits: 2
+    prereqs: []
+
+  # ── Operations Management (additional) ────────────────
+  OPMS 3500:
+    title: "Logistics and Supply Chain Management"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  OPMS 4300:
+    title: "Service Operations Management"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  OPMS 4500:
+    title: "Project Management"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  OPMS 3820:
+    title: "Management Sciences"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+
+  # ── Marketing for Digital Media ────────────────────────
+  MDME 1101:
+    title: "Fundamentals of Marketing for Digital Media"
+    credits: 3
+    prereqs: []
+  MDME 2201:
+    title: "Development of Web Tools"
+    credits: 3
+    prereqs: ["DGDM 1104"]
+  MDME 2203:
+    title: "Search Engine Positioning Strategies"
+    credits: 3
+    prereqs: ["MDME 2201"]
+  MDME 3020:
+    title: "Marketing Strategies for Social Media"
+    credits: 3
+    prereqs: ["MDME 2201"]
+  MDME 3045:
+    title: "Marketing for Email"
+    credits: 3
+    prereqs: ["MDME 3020"]
+  MDME 3115:
+    title: "Content Design Strategy"
+    credits: 3
+    prereqs: ["MDME 3020"]
+  MDME 4012:
+    title: "Web Analytics"
+    credits: 3
+    prereqs: ["MDME 3115"]
+  MDME 4041:
+    title: "Inbound Marketing"
+    credits: 3
+    prereqs: ["MDME 3115"]
+  MDME 4910:
+    title: "Marketing for Digital Media Practice"
+    credits: 3
+    prereqs: []
+  MDME 4973:
+    title: "Seminar in Marketing for Digital Media"
+    credits: 3
+    prereqs: ["MDME 3020", "MDME 3045", "MDME 3115"]
+
+  # ── Digital Graphic Design and Multimedia ─────────────
+  DGDM 1104:
+    title: "Analysis of Graphic Media"
+    credits: 3
+    prereqs: []
+
+  # ── Business Administration (associate) ───────────────
+  BADM 2050:
+    title: "Business Finance (For Associate Degree Candidates)"
+    credits: 3
+    prereqs: []
+
+  # ── Popular Music ──────────────────────────────────────
+  MUSIC 531:
+    title: "Theory and Sight Singing I"
+    credits: 3
+    prereqs: []
+  MUSIC 1563:
+    title: "Group Piano I"
+    credits: 2
+    prereqs: []
+  MUSIC 1661:
+    title: "Group Guitar I"
+    credits: 2
+    prereqs: []
+
+  # ── Office Systems Administration ─────────────────────
+  OMSY 1010:
+    title: "Speed Writing in Spanish"
+    credits: 3
+    prereqs: ["GESP 1101"]
+  OMSY 1101:
+    title: "Information Processing I"
+    credits: 4
+    prereqs: []
+  OMSY 1102:
+    title: "Information Processing II"
+    credits: 4
+    prereqs: ["OMSY 1101"]
+  OMSY 2000:
+    title: "Production of Business Documents"
+    credits: 4
+    prereqs: ["OMSY 1102"]
+  OMSY 2040:
+    title: "Electronic Spreadsheets"
+    credits: 3
+    prereqs: ["GEIC 1010"]
+  OMSY 2060:
+    title: "Administration of Documents and Databases"
+    credits: 4
+    prereqs: ["OMSY 1101"]
+  OMSY 2233:
+    title: "Information Processing in Offices of Legal Affairs"
+    credits: 4
+    prereqs: ["OMSY 1102"]
+  OMSY 2240:
+    title: "Information Processing in Offices of Health Services"
+    credits: 3
+    prereqs: []
+  OMSY 2250:
+    title: "Human Resources in the Organizational Environment"
+    credits: 3
+    prereqs: []
+  OMSY 3000:
+    title: "Health Services Billing"
+    credits: 3
+    prereqs: ["OMSY 2240"]
+  OMSY 3050:
+    title: "Graphic Art Design for Offices"
+    credits: 3
+    prereqs: ["OMSY 2000"]
+  OMSY 3080:
+    title: "Office Administration"
+    credits: 3
+    prereqs: ["OMSY 1102"]
+  OMSY 3500:
+    title: "Interactive Business Communication in English"
+    credits: 3
+    prereqs: ["GEEN 1103"]
+  OMSY 4010:
+    title: "Integration of Application Programs in Office Administration"
+    credits: 3
+    prereqs: ["OMSY 2000", "OMSY 2040", "OMSY 2060", "OMSY 3050"]
+  OMSY 4500:
+    title: "Telecommunications in The Office"
+    credits: 3
+    prereqs: ["OMSY 2000"]
+  OMSY 4910:
+    title: "Professional Practicum"
+    credits: 3
+    prereqs: ["OMSY 3000", "OMSY 3050", "OMSY 3080", "OMSY 3500"]
+  OMSY 4920:
+    title: "Design and Administration of Training"
+    credits: 3
+    prereqs: []
+  OMSY 4970:
+    title: "Integration Seminar"
+    credits: 3
+    prereqs: []
+
+  # ── Entrepreneurial Development (Certificate) ─────────
+  ENDE 1100:
+    title: "Introduction to Entrepreneurial Development"
+    credits: 2
+    prereqs: []
+  ENDE 3315:
+    title: "Fundamental Procedures for Establishing A Business"
+    credits: 3
+    prereqs: ["ENDE 1100"]
+  ENDE 3316:
+    title: "Business Management"
+    credits: 3
+    prereqs: []
+  ENDE 3320:
+    title: "Electronic Commerce in Enterprise Development"
+    credits: 4
+    prereqs: []

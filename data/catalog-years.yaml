@@ -6,6 +6,15 @@
 #
 # Adjacent-year equivalences (for reference only):
 #   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (MEM-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Marketing-BBA)
+#   2020-21 ≡ 2021-22                                              (EMD-BBA)
+#                       2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (EMD-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Entrepreneurial Dev Certificate)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Finance-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (GBA-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (HSA-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (Hotel-BBA)
+#   2020-21 ≡ 2021-22 ≡ 2022-23 ≡ 2023-24 ≡ 2024-25 ≡ 2025-26  (HRM-BBA)
 
 years:
   - id: "2024-25"
@@ -15,6 +24,27 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         alias_of: "2025-26/music-enterprises-management-bba"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        alias_of: "2025-26/marketing-bba"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2025-26/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2025-26/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2025-26/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2025-26/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2025-26/human-resources-management-bba"
 
   - id: "2023-24"
     label: "2023-2024"
@@ -26,6 +56,24 @@ years:
       - id: marketing-bba
         label: "Marketing (BBA)"
         alias_of: "2025-26/marketing-bba"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2025-26/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2025-26/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2025-26/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2025-26/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2025-26/human-resources-management-bba"
 
   - id: "2022-23"
     label: "2022-2023"
@@ -37,6 +85,24 @@ years:
       - id: marketing-bba
         label: "Marketing (BBA)"
         alias_of: "2025-26/marketing-bba"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2025-26/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2025-26/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2025-26/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2025-26/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2025-26/human-resources-management-bba"
 
   - id: "2021-22"
     label: "2021-2022"
@@ -48,6 +114,27 @@ years:
       - id: marketing-bba
         label: "Marketing (BBA)"
         alias_of: "2025-26/marketing-bba"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        file: "degrees/2021-22/entrepreneurial-and-managerial-development-bba.yaml"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2025-26/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2025-26/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2025-26/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2025-26/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2025-26/human-resources-management-bba"
 
   - id: "2020-21"
     label: "2020-2021"
@@ -56,6 +143,30 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         alias_of: "2025-26/music-enterprises-management-bba"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        alias_of: "2025-26/marketing-bba"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        alias_of: "2021-22/entrepreneurial-and-managerial-development-bba"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        alias_of: "2025-26/entrepreneurial-development-certificate"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        alias_of: "2025-26/finance-bba"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        alias_of: "2025-26/general-business-administration-bba"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        alias_of: "2025-26/health-services-administration-bba"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        alias_of: "2025-26/hotel-and-restaurant-management-bba"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        alias_of: "2025-26/human-resources-management-bba"
 
   - id: "2025-26"
     label: "2025-2026"
@@ -70,3 +181,54 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         file: "degrees/2025-26/music-enterprises-management-bba.yaml"
+      - id: entrepreneurial-and-managerial-development-bba
+        label: "Entrepreneurial and Managerial Development (BBA)"
+        file: "degrees/2025-26/entrepreneurial-and-managerial-development-bba.yaml"
+      - id: entrepreneurial-development-certificate
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
+        file: "degrees/2025-26/entrepreneurial-development-certificate.yaml"
+      - id: finance-bba
+        label: "Finance (BBA)"
+        file: "degrees/2025-26/finance-bba.yaml"
+      - id: general-business-administration-bba
+        label: "General Business Administration (BBA)"
+        file: "degrees/2025-26/general-business-administration-bba.yaml"
+      - id: health-services-administration-bba
+        label: "Health Services Administration (BBA)"
+        file: "degrees/2025-26/health-services-administration-bba.yaml"
+      - id: hotel-and-restaurant-management-bba
+        label: "Hotel and Restaurant Management (BBA)"
+        file: "degrees/2025-26/hotel-and-restaurant-management-bba.yaml"
+      - id: human-resources-management-bba
+        label: "Human Resources Management (BBA)"
+        file: "degrees/2025-26/human-resources-management-bba.yaml"
+      - id: information-technology-bba
+        label: "Information Technology (BBA)"
+        file: "degrees/2025-26/information-technology-bba.yaml"
+      - id: international-business-bba
+        label: "International Business (BBA)"
+        file: "degrees/2025-26/international-business-bba.yaml"
+      - id: management-and-organizational-innovation-bba
+        label: "Management and Organizational Innovation (BBA)"
+        file: "degrees/2025-26/management-and-organizational-innovation-bba.yaml"
+      - id: marketing-for-digital-media-bba
+        label: "Marketing for Digital Media (BBA)"
+        file: "degrees/2025-26/marketing-for-digital-media-bba.yaml"
+      - id: music-business-management-associate
+        label: "Music Business Management (Associate)"
+        file: "degrees/2025-26/music-business-management-associate.yaml"
+      - id: office-systems-administration-aa
+        label: "Office Systems Administration (AA)"
+        file: "degrees/2025-26/office-systems-administration-aa.yaml"
+      - id: office-systems-administration-ba
+        label: "Office Systems Administration (BA)"
+        file: "degrees/2025-26/office-systems-administration-ba.yaml"
+      - id: operations-management-of-manufacturing-and-services-bba
+        label: "Operations Management of Manufacturing and Services (BBA)"
+        file: "degrees/2025-26/operations-management-of-manufacturing-and-services-bba.yaml"
+      - id: organizational-behavior-bba
+        label: "Organizational Behavior (BBA)"
+        file: "degrees/2025-26/organizational-behavior-bba.yaml"
+      - id: real-estate-bba
+        label: "Real Estate (BBA)"
+        file: "degrees/2025-26/real-estate-bba.yaml"

@@ -1,0 +1,55 @@
+# general-business-administration-bba.yaml
+# General Business Administration, BBA (2025-26)
+
+id: general-business-administration-bba
+label: "General Business Administration (BBA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 19
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2221"
+      - "MKTG 1210"
+
+  - id: core-business-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 38
+    rule: open-elective
+    category_type: major
+    # Courses selected from: Marketing, HRM, Entrepreneurship, Industrial Management,
+    # Office Systems Administration, Accounting, Finance, CIS, Managerial Economics,
+    # or related Business Administration fields — with advisor and department director approval.
+
+  - id: electives
+    label: "Free Electives"
+    credits: 12
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

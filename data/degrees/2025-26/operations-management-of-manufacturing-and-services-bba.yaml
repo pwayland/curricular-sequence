@@ -1,0 +1,73 @@
+# operations-management-of-manufacturing-and-services-bba.yaml
+# Operations Management of Manufacturing and Services, BBA (2025-26)
+
+id: operations-management-of-manufacturing-and-services-bba
+label: "Operations Management of Manufacturing and Services (BBA)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "ACCT 1162"
+      - "BADM 1900"
+      - "BADM 3900"
+      - "BADM 4300"
+      - "FINA 2101"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MAEC 2222"
+      - "MKTG 1210"
+
+  - id: core-business-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 24
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ENTR 2200"
+      - "HRMA 3200"
+      - "OPMS 3000"
+      - "OPMS 3340"
+      - "OPMS 3500"
+      - "OPMS 3820"
+      - "OPMS 4300"
+      - "OPMS 4500"
+
+  - id: distributive-requirements
+    label: "Prescribed Distributive Requirements"
+    credits: 6
+    rule: open-elective
+    category_type: distributive
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

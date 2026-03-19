@@ -1,0 +1,83 @@
+# health-services-administration-bba.yaml
+# Health Services Administration, BBA (2025-26)
+
+id: health-services-administration-bba
+label: "Health Services Administration (BBA)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "ACCT 1162"
+      - "BADM 1900"
+      - "BADM 3900"
+      - "BADM 4300"
+      - "FINA 2101"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MAEC 2222"
+      - "MKTG 1210"
+
+  - id: core-business-comm
+    label: "Business Communication"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HCAD 1100"
+      - "HCAD 2100"
+      - "HCAD 2200"
+      - "HCAD 3000"
+      - "HCAD 4000"
+      - "HCAD 4200"
+      - "HRMA 2100"
+      - "HRMA 3100"
+      - "OPMS 3340"
+
+  - id: distributive-requirements
+    label: "Prescribed Distributive Requirements"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "HRMA 3000"
+      - "BADM 3313"
+      - "HRMA 3200"
+      - "HRMA 3500"
+      - "HRMA 3600"
+      - "OPMS 3000"
+      - "ENTR 2200"
+
+  - id: electives
+    label: "Free Electives"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

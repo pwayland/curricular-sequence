@@ -23,6 +23,9 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         alias_of: "2025-26/music-enterprises-management-bba"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        alias_of: "2025-26/marketing-bba"
 
   - id: "2022-23"
     label: "2022-2023"
@@ -31,6 +34,9 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         alias_of: "2025-26/music-enterprises-management-bba"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        alias_of: "2025-26/marketing-bba"
 
   - id: "2021-22"
     label: "2021-2022"
@@ -39,6 +45,9 @@ years:
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         alias_of: "2025-26/music-enterprises-management-bba"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        alias_of: "2025-26/marketing-bba"
 
   - id: "2020-21"
     label: "2020-2021"
@@ -55,6 +64,9 @@ years:
       - id: computer-science-bs
         label: "Computer Science (BS)"
         file: "degrees/2025-26/computer-science-bs.yaml"
+      - id: marketing-bba
+        label: "Marketing (BBA)"
+        file: "degrees/2025-26/marketing-bba.yaml"
       - id: music-enterprises-management-bba
         label: "Music Enterprises Management (BBA)"
         file: "degrees/2025-26/music-enterprises-management-bba.yaml"

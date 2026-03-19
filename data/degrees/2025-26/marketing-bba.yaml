@@ -1,0 +1,11 @@
+
+# Pin specific courses to terms for a recommended sequence
+term_pins:
+  1: ["GESP 1101", "GEEN 1201", "GEMA 1200", "GEIC 1010", "BADM 1900"]
+  2: ["GESP 1102", "GEEN 1202", "GECF 1010", "MKTG 1210", "GEHP 3000"]
+  3: ["GEHS 2010", "GESP 2203", "GEEN 1203", "GEEC 2000"]
+  4: ["GEST 2020", "GEPE 3020"]
+  5: []
+  6: ["GEPE 4040"]
+  7: ["GEHS 3050"]
+

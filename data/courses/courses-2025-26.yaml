@@ -259,10 +259,26 @@ courses:
     title: "Introduction to Financial Accounting"
     credits: 4
     prereqs: []
+  ACCT 1162:
+    title: "Introduction to Managerial Accounting"
+    credits: 4
+    prereqs: ["ACCT 1161"]
   BADM 1900:
     title: "Fundamentals of Business Management"
     credits: 3
     prereqs: []
+  BADM 3900:
+    title: "Information Systems in Organizations"
+    credits: 3
+    prereqs: ["BADM 1900", "GEIC 1010"]
+  BADM 4300:
+    title: "Managerial Economics"
+    credits: 3
+    prereqs: ["MAEC 2212", "MAEC 2221"]
+  FINA 2101:
+    title: "Corporate Finance I"
+    credits: 3
+    prereqs: ["ACCT 1161", "GEMA 1200"]
   MAEC 2140:
     title: "Fundamentals of Quantitative Methods"
     credits: 3
@@ -271,10 +287,18 @@ courses:
     title: "Principles of Microeconomics"
     credits: 3
     prereqs: ["GEMA 1200"]
+  MAEC 2212:
+    title: "Principles of Macroeconomics"
+    credits: 3
+    prereqs: ["MAEC 2211"]
   MAEC 2221:
     title: "Basic Statistics"
     credits: 3
     prereqs: ["GEMA 1200"]
+  MAEC 2222:
+    title: "Managerial Statistics"
+    credits: 3
+    prereqs: ["MAEC 2140", "MAEC 2221"]
   ENTR 2200:
     title: "Foundations of Entrepreneurship"
     credits: 3
@@ -311,10 +335,82 @@ courses:
     title: "Public Relations in Organizations"
     credits: 3
     prereqs: ["MKTG 3230"]
+  MKTG 3234:
+    title: "Personal Sales"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3235:
+    title: "Sales Management"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3236:
+    title: "Retail Selling"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3237:
+    title: "Service Marketing"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3238:
+    title: "Principles of Publicity"
+    credits: 3
+    prereqs: ["MKTG 3230"]
+  MKTG 3239:
+    title: "Social Marketing"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3240:
+    title: "Ethics in Marketing"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3241:
+    title: "Graphic Art in Marketing"
+    credits: 3
+    prereqs: []
+  MKTG 3242:
+    title: "Social Media Marketing"
+    credits: 3
+    prereqs: ["MKTG 3230"]
+  MKTG 3243:
+    title: "Distribution Logistics"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4240:
+    title: "Strategic Marketing"
+    credits: 3
+    prereqs: ["MKTG 2220", "MKTG 3230"]
+  MKTG 4243:
+    title: "Marketing Research"
+    credits: 3
+    prereqs: ["MKTG 2220", "MAEC 2221"]
   MKTG 4244:
     title: "Global Marketing"
     credits: 3
     prereqs: ["MKTG 2220"]
+  MKTG 4245:
+    title: "Digital Marketing"
+    credits: 3
+    prereqs: ["MKTG 4240"]
+  MKTG 4246:
+    title: "Product Management"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4248:
+    title: "Small Business Marketing"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4820:
+    title: "Analytical Marketing"
+    credits: 3
+    prereqs: ["MKTG 2220", "MAEC 2222"]
+  MKTG 4910:
+    title: "Supervised Practice in Marketing"
+    credits: 3
+    prereqs: []
+  MKTG 4973:
+    title: "Integrated Seminar in Marketing"
+    credits: 3
+    prereqs: []
 
   # ── Music Business Management (Major) ─────────────────
   MUBA 1000:

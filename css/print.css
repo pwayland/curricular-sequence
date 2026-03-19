@@ -1,7 +1,7 @@
 @media print {
   @page {
     size: landscape;
-    margin: 0.4in;
+    margin: 0.4in 0.6in;
   }
 
   body {
@@ -9,9 +9,11 @@
     font-size: 8pt;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
+    margin: 0;
+    padding: 0;
   }
 
-  /* ── Hide all screen-only elements ──────────────── */
+  /* ── Hide screen-only elements ─────────────────── */
   .controls,
   .term-grid,
   .legend,
@@ -19,41 +21,187 @@
     display: none !important;
   }
 
-  /* ── Show the print layout ──────────────────────── */
+  /* ── Show print layout ─────────────────────────── */
   .print-layout {
     display: block !important;
   }
 
-  /* ── Print Header ───────────────────────────────── */
-  .print-layout__header {
-    text-align: center;
-    margin-bottom: 0.15in;
-    padding-bottom: 0.1in;
-    border-bottom: 2px solid #000;
-  }
-
-  .print-layout__degree-name {
-    font-size: 13pt;
-    font-weight: 700;
-    margin-bottom: 0.08in;
-  }
-
-  .print-layout__student-row {
+  /* ── Page structure ────────────────────────────── */
+  .print-page {
+    height: 7.7in;            /* landscape letter: 8.5 − 2×0.4in */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .print-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .print-page__body {
+    flex: 1;
+  }
+
+  .print-page__footer {
+    flex-shrink: 0;
+    text-align: right;
+    font-size: 7.5pt;
+    padding-top: 4px;
+    border-top: 0.5pt solid #999;
+    line-height: 1.4;
+  }
+
+  /* ── Institution header (page 1 top) ───────────── */
+  .print-page__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25in;
+    margin-bottom: 0.06in;
+    padding-bottom: 0.05in;
+    border-bottom: 1.5pt solid #000;
+  }
+
+  .print-page__logo-area {
+    flex-shrink: 0;
+    width: 1.2in;
+    font-size: 7pt;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.3;
+  }
+
+  .print-page__logo {
+    max-width: 1.2in;
+    max-height: 0.8in;
+    object-fit: contain;
+  }
+
+  .print-page__institution-text {
+    flex: 1;
+    text-align: center;
+    font-size: 7.5pt;
+    line-height: 1.3;
+  }
+
+  .print-page__inst-name {
     font-size: 10pt;
+    font-weight: 700;
   }
 
-  .print-layout__field {
+  .print-page__degree-title {
+    font-size: 9pt;
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  /* ── Info section (two columns, page 1) ────────── */
+  .print-page__info-section {
+    display: flex;
+    gap: 0.3in;
+    margin-bottom: 0.06in;
+    font-size: 7.5pt;
+  }
+
+  .print-page__info-col {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .print-page__info-line {
+    margin-bottom: 2px;
+  }
+
+  .print-page__info-field {
+    margin-bottom: 3px;
+  }
+
+  .print-page__field-line {
     border-bottom: 1px solid #000;
-    min-width: 2in;
     display: inline-block;
+    min-width: 2.2in;
   }
 
-  /* ── Year Sections ──────────────────────────────── */
+  /* ── Requirements summary table ────────────────── */
+  .print-req-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 6.5pt;
+    margin-bottom: 2px;
+  }
+
+  .print-req-table th {
+    background: #e0e0e0;
+    text-align: left;
+    font-size: 7pt;
+    font-weight: 700;
+    padding: 1.5px 3px;
+    border: 0.5pt solid #999;
+  }
+
+  .print-req-table td {
+    padding: 1px 3px;
+    border: 0.5pt solid #999;
+  }
+
+  .print-req-table__credits {
+    text-align: center;
+    width: 18%;
+  }
+
+  .print-req-table__total td {
+    border-top: 1.5pt solid #000;
+  }
+
+  /* ── Language curriculum table ──────────────────── */
+  .print-lang-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 6pt;
+    margin-top: 2px;
+  }
+
+  .print-lang-table td {
+    padding: 1.5px 3px;
+    border: 0.5pt solid #999;
+    vertical-align: top;
+  }
+
+  .print-lang-table__wide {
+    font-style: italic;
+    font-size: 6pt;
+    line-height: 1.25;
+  }
+
+  /* ── Notes box (page 1) ─────────────────────────── */
+  .print-notes-box {
+    border: 1pt solid #999;
+    padding: 3px 6px;
+    margin-bottom: 0.06in;
+    font-size: 6.5pt;
+    line-height: 1.3;
+  }
+
+  .print-notes-box__line {
+    margin-bottom: 1px;
+  }
+
+  .print-notes-box__line:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ── End-of-degree notes (last page) ───────────── */
+  .print-end-notes {
+    text-align: center;
+    font-size: 7.5pt;
+    margin-top: 0.15in;
+    line-height: 1.4;
+  }
+
+  /* ── Year sections ─────────────────────────────── */
   .print-layout__year {
-    margin-bottom: 0.1in;
-    break-inside: avoid;
+    margin-bottom: 0.08in;
   }
 
   .print-layout__year-title {
@@ -66,10 +214,10 @@
 
   .print-layout__year-row {
     display: flex;
-    gap: 0.2in;
+    gap: 0.15in;
   }
 
-  /* ── Semester Tables ────────────────────────────── */
+  /* ── Semester tables ───────────────────────────── */
   .print-term-table {
     flex: 1;
     border-collapse: collapse;
@@ -87,7 +235,7 @@
     word-wrap: break-word;
   }
 
-  /* Semester header row (e.g. "FIRST SEMESTER") */
+  /* Semester header row */
   .print-term-table__semester-header th {
     background: #d4d4d4;
     text-align: center;
@@ -107,27 +255,26 @@
 
   /* Column widths */
   .print-term-table__code {
-    width: 18%;
+    width: 22%;
     font-weight: 600;
-    white-space: nowrap;
   }
 
   .print-term-table__title {
-    width: 35%;
+    width: 40%;
   }
 
   .print-term-table__credits {
-    width: 10%;
+    width: 7%;
     text-align: center;
   }
 
   .print-term-table__prereqs {
-    width: 22%;
+    width: 21%;
     font-size: 7pt;
   }
 
   .print-term-table__grade {
-    width: 15%;
+    width: 10%;
     text-align: center;
   }
 

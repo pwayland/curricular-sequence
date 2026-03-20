@@ -55,5 +55,12 @@ categories:
     rule: open-elective
     category_type: elective
 
-# TODO: term_pins — no recommended sequence available from catalog.
-# Obtain from academic advisor or departmental curricular sequence document.
+# Pin specific courses to terms for a recommended sequence
+term_pins:
+  1: ["GEEN 1201", "GESP 1101", "GEIC 1010", "GEMA 1000", "BADM 1900"]
+  2: ["GEEN 1202", "GESP 1102", "GEPE 3020", "GEHS 2010", "HPER 2330"]
+  3: ["GEEN 1203", "GESP 2203", "GEPE 4040", "ACCT 1161", "SRIM 1020"]
+  4: ["GECF 1010", "ENTR 2200", "BADM 3300", "HPER 2270", "GEHS 3050"]
+  5: ["HPER 41701", "HPER 3480", "BADM 3330", "GEST 2020"]
+  6: ["HPER 3040", "GEEC 2000", "BADM 4340", "GEHP 3000", "BADM 3490"]
+  7: ["SRIM 2300", "HPER 4305", "HPER 4310", "SRIM 3030"]

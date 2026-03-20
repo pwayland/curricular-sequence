@@ -299,6 +299,16 @@ courses:
     title: "Managerial Statistics"
     credits: 3
     prereqs: ["MAEC 2140", "MAEC 2221"]
+  # ── Statistics (STAT equivalents of MAEC 2221/2222) ───
+  STAT 1201:
+    title: "Basic Statistics"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  STAT 1202:
+    title: "Managerial Statistics"
+    credits: 3
+    prereqs: ["MAEC 2140", "STAT 1201"]
+
   ENTR 2200:
     title: "Foundations of Entrepreneurship"
     credits: 3

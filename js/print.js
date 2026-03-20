@@ -121,9 +121,6 @@ function buildPrintLayout(state, ctx) {
     buildInfoSection(cfg, yearLabel, studentName, studentNumber, state),
   );
 
-  // Notes box (requirement notes + department notes)
-  p1.body.appendChild(buildNotesBox(cfg));
-
   // First year (terms 0–1)
   const year1 = buildYearSection(terms, 0, termLabel, ctx);
   if (year1) p1.body.appendChild(year1);
@@ -277,43 +274,33 @@ function buildInfoSection(cfg, yearLabel, studentName, studentNumber, state) {
   const langTable = buildLanguageTable(state.degreeConfig);
   if (langTable) right.appendChild(langTable);
 
-  section.appendChild(right);
-  return section;
-}
-
-// ── Notes box (page 1, between info section and terms) ──────────────────────
-
-const DEFAULT_NOTES = [
-  'All students must comply with the requirements of the General Catalogue available at https://inter.smartcatalogiq.com/',
-  'Students\u2019 official evaluation is made on the Register Office after paying the required fees',
-];
-
-function buildNotesBox(cfg) {
-  const box = document.createElement('div');
-  box.className = 'print-notes-box';
-
-  // Standard notes
-  for (const note of DEFAULT_NOTES) {
+  // Notes box (standard text + department notes)
+  const notesBox = document.createElement('div');
+  notesBox.className = 'print-dept-notes';
+  for (const line of STANDARD_NOTES) {
     const p = document.createElement('div');
-    p.className = 'print-notes-box__line';
-    p.textContent = note;
-    box.appendChild(p);
+    p.textContent = line;
+    notesBox.appendChild(p);
   }
-
-  // Department notes (from print config)
   const deptNotes = cfg.department_notes;
   if (deptNotes) {
     const lines = Array.isArray(deptNotes) ? deptNotes : [deptNotes];
     for (const line of lines) {
       const p = document.createElement('div');
-      p.className = 'print-notes-box__line';
       p.textContent = line;
-      box.appendChild(p);
+      notesBox.appendChild(p);
     }
   }
+  right.appendChild(notesBox);
 
-  return box;
+  section.appendChild(right);
+  return section;
 }
+
+const STANDARD_NOTES = [
+  'Students must meet all the requirements in the General Catalogue (https://inter.smartcatalogiq.com/).',
+  'The Registrar\u2019s Office will officially evaluate after a student has paid the graduation fee.',
+];
 
 // ── End-of-degree notes (last page, after final terms) ──────────────────────
 

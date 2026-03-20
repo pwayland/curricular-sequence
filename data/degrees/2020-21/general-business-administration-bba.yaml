@@ -15,7 +15,7 @@ gen_ed:
 categories:
   - id: core-requirements
     label: "Core Requirements"
-    credits: 19
+    credits: 16
     rule: prereq-order
     category_type: core
     courses:
@@ -23,9 +23,19 @@ categories:
       - "BADM 1900"
       - "MAEC 2140"
       - "MAEC 2211"
-      - "MAEC 2221"
       - "MKTG 1210"
 
+
+  - id: core-statistics-1
+    label: "Statistics I"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    default: "STAT 1201"
+    options:
+      - "STAT 1201"
+      - "MAEC 2221"
   - id: core-business-comm
     label: "Business Communication"
     credits: 3

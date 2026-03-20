@@ -14,7 +14,7 @@ gen_ed:
 categories:
   - id: core-requirements
     label: "Core Requirements"
-    credits: 35
+    credits: 29
     rule: prereq-order
     category_type: core
     courses:
@@ -26,10 +26,30 @@ categories:
       - "MAEC 2140"
       - "MAEC 2211"
       - "MAEC 2212"
-      - "MAEC 2221"
-      - "MAEC 2222"
       - "MKTG 1210"
 
+
+  - id: core-statistics-1
+    label: "Statistics I"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    default: "STAT 1201"
+    options:
+      - "STAT 1201"
+      - "MAEC 2221"
+
+  - id: core-statistics-2
+    label: "Statistics II"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    default: "STAT 1202"
+    options:
+      - "STAT 1202"
+      - "MAEC 2222"
   - id: core-business-comm
     label: "Business Communication"
     credits: 3
@@ -66,5 +86,17 @@ categories:
     rule: open-elective
     category_type: elective
 
-# TODO: term_pins — no recommended sequence available from catalog.
-# Obtain from academic advisor or departmental curricular sequence document.
+# Pin specific courses to terms for a recommended sequence
+term_pins:
+  1: ["GEEN 1201", "GESP 1101", "GEIC 1010", "BADM 1900", "GEMA 1200"]
+  2: ["GEEN 1202", "GESP 1102", "MKTG 1210", "GECF 1010", "ACCT 1161"]
+  3: ["GEEN 1203", "GESP 2203", "GEEC 2000", "ACCT 1162", "GEHS 2010"]
+  4: ["INTB 2100", "GEST 2020", "MAEC 2211", "GEPE 3020", "BADM 3900"]
+  5: ["MAEC 2212", "MAEC 2140", "INTB 2301","STAT 1201", "GEPE 4040", "INTB 2200"]
+  6: ["FINA 2101", "INTB 4220", "STAT 1202", "INTB 3900", "INTB 2302", "GEHP 3000"]
+  7: ["INTB 3330", "INTB 4911", "INTB 3600", "GEHS 3050"]
+
+print:
+  end_notes:
+    - "The International Business Program is designed to offer students the necessary skills and knowledge to execute management tasks in an international context."
+    - "The theoretical and practical academic activities prepare students in the search for alternatives to promote international commerce."

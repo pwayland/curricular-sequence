@@ -14,7 +14,7 @@ gen_ed:
 categories:
   - id: core-requirements
     label: "Core Requirements"
-    credits: 34
+    credits: 28
     rule: prereq-order
     category_type: core
     courses:
@@ -26,10 +26,30 @@ categories:
       - "MAEC 2140"
       - "MAEC 2211"
       - "MAEC 2212"
-      - "MAEC 2221"
-      - "MAEC 2222"
       - "MKTG 1210"
 
+
+  - id: core-statistics-1
+    label: "Statistics I"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    default: "STAT 1201"
+    options:
+      - "STAT 1201"
+      - "MAEC 2221"
+
+  - id: core-statistics-2
+    label: "Statistics II"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    default: "STAT 1202"
+    options:
+      - "STAT 1202"
+      - "MAEC 2222"
   - id: core-business-comm
     label: "Business Communication"
     credits: 3
@@ -62,5 +82,17 @@ categories:
     rule: open-elective
     category_type: elective
 
-# TODO: term_pins — no recommended sequence available from catalog.
-# Obtain from academic advisor or departmental curricular sequence document.
+# Pin specific courses to terms for a recommended sequence
+term_pins:
+  1: ["GEEN 1201", "GESP 1101", "GEIC 1010", "BADM 1900", "GEMA 1200"]
+  2: ["GEEN 1202", "GESP 1102", "GEHS 2010", "MAEC 2140", "ACCT 1161"]
+  3: ["GEEN 1203", "GESP 2203", "MAEC 2211", "ACCT 3061", "MKTG 1210"]
+  4: ["GEST 2020", "GECF 1010", "STAT 1201", "ACCT 3062", "MAEC 2212"]
+  5: ["OMSY 3030","ACCT 3055", "STAT 1202", "ACCT 3063"]
+  6: ["GEPE 3020", "FINA 2101", "ACCT 3041", "ACCT 3460"]
+  7: ["BADM 3900", "ACCT 3085", "BADM 4300", "ACCT 4010", "GEHS 3050"]
+
+print:
+  end_notes:
+    - "Students who aspire to sit for the CPA exam must approve 160 credits, as required by the Puerto Rico Accounting Board."
+    - "These students must approve 29 additional credits with minimum grades of C in each course."

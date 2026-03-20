@@ -174,6 +174,15 @@
     line-height: 1.25;
   }
 
+  /* ── Department notes (right column, page 1) ────── */
+  .print-dept-notes {
+    border: 1pt solid #999;
+    padding: 3px 6px;
+    margin-top: 4px;
+    font-size: 6.5pt;
+    line-height: 1.3;
+  }
+
   /* ── Notes box (page 1) ─────────────────────────── */
   .print-notes-box {
     border: 1pt solid #999;

@@ -1,0 +1,69 @@
+# radiological-technology-bs.yaml — Radiological Technology in Mammography and Angiography, BS (2020-21)
+# NOTE: Exempt from GEHP 3000.
+
+id: radiological-technology-bs
+label: "Radiological Technology in Mammography and Angiography (BS)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+    - category: health-quality
+      _remove: true
+
+categories:
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 3
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "GEHS 3050"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 71
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "RATE 1110"
+      - "RATE 1125"
+      - "RATE 1130"
+      - "RATE 1141"
+      - "RATE 1142"
+      - "RATE 1221"
+      - "RATE 1230"
+      - "RATE 2090"
+      - "RATE 2210"
+      - "RATE 2222"
+      - "RATE 2223"
+      - "RATE 2231"
+      - "RATE 2232"
+      - "RATE 2240"
+      - "RATE 2260"
+      - "RATE 2270"
+      - "RATE 2910"
+      - "RATE 2912"
+      - "RATE 2913"
+      - "RATE 2919"
+      - "RATE 3050"
+      - "RATE 3071"
+      - "RATE 3080"
+      - "RATE 3090"
+      - "RATE 4910"
+      - "RATE 4911"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

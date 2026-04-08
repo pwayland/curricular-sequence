@@ -1,0 +1,84 @@
+# microbiology-bs.yaml — Microbiology, BS (2020-21)
+
+id: microbiology-bs
+label: "Microbiology (BS)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 63
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MICR 3211"
+      - "MICR 4010"
+      - "MICR 4505"
+      - "MICR 4955"
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 3010"
+      - "BIOL 3105"
+      - "BIOL 3405"
+      - "BIOL 4303"
+      - "BIOL 4305"
+      - "BIOL 4433"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "MATH 1500"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: biochem-option
+    label: "Biochemistry Option"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "CHEM 4220"
+      - "BIOL 4604"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "BIOL 2153"
+      - "BIOL 3106"
+      - "BIOL 3213"
+      - "BIOL 3309"
+      - "BIOL 4306"
+      - "CHEM 3320"
+      - "MATH 2251"
+      - "MICR 4910"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 63 (major) + 3 (biochem) + 6 (distributive) + 3 (electives) = 120
+# Catalog states 122-126 cr; some lab courses carry 4 cr. Using 122.
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

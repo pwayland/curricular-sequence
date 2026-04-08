@@ -1,0 +1,54 @@
+id: veterinary-technology-bs
+label: "Veterinary Technology (BS)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 21
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "MATH 1500"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 54
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "VETC 1100"
+      - "VETC 1120"
+      - "VETC 2200"
+      - "VETC 2201"
+      - "VETC 2202"
+      - "VETC 2210"
+      - "VETC 2213"
+      - "VETC 2220"
+      - "VETC 2240"
+      - "VETC 2250"
+      - "VETC 2255"
+      - "VETC 2910"
+      - "VETC 2970"
+      - "VETC 3300"
+      - "VETC 3302"
+      - "VETC 3311"
+      - "VETC 4420"
+      - "VETC 4910"
+      - "VETC 4970"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

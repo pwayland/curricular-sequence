@@ -1,0 +1,57 @@
+id: criminology-bss
+label: "Criminology (BSS)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 31
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CJUS 1000"
+      - "CJUS 3027"
+      - "SOCI 1030"
+      - "SOCI 4600"
+      - "POLS 1011"
+      - "PSYC 1051"
+      - "PSYC 1052"
+      - "PSYC 2010"
+      - "PSYC 3300"
+      - "PSYC 4213"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 40
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "CRIM 2010"
+      - "CRIM 2020"
+      - "CRIM 2100"
+      - "CRIM 2200"
+      - "CRIM 3000"
+      - "CRIM 3014"
+      - "CRIM 3020"
+      - "CRIM 3021"
+      - "CRIM 3500"
+      - "CRIM 4015"
+      - "CRIM 4020"
+      - "CRIM 4030"
+      - "CRIM 4970"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

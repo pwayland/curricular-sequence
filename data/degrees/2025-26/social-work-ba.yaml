@@ -1,0 +1,55 @@
+id: social-work-ba
+label: "Social Work (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 54
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "SOWO 1503"
+      - "SOWO 2461"
+      - "SOWO 2462"
+      - "SOWO 3503"
+      - "SOWO 3505"
+      - "SOWO 3514"
+      - "SOWO 3801"
+      - "SOWO 3802"
+      - "SOWO 4873"
+      - "SOWO 4911"
+      - "SOWO 4912"
+      - "SOWO 4931"
+      - "SOWO 4932"
+      - "SOWO 4933"
+      - "SOWO 4951"
+      - "SOWO 4952"
+
+  - id: related-course-requirements
+    label: "Related Course Requirements"
+    credits: 12
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1003"
+      - "BIOL 1010"
+      - "PSYC 3001"
+      - "POLS 1011"
+      - "SOCI 3010"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

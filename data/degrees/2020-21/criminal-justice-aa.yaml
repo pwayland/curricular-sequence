@@ -1,0 +1,44 @@
+id: criminal-justice-aa
+label: "Criminal Justice (AA)"
+degree_type: associate
+total_credits: 63
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1000"
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 24
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CJUS 1000"
+      - "CJUS 2050"
+      - "CJUS 2090"
+      - "CJUS 3025"
+      - "POLS 1011"
+      - "PSYC 1051"
+      - "SOCI 1030"
+      - "SOCI 2080"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 15
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "CJUS 2070"
+      - "CJUS 3030"
+      - "CJUS 3035"
+      - "CJUS 3250"
+      - "CJUS 4040"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

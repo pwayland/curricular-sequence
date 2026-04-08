@@ -1,0 +1,64 @@
+# informatic-forensic-bs.yaml — Informatic Forensic, BS (2020-21)
+
+id: informatic-forensic-bs
+label: "Informatic Forensic (BS)"
+degree_type: bachelor
+total_credits: 123
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "FORS 2000"
+      - "FORS 3300"
+      - "FORS 3350"
+      - "FORS 3450"
+      - "FORS 3970"
+      - "FORS 4100"
+      - "FORS 4421"
+      - "FORS 4910"
+      - "FORS 4960"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 42
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1103"
+      - "COMP 2110"
+      - "COMP 2120"
+      - "COMP 2315"
+      - "COTN 1220"
+      - "COTN 2121"
+      - "COTN 2122"
+      - "CHEM 1111"
+      - "CJUS 1000"
+      - "CJUS 3025"
+      - "MATH 1500"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

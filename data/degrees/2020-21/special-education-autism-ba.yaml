@@ -1,0 +1,82 @@
+id: special-education-autism-ba
+label: "Special Education in Autism (BA)"
+degree_type: bachelor
+total_credits: 133
+term_type: semester
+max_credits_per_term: 18
+terms_count: 9
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      credits: 6
+      rule: sequence
+      courses: ["GEMA 1001", "GEMA 1002"]
+    - category: historical-social
+      credits: 9
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 9
+          rule: fixed
+          courses: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 37
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 1080"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 2890"
+      - "EDUC 3015"
+      - "EDUC 4011"
+      - "EDUC 4012"
+      - "EDUC 4013"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: special-education-requirements
+    label: "Special Education Requirements"
+    credits: 21
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EDUC 2905"
+      - "EDUC 2906"
+      - "EDUC 3140"
+      - "EDUC 3270"
+      - "EDUC 3420"
+      - "EDUC 3440"
+      - "EDUC 3570"
+
+  - id: major-autism
+    label: "Major Autism Requirements"
+    credits: 18
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EDUC 2053"
+      - "EDUC 2055"
+      - "EDUC 2057"
+      - "EDUC 3053"
+      - "EDUC 3054"
+      - "EDUC 4000"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

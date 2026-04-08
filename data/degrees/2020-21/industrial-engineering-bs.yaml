@@ -1,0 +1,114 @@
+# industrial-engineering-bs.yaml — Industrial Engineering, BS (2020-21)
+
+id: industrial-engineering-bs
+label: "Industrial Engineering (BS)"
+degree_type: bachelor
+total_credits: 131
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      _remove: true
+    - category: info-computing
+      _remove: true
+    - category: entrepreneurial-culture
+      _remove: true
+    - category: scientific-technological
+      _remove: true
+    - category: health-quality
+      _remove: true
+    - category: philosophical-aesthetic
+      credits: 3
+      subcategories:
+        - id: ethics
+          label: "Ethical Component"
+          credits: 3
+          rule: fixed
+          courses: ["GEPE 4040"]
+          default: "GEPE 4040"
+    - category: historical-social
+      credits: 3
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 3
+          rule: pick
+          options: ["GEHS 2010", "GEHS 3020", "GEHS 3050", "GEHS 4030"]
+          default: "GEHS 2010"
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 33
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ENGR 1100"
+      - "ENGR 1200"
+      - "ENGR 2130"
+      - "ENGR 3300"
+      - "CHEM 2115"
+      - "MATH 1500"
+      - "MATH 2251"
+      - "MATH 2252"
+      - "MATH 3350"
+      - "PHYS 3311"
+      - "PHYS 3312"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 3
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ENGR 3200"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 45
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "INEN 3411"
+      - "INEN 3430"
+      - "INEN 3550"
+      - "INEN 3710"
+      - "INEN 4300"
+      - "INEN 4400"
+      - "INEN 4420"
+      - "INEN 4490"
+      - "INEN 4511"
+      - "INEN 4550"
+      - "INEN 4560"
+      - "INEN 4595"
+      - "INEN 4610"
+      - "INEN 4700"
+      - "INEN 4810"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "INEN 3412"
+      - "INEN 3600"
+      - "INEN 4510"
+      - "INEN 4512"
+      - "INEN 4520"
+      - "INEN 4530"
+      - "INEN 4545"
+      - "INEN 4570"
+      - "INEN 4580"
+      - "INEN 4600"
+
+# NOTE: Some courses are 4cr; total_credits is minimum of stated range.
+# "Experience Outside Classroom" (6cr) omitted per catalog guidance.
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,74 @@
+# health-sciences-bs.yaml — Health Sciences, BS (2020-21)
+
+id: health-sciences-bs
+label: "Health Sciences (BS)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: health-quality
+      _remove: true
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 30
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "HESC 3005"
+      - "HESC 3010"
+      - "HESC 3020"
+      - "HESC 4010"
+      - "HESC 4015"
+      - "HESC 4030"
+      - "HESC 4917"
+      - "PSYC 1051"
+      - "PSYC 3001"
+      - "BADM 1900"
+
+  - id: specialization
+    label: "Specialization Track"
+    credits: 15
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Administration:
+        - "HESC 4050"
+        - "HESC 4065"
+        - "HRMA 2100"
+        - "HRMA 3000"
+        - "HRMA 3100"
+      Education:
+        - "HESC 4055"
+        - "HESC 4060"
+        - "HESC 4913"
+        - "EDUC 2021"
+        - "EDUC 2022"
+        - "EDUC 2031"
+        - "EDUC 2032"
+
+  - id: related-distributive
+    label: "Related/Distributive Courses"
+    # Course list not published in catalog; modeled as open-elective
+    credits: 27
+    rule: open-elective
+    category_type: distributive
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 30 (core) + 15 (track) + 27 (related) + 3 (electives) = 120
+# Note: Education track has 7 courses (21 cr) vs Administration 5 courses (15 cr).
+# Using 15 cr (smaller track) for display; Education track students take additional 6 cr.
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

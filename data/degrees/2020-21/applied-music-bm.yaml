@@ -1,0 +1,112 @@
+# applied-music-bm.yaml — Applied Music, BM (2020-21)
+
+id: applied-music-bm
+label: "Applied Music (BM)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 37
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "MUSI 1401"
+      - "MUSI 1461"
+      - "MUSI 1462"
+      - "MUSI 2411"
+      - "MUSI 2412"
+      - "MUSI 2470"
+      - "MUSI 3311"
+      - "MUSI 3312"
+      - "MUSI 3320"
+      - "MUSI 3440"
+      - "MUSI 4431"
+      - "MUSI 4432"
+      - "MUSI 4500"
+      - "MUSI 4900"
+      - "MUED 4436"
+
+  - id: chamber-ensembles
+    label: "Chamber Ensembles"
+    credits: 2
+    rule: pick
+    pick_count: 2
+    category_type: major
+    options:
+      - "MUSI 2091"
+      - "MUSI 2092"
+      - "MUSI 2093"
+      - "MUSI 2094"
+      - "MUSI 2095"
+      - "MUSI 2096"
+      - "MUSI 2097"
+      - "MUSI 2098"
+
+  - id: large-ensemble-track
+    label: "Large Ensemble Track"
+    credits: 7
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Concert Band:
+        - "MUSI 1231"
+        - "MUSI 1232"
+        - "MUSI 2231"
+        - "MUSI 2232"
+        - "MUSI 3231"
+        - "MUSI 3232"
+        - "MUSI 4231"
+      University Choir:
+        - "MUSI 1241"
+        - "MUSI 1242"
+        - "MUSI 2241"
+        - "MUSI 2242"
+        - "MUSI 3241"
+        - "MUSI 3242"
+        - "MUSI 4241"
+      University Orchestra:
+        - "MUSI 1251"
+        - "MUSI 1252"
+        - "MUSI 2251"
+        - "MUSI 2252"
+        - "MUSI 3251"
+        - "MUSI 3252"
+        - "MUSI 4251"
+
+  - id: applied-instrument
+    label: "Applied Instrument Instruction"
+    credits: 16
+    rule: open-elective
+    category_type: major
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "MUSI 3975"
+      - "MUSI 4451"
+      - "MUSI 4452"
+      - "MUSI 4510"
+      - "MUSI 4520"
+      - "MUSI 4901"
+      - "MUSI 4600"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

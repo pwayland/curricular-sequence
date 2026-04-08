@@ -1,0 +1,93 @@
+# biopsychology-bs.yaml — Biopsychology, BS (2020-21)
+
+id: biopsychology-bs
+label: "Biopsychology (BS)"
+degree_type: bachelor
+total_credits: 125
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: health-quality
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 28
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 2100"
+      - "BIPS 1200"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "MATH 1511"
+      - "MATH 1512"
+      - "PSYC 1051"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 40
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 3010"
+      - "BIOL 3106"
+      - "BIPS 3900"
+      - "BIPS 4900"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "MATH 2100"
+      - "PHYS 3001"
+      - "PHYS 3002"
+      - "PSYC 3200"
+      - "PSYC 4234"
+
+  - id: prescribed-distributive-biology
+    label: "Prescribed Distributive — Biology"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "BIOL 4200"
+      - "BIOL 4604"
+      - "BIOL 4494"
+      - "BIOL 4960"
+      - "MATH 2251"
+
+  - id: prescribed-distributive-psychology
+    label: "Prescribed Distributive — Psychology"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "PSYC 2010"
+      - "PSYC 3100"
+      - "PSYC 3144"
+      - "PSYC 3300"
+      - "PSYC 3970"
+      - "PSYC 4213"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 42 (gen-ed) + 28 (core) + 40 (major) + 6 + 6 (distributive) + 3 (electives) = 125
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

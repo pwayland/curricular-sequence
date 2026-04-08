@@ -1,0 +1,576 @@
+# Batch 4: BIOL, BIOT, BIPS, BMSC, AGRO
+
+  BIOL 1001:
+    title: "Principios de Biología de las Plantas"
+    credits: 3
+    prereqs: []
+
+  BIOL 1003:
+    title: "Conceptos Básicos de Biología"
+    credits: 3
+    prereqs: []
+
+  BIOL 1006:
+    title: "Fundamentos de Biología"
+    credits: 4
+    prereqs: []
+
+  BIOL 1100:
+    title: "Botánica y Fisiología Vegetal"
+    credits: 3
+    prereqs: []
+
+  BIOL 1101:
+    title: "Biología General I"
+    credits: 3
+    prereqs: ["BIOL 1103"]
+
+  BIOL 1102:
+    title: "Biología General II"
+    credits: 3
+    prereqs: ["BIOL 1101", "BIOL 1103"]
+
+  BIOL 1103:
+    title: "Laboratorio de Destrezas de Biología I"
+    credits: 1
+    prereqs: ["BIOL 1101"]
+
+  BIOL 1104:
+    title: "Laboratorio de Destrezas de Biología II"
+    credits: 1
+    prereqs: ["BIOL 1101", "BIOL 1103"]
+
+  BIOL 1116:
+    title: "Fundamentos de la Anatomía y la Fisiología Humanas"
+    credits: 5
+    prereqs: ["BIOL 1101", "BIOL 1103"]
+
+  BIOL 2010:
+    title: "Fundamentos de Biología Vegetal y Animal"
+    credits: 4
+    prereqs: ["BIOL 1102", "BIOL 1103"]
+
+  BIOL 2013:
+    title: "Laboratorio de Destrezas II"
+    credits: 1
+    prereqs: ["BIOL 1103", "CHEM 1111"]
+
+  BIOL 2100:
+    title: "Introducción A la Neurobiología"
+    credits: 3
+    prereqs: ["BIPS 1200"]
+
+  BIOL 2103:
+    title: "Zoología"
+    credits: 3
+    prereqs: ["BIOL 1102", "BIOL 1104"]
+
+  BIOL 2104:
+    title: "Botánica"
+    credits: 3
+    prereqs: ["BIOL 1102", "BIOL 1104"]
+
+  BIOL 2151:
+    title: "Anatomía y Fisiología Humana I"
+    credits: 3
+    prereqs: ["BIOL 1003"]
+
+  BIOL 2152:
+    title: "Anatomía y Fisiología Humana II"
+    credits: 3
+    prereqs: ["BIOL 2151"]
+
+  BIOL 2153:
+    title: "Bioestadísticas"
+    credits: 3
+    prereqs: ["MATH 1500", "MATH 1512", "BIOL 1102"]
+
+  BIOL 2154:
+    title: "Fundamentos de la Microbiología"
+    credits: 3
+    prereqs: ["BIOL 1003", "BIOL 1102"]
+
+  BIOL 2800:
+    title: "Astrobiología"
+    credits: 3
+    prereqs: []
+
+  BIOL 3010:
+    title: "Genética"
+    credits: 3
+    prereqs: ["BIOL 1102", "GEMA 1200"]
+
+  BIOL 3100:
+    title: "Fundamentos de Ciencia Animal"
+    credits: 3
+    prereqs: ["BIOL 2103", "BIOL 3010"]
+
+  BIOL 3105:
+    title: "Microbiología General"
+    credits: 4
+    prereqs: ["BIOL 1102", "BIOL 1104", "CHEM 1111"]
+
+  BIOL 3106:
+    title: "Anatomía y Fisiología Humana"
+    credits: 4
+    prereqs: ["BIOL 1102", "BIOL 1104"]
+
+  BIOL 3200:
+    title: "Fundamentos de Nutrición Animal"
+    credits: 3
+    prereqs: ["BIOL 3100"]
+
+  BIOL 3205:
+    title: "Zoología Económica"
+    credits: 3
+    prereqs: ["BIOL 2010"]
+
+  BIOL 3213:
+    title: "Parasitología"
+    credits: 3
+    prereqs: ["BIOL 1102"]
+
+  BIOL 3214:
+    title: "Entomología"
+    credits: 3
+    prereqs: ["BIOL 2103"]
+
+  BIOL 3216:
+    title: "Conducta Animal"
+    credits: 3
+    prereqs: ["BIOL 2103"]
+
+  BIOL 3219:
+    title: "Biología de los Invertebrados"
+    credits: 3
+    prereqs: ["BIOL 2103"]
+
+  BIOL 3220:
+    title: "Bioquímica"
+    credits: 3
+    prereqs: ["CHEM 2222"]
+
+  BIOL 3255:
+    title: "Botánica Económica"
+    credits: 3
+    prereqs: ["BIOL 2010"]
+
+  BIOL 3257:
+    title: "Botánica Sistemática"
+    credits: 3
+    prereqs: ["BIOL 2010"]
+
+  BIOL 3309:
+    title: "Microbiología de alimentos"
+    credits: 3
+    prereqs: ["BIOL 3105"]
+
+  BIOL 3405:
+    title: "Inmunología"
+    credits: 3
+    prereqs: ["BIOL 3105"]
+
+  BIOL 3454:
+    title: "Anatomía Vegetal"
+    credits: 3
+    prereqs: ["BIOL 2010"]
+
+  BIOL 3503:
+    title: "Ecología"
+    credits: 3
+    prereqs: ["BIOL 2103", "BIOL 2104", "BIOL 2010"]
+
+  BIOL 3504:
+    title: "Salud Ambiental"
+    credits: 3
+    prereqs: ["BIOL 1102", "GEMA 1200"]
+
+  BIOL 3505:
+    title: "Leyes, Política y Reglamentación Ambiental"
+    credits: 3
+    prereqs: ["BIOL 3504", "EVMA 1110"]
+
+  BIOL 3601:
+    title: "Anatomía y Fisiología Comparada I"
+    credits: 3
+    prereqs: ["BIOL 1101", "BIOL 1103", "BIOL 2103", "CHEM 2212"]
+
+  BIOL 3602:
+    title: "Anatomía y Fisiología Comparada II"
+    credits: 3
+    prereqs: ["BIOL 3601"]
+
+  BIOL 3904:
+    title: "Toxicología"
+    credits: 3
+    prereqs: ["BIOL 3106", "CHEM 2222"]
+
+  BIOL 4104:
+    title: "Fisiología Vegetal"
+    credits: 3
+    prereqs: ["BIOL 2010"]
+
+  BIOL 4105:
+    title: "Fundamentos de Sistemas de Información Geográfica"
+    credits: 3
+    prereqs: []
+
+  BIOL 4109:
+    title: "Fisiología General"
+    credits: 3
+    prereqs: ["BIOL 2103", "CHEM 2212"]
+
+  BIOL 4200:
+    title: "Neurociencia"
+    credits: 3
+    prereqs: ["BIOL 3106", "BMSC 3012"]
+
+  BIOL 4303:
+    title: "Micología"
+    credits: 3
+    prereqs: ["BIOL 3105"]
+
+  BIOL 4304:
+    title: "Micología Médica"
+    credits: 3
+    prereqs: ["BIOL 3105"]
+
+  BIOL 4305:
+    title: "Microbiología Médica"
+    credits: 3
+    prereqs: ["BIOL 3105"]
+
+  BIOL 4306:
+    title: "Virología"
+    credits: 3
+    prereqs: ["BIOL 3105", "BIOL 3010"]
+
+  BIOL 4307:
+    title: "Microtécnica"
+    credits: 2
+    prereqs: ["BIOL 3106"]
+
+  BIOL 4403:
+    title: "Evolución"
+    credits: 3
+    prereqs: ["BIOL 3010"]
+
+  BIOL 4405:
+    title: "Embriología"
+    credits: 3
+    prereqs: ["BIOL 3106", "BMSC 3012"]
+
+  BIOL 4407:
+    title: "Anatomía Humana"
+    credits: 3
+    prereqs: ["BIOL 2103"]
+
+  BIOL 4408:
+    title: "Anatomía Funcional Comparada"
+    credits: 3
+    prereqs: ["BIOL 3106"]
+
+  BIOL 4433:
+    title: "Microbiología Industrial"
+    credits: 3
+    prereqs: ["BIOL 3105", "CHEM 2212"]
+
+  BIOL 4494:
+    title: "Farmacología"
+    credits: 3
+    prereqs: ["BIOL 3106", "BMSC 3012", "CHEM 2222"]
+
+  BIOL 4503:
+    title: "Conservación y Manejo de Recursos Naturales"
+    credits: 3
+    prereqs: ["BIOL 3503"]
+
+  BIOL 4600:
+    title: "Histología"
+    credits: 3
+    prereqs: ["BIOL 3106"]
+
+  BIOL 4604:
+    title: "Biología Celular y Molecular"
+    credits: 3
+    prereqs: ["BIOL 3010", "CHEM 2221"]
+
+  BIOL 4605:
+    title: "Laboratorio de Destrezas de Biología Celular y Molecular"
+    credits: 2
+    prereqs: ["BIOL 2153", "BIOL 3105", "CHEM 2221"]
+
+  BIOL 4700:
+    title: "Biotecnología Agrícola y Ambiental"
+    credits: 3
+    prereqs: []
+
+  BIOL 4905:
+    title: "Patología"
+    credits: 3
+    prereqs: ["BIOL 3106", "BIOL 4407", "BMSC 3012"]
+
+  BIOL 4907:
+    title: "Educación en Salud"
+    credits: 3
+    prereqs: ["BIOL 3504"]
+
+  BIOL 4909:
+    title: "Salud Pública"
+    credits: 3
+    prereqs: ["BIOL 2153"]
+
+  BIOL 4912:
+    title: "Práctica en Biología"
+    credits: 3
+    prereqs: []
+
+  BIOL 4953:
+    title: "Métodos de Investigación"
+    credits: 3
+    prereqs: ["BIOL 2153", "BIOL 3105", "CHEM 2221"]
+
+  BIOL 4955:
+    title: "Seminario Integrador"
+    credits: 1
+    prereqs: []
+
+  BIOL 4960:
+    title: "Bioética"
+    credits: 3
+    prereqs: []
+
+  BIOT 2015:
+    title: "Biología del Genoma de los Organismos Marinos"
+    credits: 3
+    prereqs: []
+
+  BIOT 2160:
+    title: "Genética Molecular"
+    credits: 3
+    prereqs: ["BIOL 1102"]
+
+  BIOT 2250:
+    title: "Biomanufactura"
+    credits: 4
+    prereqs: ["BIOL 3105"]
+
+  BIOT 3010:
+    title: "Bioquímica Marina"
+    credits: 3
+    prereqs: []
+
+  BIOT 3020:
+    title: "Biotecnología Marina"
+    credits: 3
+    prereqs: []
+
+  BIOT 3025:
+    title: "Oceanografía Biológica"
+    credits: 3
+    prereqs: []
+
+  BIOT 3042:
+    title: "Genoma Comparativo"
+    credits: 3
+    prereqs: []
+
+  BIOT 3250:
+    title: "Biotecnología Molecular"
+    credits: 3
+    prereqs: ["BIOL 3010", "BIOL 3105"]
+
+  BIOT 3360:
+    title: "Plantas Transgénicas y la Seguridad alimentaria"
+    credits: 3
+    prereqs: ["BIOT 3250", "CHEM 2222", "MATH 1500"]
+
+  BIOT 3370:
+    title: "Biotecnología de Plantas"
+    credits: 4
+    prereqs: ["BIOT 3250", "CHEM 2222", "MATH 1500"]
+
+  BIOT 3750:
+    title: "Tecnología de ADN Recombinante"
+    credits: 3
+    prereqs: ["BIOL 3010", "BIOT 3250"]
+
+  BIOT 4620:
+    title: "Cultivo de Tejido y Aplicaciones Técnicas"
+    credits: 3
+    prereqs: ["BIOL 4604"]
+
+  BIOT 4710:
+    title: "Biotecnología Agrícola y Ambiental"
+    credits: 3
+    prereqs: ["BIOT 3750", "BIOL 4433"]
+
+  BIOT 4900:
+    title: "Transformación Genómica para el Mejoramiento de los Cultivos"
+    credits: 4
+    prereqs: ["BIOT 3250", "CHEM 2222", "MATH 1500"]
+
+  BIOT 4928:
+    title: "Purificación y Análisis de Proteínas"
+    credits: 3
+    prereqs: ["BIOL 4604", "CHEM 4220"]
+
+  BIOT 4954:
+    title: "Métodos de Investigación en Biotecnología"
+    credits: 3
+    prereqs: []
+
+  BIPS 1200:
+    title: "Biopsicología General"
+    credits: 3
+    prereqs: ["BIOL 1102", "PSYC 1051"]
+
+  BIPS 3900:
+    title: "Neurociencia del Comportamiento Humano"
+    credits: 3
+    prereqs: ["BIOL 2100", "BIOL 3106", "PSYC 1051", "BMSC 3011", "BMSC 3012"]
+
+  BIPS 4900:
+    title: "Seminario Integrador en Biopsicología"
+    credits: 3
+    prereqs: ["CHEM 2222", "BIPS 3900", "PSYC 3200", "PSYC 4234"]
+
+  BMSC 2210:
+    title: "Genética Humana"
+    credits: 3
+    prereqs: ["BIOL 1102"]
+
+  BMSC 3011:
+    title: "Anatomía y Fisiología Humana I"
+    credits: 3
+    prereqs: ["BIOL 1102"]
+
+  BMSC 3012:
+    title: "Anatomía y Fisiología Humana II"
+    credits: 3
+    prereqs: ["BMSC 3011"]
+
+  BMSC 4015:
+    title: "Bioquímica de la Fisiología Humana"
+    credits: 3
+    prereqs: ["CHEM 2222"]
+
+  BMSC 4020:
+    title: "Ética Biomédica"
+    credits: 3
+    prereqs: []
+
+  AGRO 1110:
+    title: "Edafología"
+    credits: 3
+    prereqs: []
+
+  AGRO 1120:
+    title: "Fitopatología"
+    credits: 4
+    prereqs: ["BIOL 1100"]
+
+  AGRO 1130:
+    title: "Bienestar Animal"
+    credits: 3
+    prereqs: []
+
+  AGRO 2200:
+    title: "Salud y Seguridad Agrícola"
+    credits: 3
+    prereqs: []
+
+  AGRO 2211:
+    title: "Producción de Cultivos I"
+    credits: 4
+    prereqs: ["AGRO 1120"]
+
+  AGRO 2212:
+    title: "Producción de Cultivos II"
+    credits: 4
+    prereqs: ["AGRO 2211"]
+
+  AGRO 2220:
+    title: "Nuevas Tendencias Agrícolas"
+    credits: 4
+    prereqs: []
+
+  AGRO 2225:
+    title: "Alimentación y Nutrición Animal"
+    credits: 3
+    prereqs: ["BIOL 1100"]
+
+  AGRO 2230:
+    title: "Producción Animal I"
+    credits: 3
+    prereqs: []
+
+  AGRO 2231:
+    title: "Producción Animal II"
+    credits: 3
+    prereqs: ["AGRO 2230"]
+
+  AGRO 2240:
+    title: "Residuos Agropecuarios"
+    credits: 3
+    prereqs: []
+
+  AGRO 2250:
+    title: "Empresarismo Agrícola"
+    credits: 3
+    prereqs: []
+
+  AGRO 2910:
+    title: "Práctica en Agropecuaria"
+    credits: 2
+    prereqs: []
+
+  AGRO 3010:
+    title: "Maquinaria y Mecanizacion Agricola"
+    credits: 4
+    prereqs: []
+
+  AGRO 3015:
+    title: "Gerencia de Agro Negocios"
+    credits: 3
+    prereqs: ["APTE 2250"]
+
+  AGRO 3020:
+    title: "Biotecnología Agropecuaria"
+    credits: 3
+    prereqs: []
+
+  AGRO 3025:
+    title: "Retos Ante el Cambio Climático"
+    credits: 3
+    prereqs: []
+
+  AGRO 4010:
+    title: "Conservacion de Suelo y Agua"
+    credits: 3
+    prereqs: []
+
+  AGRO 4015:
+    title: "Manejo de Pastos y Forrajes"
+    credits: 3
+    prereqs: []
+
+  AGRO 4020:
+    title: "Diseño y Evaluación de Proyectos"
+    credits: 3
+    prereqs: ["AGRO 2250", "AGRO 3015"]
+
+  AGRO 4025:
+    title: "Mercadeo Agrícola"
+    credits: 3
+    prereqs: ["AGRO 3015"]
+
+  AGRO 4030:
+    title: "Investigación en Ciencias Agrícolas"
+    credits: 3
+    prereqs: []
+
+  AGRO 4910:
+    title: "Practica en Ciencias Agricolas"
+    credits: 3
+    prereqs: []

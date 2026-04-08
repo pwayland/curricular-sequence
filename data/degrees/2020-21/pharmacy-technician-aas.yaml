@@ -1,0 +1,46 @@
+# pharmacy-technician-aas.yaml — Pharmacy Technician, AAS (2020-21)
+
+id: pharmacy-technician-aas
+label: "Pharmacy Technician (AAS)"
+degree_type: associate
+total_credits: 74
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1000"
+    - category: history-or-entrepreneurial
+      rule: fixed
+      courses: ["GEHS 2010"]
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 50
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "PHAR 1150"
+      - "PHAR 1155"
+      - "PHAR 1220"
+      - "PHAR 1221"
+      - "PHAR 1271"
+      - "PHAR 1280"
+      - "PHAR 1290"
+      - "PHAR 2190"
+      - "PHAR 2200"
+      - "PHAR 2210"
+      - "PHAR 2222"
+      - "PHAR 2260"
+      - "PHAR 2272"
+      - "PHAR 2913"
+      - "PHAR 2914"
+      - "PHAR 2915"
+      - "BIOL 1003"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

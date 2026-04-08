@@ -1,0 +1,70 @@
+# music-ba.yaml — Music, BA (2020-21)
+
+id: music-ba
+label: "Music (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "MUSI 1401"
+      - "MUSI 1461"
+      - "MUSI 1462"
+      - "MUSI 2411"
+      - "MUSI 2412"
+      - "MUSI 2470"
+      - "MUSI 3311"
+      - "MUSI 3312"
+      - "MUSI 3320"
+      - "MUSI 4500"
+
+  - id: ensemble-track
+    label: "Ensemble Track"
+    credits: 5
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Concert Band:
+        - "MUSI 1231"
+        - "MUSI 1232"
+        - "MUSI 2231"
+        - "MUSI 2232"
+        - "MUSI 3231"
+      University Choir:
+        - "MUSI 1241"
+        - "MUSI 1242"
+        - "MUSI 2241"
+        - "MUSI 2242"
+        - "MUSI 3241"
+      University Orchestra:
+        - "MUSI 1251"
+        - "MUSI 1252"
+        - "MUSI 2251"
+        - "MUSI 2252"
+        - "MUSI 3251"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive (Music Courses)"
+    credits: 18
+    rule: open-elective
+    category_type: distributive
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 22
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

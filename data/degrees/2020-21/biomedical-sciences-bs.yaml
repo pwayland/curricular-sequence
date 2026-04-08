@@ -1,0 +1,73 @@
+# biomedical-sciences-bs.yaml — Biomedical Sciences, BS (2020-21)
+
+id: biomedical-sciences-bs
+label: "Biomedical Sciences (BS)"
+degree_type: bachelor
+total_credits: 119
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    # 17 courses; catalog total implies ~56 cr (some 4-cr lab courses)
+    credits: 56
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BMSC 2210"
+      - "BMSC 3011"
+      - "BMSC 3012"
+      - "BMSC 4015"
+      - "BMSC 4020"
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 3105"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "MATH 1500"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 12
+    rule: pick
+    pick_count: 4
+    category_type: distributive
+    options:
+      - "BIOL 2153"
+      - "BIOL 3405"
+      - "BIOL 4305"
+      - "BIOL 4405"
+      - "BIOL 4494"
+      - "BIOL 4604"
+      - "BIOL 4905"
+      - "CHEM 3320"
+      - "ENGL 2076"
+      - "ENGL 3030"
+      - "MATH 2251"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 56 (major) + 12 (distributive) + 6 (electives) = 119
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

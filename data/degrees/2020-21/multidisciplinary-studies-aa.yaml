@@ -1,0 +1,35 @@
+# multidisciplinary-studies-aa.yaml — Multidisciplinary Studies, AA (2020-21)
+
+id: multidisciplinary-studies-aa
+label: "Multidisciplinary Studies (AA)"
+degree_type: associate
+total_credits: 59
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 35
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "GESP 2203"
+      - "ARTS 1102"
+      - "THEA 1500"
+      - "ENGL 2076"
+      - "HIST 2220"
+      - "HIST 2035"
+      - "MUSI 1111"
+      - "MUSI 1112"
+      - "PHIL 2013"
+      - "PHIL 2354"
+      - "RELI 2013"
+      - "SPAN 3020"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

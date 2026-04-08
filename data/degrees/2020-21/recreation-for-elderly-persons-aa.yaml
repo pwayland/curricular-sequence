@@ -1,0 +1,36 @@
+# recreation-for-elderly-persons-aa.yaml — Recreation for Elderly Persons, AA (2020-21)
+
+id: recreation-for-elderly-persons-aa
+label: "Recreation for Elderly Persons (AA)"
+degree_type: associate
+total_credits: 61
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 37
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HPER 1000"
+      - "HPER 1870"
+      - "HPER 1890"
+      - "HPER 2010"
+      - "HPER 2020"
+      - "HPER 2320"
+      - "GERO 2000"
+      - "GERO 2010"
+      - "HPER 2140"
+      - "HPER 3310"
+      - "HPER 2540"
+      - "ENTR 2200"
+      - "HPER 2541"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

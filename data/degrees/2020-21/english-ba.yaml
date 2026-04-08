@@ -1,0 +1,75 @@
+# english-ba.yaml — English, BA (2020-21)
+
+id: english-ba
+label: "English (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 63
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ENGL 3007"
+      - "ENGL 3008"
+      - "ENGL 3073"
+      - "ENGL 3310"
+      - "ENGL 3320"
+      - "ENGL 3325"
+      - "ENGL 3330"
+      - "ENGL 3350"
+      - "ENGL 3435"
+      - "ENGL 3500"
+      - "ENGL 3510"
+      - "ENGL 3520"
+      - "ENGL 4014"
+      - "ENGL 4030"
+      - "ENGL 4083"
+      - "ENGL 4100"
+      - "ENGL 4440"
+      - "ENGL 4500"
+      - "ENGL 4799"
+      - "ENGL 4800"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "ENGL 2076"
+      - "ENGL 3025"
+      - "ENGL 3035"
+      - "ENGL 3309"
+      - "ENGL 3400"
+      - "ENGL 3410"
+      - "ENGL 3420"
+      - "ENGL 3430"
+      - "ENGL 3440"
+      - "ENGL 3450"
+      - "ENGL 3700"
+      - "ENGL 3850"
+      - "ENGL 3863"
+      - "ENGL 4000"
+      - "ENGL 4015"
+      - "ENGL 4073"
+      - "ENGL 4400"
+      - "ENGL 4700"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

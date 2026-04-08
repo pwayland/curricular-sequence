@@ -1,0 +1,44 @@
+# optical-science-technology-aas.yaml — Optical Science Technology, AAS (2020-21)
+
+id: optical-science-technology-aas
+label: "Optical Science Technology (AAS)"
+degree_type: associate
+total_credits: 65
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1000"
+    - category: history-or-entrepreneurial
+      rule: fixed
+      courses: ["GEHS 2010"]
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 41
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "OPST 1003"
+      - "OPST 1010"
+      - "OPST 1011"
+      - "OPST 1012"
+      - "OPST 1020"
+      - "OPST 1111"
+      - "OPST 1112"
+      - "OPST 2000"
+      - "OPST 2004"
+      - "OPST 2005"
+      - "OPST 2010"
+      - "OPST 2020"
+      - "OPST 2021"
+      - "OPST 2103"
+      - "OPST 2913"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

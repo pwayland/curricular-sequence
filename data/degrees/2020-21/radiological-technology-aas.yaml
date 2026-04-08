@@ -1,0 +1,54 @@
+# radiological-technology-aas.yaml — Radiological Technology, AAS (2020-21)
+
+id: radiological-technology-aas
+label: "Radiological Technology (AAS)"
+degree_type: associate
+total_credits: 78
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 3
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "GEHS 3050"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 51
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "RATE 1110"
+      - "RATE 1125"
+      - "RATE 1130"
+      - "RATE 1141"
+      - "RATE 1142"
+      - "RATE 1221"
+      - "RATE 1230"
+      - "RATE 2090"
+      - "RATE 2210"
+      - "RATE 2222"
+      - "RATE 2223"
+      - "RATE 2231"
+      - "RATE 2232"
+      - "RATE 2240"
+      - "RATE 2260"
+      - "RATE 2270"
+      - "RATE 2910"
+      - "RATE 2912"
+      - "RATE 2913"
+      - "RATE 2919"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

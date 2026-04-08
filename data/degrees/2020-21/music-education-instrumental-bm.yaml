@@ -1,0 +1,113 @@
+# music-education-instrumental-bm.yaml — Music Education: Instrumental, BM (2020-21)
+
+id: music-education-instrumental-bm
+label: "Music Education: Instrumental (BM)"
+degree_type: bachelor
+total_credits: 153
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 39
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "MUSI 1401"
+      - "MUSI 1461"
+      - "MUSI 1462"
+      - "MUSI 2411"
+      - "MUSI 2412"
+      - "MUSI 2470"
+      - "MUSI 3311"
+      - "MUSI 3312"
+      - "MUSI 3320"
+      - "MUSI 3440"
+      - "MUSI 4431"
+      - "MUSI 4500"
+      - "MUED 4436"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 39
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MUSI 4520"
+      - "MUED 1091"
+      - "MUED 2080"
+      - "MUED 3080"
+      - "MUED 3330"
+      - "MUED 3331"
+      - "MUED 4401"
+      - "MUED 4411"
+      - "MUED 4916"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2870"
+      - "EDUC 4011"
+      - "EDUC 4050"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: large-ensemble-track
+    label: "Large Ensemble Track"
+    credits: 8
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Concert Band:
+        - "MUSI 1231"
+        - "MUSI 1232"
+        - "MUSI 2231"
+        - "MUSI 2232"
+        - "MUSI 3231"
+        - "MUSI 3232"
+        - "MUSI 4231"
+        - "MUSI 4232"
+      University Orchestra:
+        - "MUSI 1251"
+        - "MUSI 1252"
+        - "MUSI 2251"
+        - "MUSI 2252"
+        - "MUSI 3251"
+        - "MUSI 3252"
+        - "MUSI 4251"
+        - "MUSI 4252"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 9
+    rule: pick
+    pick_count: 3
+    category_type: distributive
+    options:
+      - "MUED 3332"
+      - "MUED 3333"
+      - "MUSI 2011"
+      - "MUSI 2012"
+      - "MUSI 2013"
+      - "MUSI 2014"
+      - "MUSI 3130"
+      - "MUSI 3131"
+      - "MUSI 3132"
+      - "MUSI 3133"
+      - "MUSI 3975"
+      - "MUSI 4600"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 10
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

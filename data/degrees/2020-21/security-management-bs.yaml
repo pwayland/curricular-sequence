@@ -1,0 +1,56 @@
+id: security-management-bs
+label: "Security Management (BS)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 37
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "BADM 3900"
+      - "HRMA 3200"
+      - "CJUS 2070"
+      - "CJUS 2260"
+      - "CJUS 3025"
+      - "ENTR 2200"
+      - "ENTR 3900"
+      - "MAEC 2221"
+      - "MKTG 1210"
+      - "SOCI 2080"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 30
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "SECU 1100"
+      - "SECU 2100"
+      - "SECU 3300"
+      - "SECU 3400"
+      - "SECU 3500"
+      - "SECU 4100"
+      - "SECU 4200"
+      - "SECU 4300"
+      - "SECU 4400"
+      - "SECU 4500"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

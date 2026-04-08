@@ -1,0 +1,64 @@
+# speech-and-language-therapy-bs.yaml — Speech and Language Therapy, BS (2020-21)
+
+id: speech-and-language-therapy-bs
+label: "Speech and Language Therapy (BS)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 63
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "SPTH 1010"
+      - "SPTH 1011"
+      - "SPTH 1122"
+      - "SPTH 1123"
+      - "SPTH 1124"
+      - "SPTH 2010"
+      - "SPTH 2015"
+      - "SPTH 2024"
+      - "SPTH 2110"
+      - "SPTH 2120"
+      - "SPTH 2130"
+      - "SPTH 3020"
+      - "SPTH 3021"
+      - "SPTH 3022"
+      - "SPTH 3140"
+      - "SPTH 3141"
+      - "SPTH 3142"
+      - "SPTH 3143"
+      - "SPTH 3210"
+      - "SPTH 4141"
+      - "SPTH 4142"
+      - "SPTH 4914"
+      - "SPTH 4915"
+
+  - id: distributive-electives
+    label: "Distributive Electives"
+    credits: 9
+    rule: pick
+    category_type: distributive
+    pick_count: 3
+    options:
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2053"
+      - "EDUC 2870"
+      - "EDUC 2905"
+      - "EDUC 2906"
+      - "EDUC 3290"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

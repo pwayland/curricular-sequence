@@ -1,0 +1,87 @@
+# marine-sciences-bs.yaml — Marine Sciences, BS (2020-21)
+
+id: marine-sciences-bs
+label: "Marine Sciences (BS)"
+degree_type: bachelor
+total_credits: 125
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 21
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MASC 1600"
+      - "MASC 2610"
+      - "MASC 3600"
+      - "MASC 3603"
+      - "MASC 3650"
+      - "MASC 3930"
+      - "MASC 4050"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 47
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 2010"
+      - "BIOL 2153"
+      - "BIOL 3010"
+      - "BIOL 3220"
+      - "BIOL 3503"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "MATH 1500"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "BIOL 4403"
+      - "BIOL 4604"
+      - "MASC 2630"
+      - "MASC 2640"
+      - "MASC 3610"
+      - "MASC 3620"
+      - "MASC 3970"
+      - "MASC 4030"
+      - "MASC 4040"
+      - "MASC 4610"
+      - "MASC 4910"
+      - "MASC 4930"
+      - "MATH 2250"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 21 (major) + 47 (related) + 6 (distributive) + 3 (electives) = 122
+# Catalog states 125 cr; some courses carry 4 cr (labs). Using 125.
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

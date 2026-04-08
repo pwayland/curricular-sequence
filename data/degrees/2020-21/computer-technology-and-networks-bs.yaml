@@ -1,0 +1,63 @@
+# computer-technology-and-networks-bs.yaml — Computer Technology and Networks, BS (2020-21)
+
+id: computer-technology-and-networks-bs
+label: "Computer Technology and Networks (BS)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 63
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COTN 1120"
+      - "COTN 1131"
+      - "COTN 1210"
+      - "COTN 1220"
+      - "COTN 1230"
+      - "COTN 2121"
+      - "COTN 2122"
+      - "COTN 2132"
+      - "COTN 2150"
+      - "COTN 2160"
+      - "COTN 2210"
+      - "COTN 2220"
+      - "COTN 2230"
+      - "COTN 3300"
+      - "COTN 3310"
+      - "COTN 3315"
+      - "COTN 3971"
+      - "COTN 4150"
+      - "COTN 4200"
+      - "COTN 4300"
+      - "COTN 4910"
+
+  - id: business-requirements
+    label: "Business Requirements"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "BADM 1550"
+      - "BADM 1900"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

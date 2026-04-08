@@ -1,0 +1,78 @@
+# environmental-technology-bs.yaml — Environmental Technology, BS (2020-21)
+
+id: environmental-technology-bs
+label: "Environmental Technology (BS)"
+degree_type: bachelor
+total_credits: 129
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 72
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EVTH 3010"
+      - "EVTH 4020"
+      - "EVTH 4910"
+      - "EVTH 4960"
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 2103"
+      - "BIOL 2104"
+      - "BIOL 2153"
+      - "BIOL 3105"
+      - "BIOL 3503"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "CHEM 3000"
+      - "CHEM 3320"
+      - "PHYS 3001"
+      - "PHYS 3002"
+      - "MATH 1500"
+      - "ELEC 1120"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "EVTH 3970"
+      - "BIOL 3504"
+      - "BIOL 3904"
+      - "BIOL 4433"
+      - "BIOL 4503"
+      - "BIOL 4953"
+      - "CHEM 3360"
+      - "CHEM 3370"
+      - "CHEM 4003"
+      - "CHEM 4220"
+      - "MATH 2251"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 72 (major) + 6 (distributive) + 6 (electives) = 129
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

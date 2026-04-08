@@ -1,0 +1,56 @@
+# networks-and-telecommunications-bs.yaml — Networks and Telecommunications, BS (2020-21)
+
+id: networks-and-telecommunications-bs
+label: "Networks and Telecommunications (BS)"
+degree_type: bachelor
+total_credits: 124
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 73
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "NTEL 1200"
+      - "NTEL 2101"
+      - "NTEL 2150"
+      - "NTEL 2300"
+      - "NTEL 3110"
+      - "NTEL 3230"
+      - "NTEL 3310"
+      - "NTEL 3401"
+      - "NTEL 3520"
+      - "NTEL 3600"
+      - "NTEL 3770"
+      - "NTEL 3971"
+      - "NTEL 4150"
+      - "NTEL 4500"
+      - "NTEL 4520"
+      - "NTEL 4610"
+      - "NTEL 4750"
+      - "NTEL 4910"
+      - "ACCT 1161"
+      - "BADM 1900"
+      - "ITEC 1100"
+      - "ITEC 1200"
+      - "MAEC 2140"
+      - "MKTG 1210"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,50 @@
+# studies-in-religion-ba.yaml — Studies in Religion, BA (2020-21)
+
+id: studies-in-religion-ba
+label: "Studies in Religion (BA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 58
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "RELI 2013"
+      - "RELI 2020"
+      - "RELI 2030"
+      - "RELI 2100"
+      - "RELI 2260"
+      - "RELI 2311"
+      - "RELI 2312"
+      - "RELI 3011"
+      - "RELI 3021"
+      - "RELI 3034"
+      - "RELI 3065"
+      - "RELI 3220"
+      - "RELI 3313"
+      - "RELI 3337"
+      - "RELI 3970"
+      - "RELI 4100"
+      - "RELI 4200"
+      - "RELI 4300"
+      - "RELI 4353"
+      - "EDUC 2021"
+      - "EDUC 2031"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 15
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

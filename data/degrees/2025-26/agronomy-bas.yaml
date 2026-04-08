@@ -1,0 +1,59 @@
+id: agronomy-bas
+label: "Agronomy (BAS)"
+degree_type: bachelor
+total_credits: 129
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 3
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "PHYS 1013"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 72
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "AGRO 1100"
+      - "AGRO 1120"
+      - "BIOL 1100"
+      - "AGRO 2200"
+      - "AGRO 2211"
+      - "AGRO 2212"
+      - "MAEC 2235"
+      - "AGRO 2220"
+      - "AGRO 2230"
+      - "AGRO 2250"
+      - "AGRO 2910"
+      - "CHEM 2120"
+      - "AGRO 3035"
+      - "AGRO 3010"
+      - "AGRO 3032"
+      - "AGRO 3015"
+      - "AGRO 3020"
+      - "AGRO 3025"
+      - "AGRO 4010"
+      - "AGRO 4015"
+      - "AGRO 4040"
+      - "AGRO 4025"
+      - "AGRO 4030"
+      - "AGRO 4910"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,91 @@
+# aviation-sciences-bs.yaml — Aviation Sciences, BS (2020-21)
+
+id: aviation-sciences-bs
+label: "Aviation Sciences (BS)"
+degree_type: bachelor
+total_credits: 125
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: health-quality
+      _remove: true
+    - category: math
+      _remove: true
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 46
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "AWSC 2000"
+      - "AWSC 2130"
+      - "AWSC 3300"
+      - "AWSC 3600"
+      - "AWSC 4000"
+      - "AWSC 4100"
+      - "AWSC 4310"
+      - "BADM 1900"
+      - "ENGL 2075"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MATH 1500"
+      - "PHYS 3500"
+      - "PSYC 1051"
+
+  - id: major-track
+    label: "Major Specialization Track"
+    credits: 37
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Professional Pilot:
+        - "AWSC 2115"
+        - "AWSC 2116"
+        - "AWSC 3155"
+        - "AWSC 3160"
+        - "AWSC 3411"
+        - "AWSC 4204"
+        - "AWSC 4305"
+        - "AWSC 4320"
+        - "AWSC 4340"
+        - "AWSC 4370"
+        - "AWSC 4394"
+        - "AWSC 4364"
+        - "AWSC 4373"
+      Aviation Management:
+        - "AWSC 2020"
+        - "AWSC 4600"
+        - "AWSC 4680"
+        - "ACCT 1161"
+        - "HRMA 2100"
+        - "BADM 3900"
+        - "BADM 4300"
+        - "OPMS 3000"
+        - "FINA 2101"
+
+  # NOTE: Aviation Management Electives — for Track B (Aviation Management) students only.
+  - id: aviation-management-electives
+    label: "Aviation Management Electives"
+    credits: 9
+    rule: pick
+    pick_count: 3
+    category_type: distributive
+    options:
+      - "AWSC 2300"
+      - "AWSC 3411"
+      - "AWSC 4055"
+      - "AWSC 4305"
+      - "AWSC 4650"
+      - "AWSC 4660"
+      - "AWSC 4670"
+      - "AWSC 4913"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

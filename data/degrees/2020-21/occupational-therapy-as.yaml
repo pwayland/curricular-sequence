@@ -1,0 +1,42 @@
+# occupational-therapy-as.yaml — Occupational Therapy, AS (2020-21)
+
+id: occupational-therapy-as
+label: "Occupational Therapy (AS)"
+degree_type: associate
+total_credits: 73
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1000"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 49
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "OCTH 1000"
+      - "OCTH 1031"
+      - "OCTH 1050"
+      - "OCTH 1060"
+      - "OCTH 1111"
+      - "OCTH 1120"
+      - "OCTH 1121"
+      - "OCTH 1132"
+      - "OCTH 1141"
+      - "OCTH 2022"
+      - "OCTH 2042"
+      - "OCTH 2102"
+      - "OCTH 2135"
+      - "OCTH 2923"
+      - "OCTH 2924"
+      - "OCTH 2975"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

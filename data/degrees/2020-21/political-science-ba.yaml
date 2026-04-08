@@ -1,0 +1,81 @@
+id: political-science-ba
+label: "Political Science (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 45
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "POLS 1011"
+      - "POLS 2040"
+      - "POLS 2088"
+      - "POLS 2100"
+      - "POLS 3080"
+      - "POLS 3100"
+      - "POLS 3150"
+      - "POLS 3401"
+      - "POLS 3402"
+      - "POLS 3501"
+      - "POLS 3610"
+      - "POLS 3820"
+      - "POLS 3910"
+      - "POLS 4300"
+      - "POLS 4900"
+
+  - id: major-electives
+    label: "Major Electives"
+    credits: 6
+    rule: open-elective
+    category_type: major
+
+  - id: distributive-group-a
+    label: "Distributive Group A"
+    credits: 9
+    rule: pick
+    pick_count: 3
+    category_type: distributive
+    options:
+      - "EVSC 1110"
+      - "MAEC 2140"
+      - "MAEC 2211"
+      - "MAEC 2212"
+      - "MAEC 2221"
+      - "MAEC 3243"
+      - "PSYC 3001"
+      - "SOCI 3645"
+
+  - id: distributive-group-b
+    label: "Distributive Group B"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "BADM 3313"
+      - "EVSC 2210"
+      - "POLS 3050"
+      - "POLS 3170"
+      - "POLS 3200"
+      - "POLS 3700"
+      - "POLS 3800"
+      - "POLS 4110"
+      - "SOCI 2080"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

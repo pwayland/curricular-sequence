@@ -1,0 +1,928 @@
+{
+  "scraped": 142,
+  "failed": [],
+  "courses": {
+    "AGRO 1100": {
+      "title": "AGRO 1100Edaphology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "AGRO 3032": {
+      "title": "AGRO 3032Food and Animal Nutrition",
+      "credits": 3,
+      "prereqs": [
+        "BIOL 1100"
+      ]
+    },
+    "AGRO 3035": {
+      "title": "AGRO 3035Soil Fertility and Fertilizers",
+      "credits": 3,
+      "prereqs": []
+    },
+    "AGRO 4040": {
+      "title": "AGRO 4040Analysis of Soil, Plant Tissue and Water",
+      "credits": 3,
+      "prereqs": [
+        "CHEM 2120"
+      ]
+    },
+    "BELI 1000": {
+      "title": "BELI 1000INTRODUCTION TO INTEGRAL BEAUTY",
+      "credits": 3,
+      "prereqs": []
+    },
+    "BELI 1010": {
+      "title": "BELI 1010HAIR TRICOLOGY",
+      "credits": 3,
+      "prereqs": []
+    },
+    "BELI 1101": {
+      "title": "BELI 1101CUTTING, SHAVING AND HAIRSTYLING I",
+      "credits": 3,
+      "prereqs": [
+        "BELI 1010"
+      ]
+    },
+    "BELI 1102": {
+      "title": "BELI 1102CUT AND HAIRSTYLING II",
+      "credits": 3,
+      "prereqs": [
+        "BELI 1101"
+      ]
+    },
+    "BELI 1103": {
+      "title": "BELI  1103CUT AND HAIRSTYLING III",
+      "credits": 3,
+      "prereqs": [
+        "BELI 1102"
+      ]
+    },
+    "BELI 2100": {
+      "title": "BELI 2100SKIN, HANDS AND FOOT CARE",
+      "credits": 3,
+      "prereqs": []
+    },
+    "BELI 2110": {
+      "title": "BELI 2110DEVELOPMENT AND MANAGEMENT OF BEAUTY SALONS",
+      "credits": 3,
+      "prereqs": [
+        "BELI 1000"
+      ]
+    },
+    "BELI 2200": {
+      "title": "BELI 2200AESTHETICS, MAKEUP AND NAIL TECHNOLOGY I",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2100"
+      ]
+    },
+    "BELI 2201": {
+      "title": "BELI 2201AESTHETICS, MAKEUP AND NAIL TECHNOLOGY II",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2200"
+      ]
+    },
+    "BELI 2202": {
+      "title": "BELI 2202AESTHETICS, MASSAGE AND BODY MAKEUP III",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2201"
+      ]
+    },
+    "BELI 2300": {
+      "title": "BELI 2300CHEMICAL PROCEDURES I",
+      "credits": 3,
+      "prereqs": [
+        "BELI 1010"
+      ]
+    },
+    "BELI 2301": {
+      "title": "BELI 2301CHEMICAL PROCEDURES II",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2300"
+      ]
+    },
+    "BELI 2910": {
+      "title": "BELI 2910SUPERVISED PROFESSIONAL PRACTICE",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2301",
+        "BELI 2970",
+        "BELI 2201",
+        "BELI 1103"
+      ]
+    },
+    "BELI 2970": {
+      "title": "BELI 2970INTEGRATIVE SEMINAR IN BEAUTY SCIENCES",
+      "credits": 3,
+      "prereqs": [
+        "BELI 2910",
+        "BELI 2301",
+        "BELI 2201",
+        "BELI 1103"
+      ]
+    },
+    "BIOL 1010": {
+      "title": "BIOL 1010Principles of Human Biology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "BIOL 1105": {
+      "title": "BIOL 1105Basic Concepts of Microbiology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "BIOL 1106": {
+      "title": "BIOL 1106Principles of Human Anatomy and Physiology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "COMP 2051": {
+      "title": "COMP 2051Client-Side Web Development (\"Front-End\")",
+      "credits": 3,
+      "prereqs": []
+    },
+    "COMP 2052": {
+      "title": "COMP 2052Server-Side Web Development and Back-End Microservices",
+      "credits": 3,
+      "prereqs": [
+        "COMP 2051",
+        "COMP 2120"
+      ]
+    },
+    "COMP 2053": {
+      "title": "COMP 2053Full-Stack Web Development",
+      "credits": 3,
+      "prereqs": [
+        "COMP 2052",
+        "COMP 2315",
+        "COMP 2800"
+      ]
+    },
+    "COMP 2200": {
+      "title": "COMP 2200User Interfaces and Experiences (\"UX&UI\")",
+      "credits": 3,
+      "prereqs": []
+    },
+    "CYSC 1000": {
+      "title": "CYSC 1000Introduction to Cyber Security",
+      "credits": 3,
+      "prereqs": []
+    },
+    "CYSC 3000": {
+      "title": "CYSC 3000Internet of Things (loT)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "CYSC 3500": {
+      "title": "CYSC 3500Cyber-Forensics",
+      "credits": 3,
+      "prereqs": [
+        "CYSC 1000",
+        "COMP 3015",
+        "COTN 2122"
+      ]
+    },
+    "CYSC 4100": {
+      "title": "CYSC 4100Ethical Hacking",
+      "credits": 3,
+      "prereqs": [
+        "CYSC 1000",
+        "COMP 3015",
+        "COTN 2230"
+      ]
+    },
+    "CYSC 4200": {
+      "title": "CYSC 4200Economy in Cybersecurity",
+      "credits": 3,
+      "prereqs": [
+        "CYSC 4100"
+      ]
+    },
+    "CYSC 4500": {
+      "title": "CYSC 4500Capstone Project",
+      "credits": 3,
+      "prereqs": [
+        "CYSC 3500",
+        "CYSC 4100"
+      ]
+    },
+    "EDUC 2000": {
+      "title": "EDUC 2000Experience in the Educational Field",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3016": {
+      "title": "EDUC 3016Distance and Virtual Teaching",
+      "credits": 3,
+      "prereqs": [
+        "EDUC 2060"
+      ]
+    },
+    "EDUC 3026": {
+      "title": "EDUC 3026Special Education for Intervention in the Regular Stream",
+      "credits": 3,
+      "prereqs": [
+        "EDUC 2060"
+      ]
+    },
+    "EDUC 3074": {
+      "title": "EDUC 3074Curriculum, Teaching, and Assessment of Mathematics in Primary Grades (PK-4)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3077": {
+      "title": "EDUC 3077Curriculum, Teaching and Assessment of Mathematics in the Elementary Level (K-5)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3082": {
+      "title": "EDUC 3082Curriculum, Teaching, and Assessment of Social Studies in Primary Grades (PK-4)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3086": {
+      "title": "EDUC 3086Curriculum, Teaching and \"Assessment\" of Social Studies in the Elementary Level (K-5)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3124": {
+      "title": "EDUC 3124Psycho-Philosophical Influences on Curricular Models for Early Childhood Education and Primary Grades (PK-4)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3184": {
+      "title": "EDUC 3184Curriculum, Teaching and Assessment of English at the Elementary Level (K-5)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3234": {
+      "title": "EDUC 3234Primary Grades Literacy (PK-4)",
+      "credits": 3,
+      "prereqs": [
+        "EDUC 3140"
+      ]
+    },
+    "EDUC 3237": {
+      "title": "EDUC 3237Language Arts Curriculum, Teaching and Assessment in Spanish at the Elementary Level (K-5)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3267": {
+      "title": "EDUC 3267Curriculum, Teaching, and Assessment of Natural Sciences in the Primary Grades (PK-4)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3268": {
+      "title": "EDUC 3268Curriculum, Teaching and Assessment of Natural Sciences at the Elementary Level (K-5)",
+      "credits": 3,
+      "prereqs": []
+    },
+    "EDUC 3874": {
+      "title": "12 Physical Education Teaching Methodology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "ELET 1100": {
+      "title": "ELET 1100Energy and Environment",
+      "credits": 3,
+      "prereqs": []
+    },
+    "ELET 2000": {
+      "title": "ELET 2000Principles of Electrical Circuits and Power",
+      "credits": 3,
+      "prereqs": [
+        "GEMA 1200"
+      ]
+    },
+    "ELET 2005": {
+      "title": "ELET 2005Electrical Circuits and Power Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2000"
+      ]
+    },
+    "ELET 2010": {
+      "title": "ELET 2010Electronic Foundations",
+      "credits": 3,
+      "prereqs": [
+        "GEMA 1200"
+      ]
+    },
+    "ELET 2015": {
+      "title": "ELET 2015ELECTRONICS LABORATORY",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2010"
+      ]
+    },
+    "ELET 2020": {
+      "title": "ELET 2020Fundamentals of Photovoltaic Systems",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2010"
+      ]
+    },
+    "ELET 2025": {
+      "title": "ELET 2025Photovoltaic Systems Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2020"
+      ]
+    },
+    "ELET 2030": {
+      "title": "ELET 2030Advanced Photovoltaic Systems",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2020"
+      ]
+    },
+    "ELET 2111": {
+      "title": "ELET 2111Electrical Installations I",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2000"
+      ]
+    },
+    "ELET 2112": {
+      "title": "ELET 2112Electrical Installations II",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2111"
+      ]
+    },
+    "ELET 2115": {
+      "title": "ELET 2115Electrical Installations Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2111"
+      ]
+    },
+    "ELET 2120": {
+      "title": "ELET 2120Electrical Machines",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2000"
+      ]
+    },
+    "ELET 2125": {
+      "title": "ELET 2125Electrical Machines Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2120"
+      ]
+    },
+    "ELET 2200": {
+      "title": "ELET 2200Seminar for the Electrician Expert Assistant Exam",
+      "credits": 3,
+      "prereqs": []
+    },
+    "ELET 2220": {
+      "title": "ELET 2220Principles of Electrical Controls and PLC's",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2111"
+      ]
+    },
+    "ELET 2225": {
+      "title": "ELET 2225Electrical Controls and PLC Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELET 2220"
+      ]
+    },
+    "ELET 2910": {
+      "title": "ELET 2910Electrical Engineering Technology Internship",
+      "credits": 3,
+      "prereqs": []
+    },
+    "GECE 2010": {
+      "title": "GECE 2010Leveling and Coordinate Geometry",
+      "credits": 3,
+      "prereqs": [
+        "AREN 2220"
+      ]
+    },
+    "GECE 2020": {
+      "title": "GECE 2020Control Networks, Land Surveys, and Areas",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2010"
+      ]
+    },
+    "GECE 2025": {
+      "title": "GECE 2025Control Networks, Land Surveys, and Areas Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2020"
+      ]
+    },
+    "GECE 2030": {
+      "title": "GECE 2030Topography",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2020"
+      ]
+    },
+    "GECE 2035": {
+      "title": "GECE 2035Topography Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2030"
+      ]
+    },
+    "GECE 2045": {
+      "title": "GECE 2045GNSS, Roads and Utilities Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2060"
+      ]
+    },
+    "GECE 2050": {
+      "title": "GECE 2050Legal Aspects of Real Estate Property",
+      "credits": 3,
+      "prereqs": []
+    },
+    "GECE 2060": {
+      "title": "GECE 2060Datums, Coordinate Systems and GIS",
+      "credits": 3,
+      "prereqs": []
+    },
+    "GECE 2070": {
+      "title": "GECE 2070Regulation and Use of UAS in Civil Works",
+      "credits": 3,
+      "prereqs": []
+    },
+    "GECE 2080": {
+      "title": "GECE 2080Photogrammetry and Remote Sensing",
+      "credits": 3,
+      "prereqs": [
+        "GECE 2070"
+      ]
+    },
+    "HPER 3161": {
+      "title": "HPER 3161Educational, recreational, and curriculum integration games for K-12",
+      "credits": 3,
+      "prereqs": []
+    },
+    "HPER 3221": {
+      "title": "HPER 3221Theory and Design of Physical Education Programs at the K-12 level",
+      "credits": 3,
+      "prereqs": []
+    },
+    "HPER 4111": {
+      "title": "HPER 4111Evaluation, Assessment, and Research on Teaching and Learning in K-12 Physical Education",
+      "credits": 3,
+      "prereqs": []
+    },
+    "HSBC 2270": {
+      "title": "HSBC 2270Classification of Health Services and Diseases",
+      "credits": 3,
+      "prereqs": []
+    },
+    "HSBC 2280": {
+      "title": "HSBC 2280Audit and legal concepts",
+      "credits": 3,
+      "prereqs": []
+    },
+    "HSBC 2290": {
+      "title": "HSBC 2290Electronic billing",
+      "credits": 3,
+      "prereqs": [
+        "OMSY 2240"
+      ]
+    },
+    "HSBC 2910": {
+      "title": "HSBC  2910Practice",
+      "credits": 3,
+      "prereqs": [
+        "OMSY 3000",
+        "HSBC 2290"
+      ]
+    },
+    "MAEC 2235": {
+      "title": "MAEC 2235Introduction to Agricultural Economics",
+      "credits": 3,
+      "prereqs": [
+        "GEMA 1200"
+      ]
+    },
+    "MASC 2660": {
+      "title": "MASC 2660Geological Oceanography",
+      "credits": 3,
+      "prereqs": [
+        "MASC 1600"
+      ]
+    },
+    "MASC 3060": {
+      "title": "MASC 3060Chemical Oceanography",
+      "credits": 3,
+      "prereqs": [
+        "MASC 1600",
+        "CHEM 2212"
+      ]
+    },
+    "MASC 3660": {
+      "title": "MASC 3660Biological Oceanography",
+      "credits": 3,
+      "prereqs": [
+        "MASC 3600",
+        "MASC 3603"
+      ]
+    },
+    "MASC 4660": {
+      "title": "MASC 4660Physical Oceanography",
+      "credits": 3,
+      "prereqs": [
+        "MASC 1600",
+        "PHYS 3001"
+      ]
+    },
+    "MASC 4931": {
+      "title": "MASC 4931Marine Research I",
+      "credits": 3,
+      "prereqs": [
+        "MASC 3930"
+      ]
+    },
+    "MASC 4932": {
+      "title": "MASC 4932MARINE RESEARCH II",
+      "credits": 3,
+      "prereqs": [
+        "MASC 4931"
+      ]
+    },
+    "MMBP 3400": {
+      "title": "MMBP 3400Molecular Genetics",
+      "credits": 3,
+      "prereqs": [
+        "BIOL 1102",
+        "BIOL 3105"
+      ]
+    },
+    "MMBP 3500": {
+      "title": "MMBP 3500Cellular and Molecular Immunology",
+      "credits": 3,
+      "prereqs": [
+        "BIOL 3105",
+        "MMBP 3400"
+      ]
+    },
+    "MMBP 4100": {
+      "title": "MMBP 4100Applications of Molecular Medicine",
+      "credits": 3,
+      "prereqs": [
+        "BIOL 3106",
+        "MMBP 3400",
+        "MMBP 3500"
+      ]
+    },
+    "MMBP 4200": {
+      "title": "MMBP 4200Expression Systems for Therapeutic Biological Products",
+      "credits": 3,
+      "prereqs": [
+        "MMBP 3400",
+        "MMBP 4100"
+      ]
+    },
+    "MMBP 4300": {
+      "title": "MMBP 4300Bioanalytical Techniques and Instrumentation",
+      "credits": 3,
+      "prereqs": [
+        "MMBP 4100",
+        "CHEM 2212"
+      ]
+    },
+    "MMBP 4400": {
+      "title": "MMBP 4400Cell Growth Regulation and Molecular Signaling Pathways",
+      "credits": 3,
+      "prereqs": [
+        "MMBP 3500",
+        "MMBP 4100"
+      ]
+    },
+    "MMBP 4500": {
+      "title": "MMBP 4500Therapeutic Applications of Ribonucleic Acids",
+      "credits": 3,
+      "prereqs": [
+        "MMBP 3400",
+        "MMBP 4400"
+      ]
+    },
+    "MMBP 4600": {
+      "title": "MMBP 4600Manufacturing and Formulation of Ribonucleic Acids",
+      "credits": 3,
+      "prereqs": [
+        "MMBP 3400",
+        "MMBP 4400",
+        "MMBP 4500"
+      ]
+    },
+    "MMBP 4900": {
+      "title": "MMBP 4900Manufacturing and Formulation of Therapeutic Proteins",
+      "credits": 3,
+      "prereqs": [
+        "CHEM 4220",
+        "MMBP 4300"
+      ]
+    },
+    "MMBP 4960": {
+      "title": "MMBP 4960Research Methods in Molecular Medicine and Bioprocesses",
+      "credits": 21,
+      "prereqs": []
+    },
+    "NURS 3116": {
+      "title": "NURS 3116Nursing Leadership and Management",
+      "credits": 3,
+      "prereqs": []
+    },
+    "NURS 3121": {
+      "title": "NURS 3121Health Estimation Practice",
+      "credits": 3,
+      "prereqs": []
+    },
+    "NURS 3122": {
+      "title": "NURS 3122Basic Pathophysiology for Nursing",
+      "credits": 3,
+      "prereqs": []
+    },
+    "NURS 3142": {
+      "title": "NURS 3142Nursing Informatics and Technology in Clinical Practice",
+      "credits": 3,
+      "prereqs": []
+    },
+    "NURS 3191": {
+      "title": "NURS 3191Practice in Professional Interventions in the Life Cycle",
+      "credits": 3,
+      "prereqs": [
+        "NURS 3121"
+      ]
+    },
+    "NURS 4181": {
+      "title": "NURS 4181Community health nursing: a preventive approach and health promotion",
+      "credits": 3,
+      "prereqs": []
+    },
+    "NURS 4981": {
+      "title": "NURS 4981Integrative Workshop Practice",
+      "credits": 3,
+      "prereqs": []
+    },
+    "OMSY 2400": {
+      "title": "OMSY 2400Medical Terminology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "OMSY 3440": {
+      "title": "OMSY 3440Administration of The Electronic Medical Record",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 1100": {
+      "title": "PRAG 1100Introduction to precision agriculture technology",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 1110": {
+      "title": "PRAG 1110Operation and management of greenhouses",
+      "credits": 3,
+      "prereqs": [
+        "PRAG 1100"
+      ]
+    },
+    "PRAG 1120": {
+      "title": "PRAG 1120Pest Management in controlled environments",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 1130": {
+      "title": "PRAG 1130Blue agriculture",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 2210": {
+      "title": "PRAG 2210Digital Agriculture",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 2220": {
+      "title": "PRAG 2220Hydroponics and agricultural production",
+      "credits": 3,
+      "prereqs": [
+        "PRAG 1110"
+      ]
+    },
+    "PRAG 2230": {
+      "title": "PRAG 2230Water and nutrient management",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 2235": {
+      "title": "PRAG 2235Crop production",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 2240": {
+      "title": "PRAG 2240Sustainable energy technologies in agriculture",
+      "credits": 3,
+      "prereqs": []
+    },
+    "PRAG 2250": {
+      "title": "PRAG 2250Principles of entrepreneurship and agricultural management",
+      "credits": 3,
+      "prereqs": [
+        "PRAG 2210"
+      ]
+    },
+    "PRAG 2910": {
+      "title": "PRAG 2910Practice in precision farming crops",
+      "credits": 3,
+      "prereqs": []
+    },
+    "REEN 1010": {
+      "title": "REEN 1010Introduction to Renewable Energy Systems",
+      "credits": 3,
+      "prereqs": []
+    },
+    "REEN 2010": {
+      "title": "REEN 2010Audit and Energy Efficiency",
+      "credits": 3,
+      "prereqs": []
+    },
+    "REEN 2110": {
+      "title": "REEN 2110Wind Systems",
+      "credits": 3,
+      "prereqs": []
+    },
+    "REEN 2120": {
+      "title": "REEN 2120Microcontroller Programming Laboratory",
+      "credits": 3,
+      "prereqs": [
+        "ELEC 2131"
+      ]
+    },
+    "REEN 2910": {
+      "title": "REEN  2910Integrated Practice and Professional Ethics",
+      "credits": 3,
+      "prereqs": [
+        "REEN 2010",
+        "REEN 2110"
+      ]
+    },
+    "REPS 1100": {
+      "title": "REPS 1100Introduction to Renewable Energies",
+      "credits": 3,
+      "prereqs": []
+    },
+    "REPS 2100": {
+      "title": "REPS 2100Technical Drawing",
+      "credits": 3,
+      "prereqs": [
+        "REPS 1100"
+      ]
+    },
+    "REPS 2300": {
+      "title": "REPS 2300Solar Energy System Components",
+      "credits": 3,
+      "prereqs": [
+        "REPS 2100"
+      ]
+    },
+    "REPS 2400": {
+      "title": "REPS 2400Design and Dimensionig of Solar Energy Systems",
+      "credits": 3,
+      "prereqs": [
+        "REPS 2300",
+        "PHYS 3001"
+      ]
+    },
+    "REPS 2910": {
+      "title": "REPS 2910Practice",
+      "credits": 25,
+      "prereqs": []
+    },
+    "USDX 1000": {
+      "title": "USDX 1000Introduction to the Principles and Protocols of Diagnostic Ultrasound",
+      "credits": 1110,
+      "prereqs": []
+    },
+    "USDX 1010": {
+      "title": "USDX 1010Anatomy and Physiology in Ultrasound",
+      "credits": 3,
+      "prereqs": []
+    },
+    "USDX 1110": {
+      "title": "USDX 1110Patient Care in Diagnostic Ultrasound",
+      "credits": 3,
+      "prereqs": []
+    },
+    "USDX 2010": {
+      "title": "USDX 2010Basic Physics in Diagnostic Ultrasound",
+      "credits": 3,
+      "prereqs": [
+        "GEMA 1200",
+        "USDX 1000",
+        "USDX 1010",
+        "USDX 1110"
+      ]
+    },
+    "USDX 2011": {
+      "title": "USDX 2011Intermediate Physics in Diagnostic Ultrasound",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2010"
+      ]
+    },
+    "USDX 2015": {
+      "title": "USDX 2015Abdomen and Pelvis Ultrasound Procedure and Evaluation",
+      "credits": 3,
+      "prereqs": [
+        "USDX 1000",
+        "USDX 2010"
+      ]
+    },
+    "USDX 2016": {
+      "title": "USDX 2016Abdomino-Pelvic Pathology",
+      "credits": 3,
+      "prereqs": [
+        "USDX 1010",
+        "USDX 2010"
+      ]
+    },
+    "USDX 2017": {
+      "title": "USDX 2017Practice in Ultrasound I",
+      "credits": 3,
+      "prereqs": [
+        "USDX 1000",
+        "USDX 2010"
+      ]
+    },
+    "USDX 2020": {
+      "title": "USDX 2020Pathology in Obstetrics and Gynecology",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2011",
+        "USDX 2015",
+        "USDX 2016"
+      ]
+    },
+    "USDX 2022": {
+      "title": "USDX 2022Ultrasound Procedure and Evaluation in Obstetrics and Gynecology",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2011",
+        "USDX 2015",
+        "USDX 2016",
+        "USDX 2017"
+      ]
+    },
+    "USDX 2030": {
+      "title": "USDX 2030Procedure and Evaluation of Ultrasound in Superficial Anatomy",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2020",
+        "USDX 2021",
+        "USDX 2022"
+      ]
+    },
+    "USDX 2031": {
+      "title": "USDX 2031Practice in Ultrasound III",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2020",
+        "USDX 2021",
+        "USDX 2022"
+      ]
+    },
+    "USDX 2032": {
+      "title": "USDX 2032Pathology in Superficial Anatomy",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2020",
+        "USDX 2021",
+        "USDX 2022"
+      ]
+    },
+    "USDX 2040": {
+      "title": "USDX 2040Integrating Workshop",
+      "credits": 3,
+      "prereqs": [
+        "USDX 2020",
+        "USDX 2021",
+        "USDX 2022"
+      ]
+    },
+    "VETC 2970": {
+      "title": "VETC 2970Seminar",
+      "credits": 3,
+      "prereqs": []
+    },
+    "VETC 4970": {
+      "title": "VETC 4970Integration Seminar",
+      "credits": 30,
+      "prereqs": []
+    }
+  }
+}

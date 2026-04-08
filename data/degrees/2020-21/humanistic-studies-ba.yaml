@@ -1,0 +1,56 @@
+# humanistic-studies-ba.yaml — Humanistic Studies, BA (2020-21)
+
+id: humanistic-studies-ba
+label: "Humanistic Studies (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ARTS 2403"
+      - "HIST 4110"
+      - "MUSI 3320"
+      - "PHIL 2013"
+      - "PHIL 2020"
+      - "PHIL 3040"
+      - "RELI 4353"
+      - "SPAN 3015"
+      - "SPAN 3020"
+
+  - id: related-courses
+    label: "Related Courses"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "GERM 1001"
+      - "FREN 1001"
+      - "ITAL 1001"
+      - "PORT 1001"
+
+  - id: major-electives
+    label: "Major Electives"
+    credits: 33
+    rule: open-elective
+    category_type: major
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

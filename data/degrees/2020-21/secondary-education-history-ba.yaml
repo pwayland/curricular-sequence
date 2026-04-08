@@ -1,0 +1,111 @@
+# secondary-education-history-ba.yaml — Secondary Education in History, BA (2020-21)
+
+id: secondary-education-history-ba
+label: "Secondary Education in History (BA)"
+degree_type: bachelor
+total_credits: 131
+term_type: semester
+max_credits_per_term: 18
+terms_count: 9
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Education Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 1080"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 2890"
+      - "EDUC 3013"
+      - "EDUC 3015"
+      - "EDUC 4011"
+      - "EDUC 4012"
+      - "EDUC 4013"
+      - "EDUC 4050"
+      - "EDUC 4551"
+      - "EDUC 4552"
+
+  - id: major-foundation
+    label: "Major Foundation"
+    credits: 12
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HIST 1020"
+      - "HIST 1030"
+      - "HIST 1040"
+      - "HIST 1050"
+
+  - id: major-regional
+    label: "Major Regional"
+    credits: 12
+    rule: fixed
+    category_type: major
+    courses:
+      - "HIST 2050"
+      - "HIST 2055"
+      - "HIST 3050"
+      - "HIST 3055"
+
+  - id: major-regional-elective
+    label: "Major Regional Elective"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "HIST 2030"
+      - "HIST 2035"
+
+  - id: major-methodology
+    label: "Major Methodology"
+    credits: 3
+    rule: fixed
+    category_type: major
+    courses:
+      - "EDUC 3565"
+
+  - id: major-methodology-elective
+    label: "Major Methodology Elective"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "HIST 4020"
+      - "HIST 4210"
+
+  - id: major-elective-options
+    label: "Major Elective Options"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: major
+    options:
+      - "HIST 2040"
+      - "HIST 3040"
+      - "HIST 3060"
+      - "HIST 3070"
+      - "HIST 3075"
+      - "GEOG 1144"
+      - "GEOG 3274"
+      - "GEOG 4224"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

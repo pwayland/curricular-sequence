@@ -1,0 +1,43 @@
+# physical-therapist-assistant-as.yaml — Physical Therapist Assistant, AS (2020-21)
+
+id: physical-therapist-assistant-as
+label: "Physical Therapist Assistant (AS)"
+degree_type: associate
+total_credits: 74
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1000"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 50
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "PHTH 1000"
+      - "PHTH 1010"
+      - "PHTH 1211"
+      - "PHTH 1212"
+      - "PHTH 1222"
+      - "PHTH 1223"
+      - "PHTH 2050"
+      - "PHTH 2051"
+      - "PHTH 2053"
+      - "PHTH 2054"
+      - "PHTH 2055"
+      - "PHTH 2151"
+      - "PHTH 2350"
+      - "PHTH 2921"
+      - "PHTH 2922"
+      - "PHTH 2923"
+      - "PHTH 2990"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

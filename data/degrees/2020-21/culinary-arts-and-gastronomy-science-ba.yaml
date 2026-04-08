@@ -1,0 +1,70 @@
+# culinary-arts-and-gastronomy-science-ba.yaml — Culinary Arts and Gastronomy Sciences, BA (2020-21)
+
+id: culinary-arts-and-gastronomy-science-ba
+label: "Culinary Arts and Gastronomy Sciences (BA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 64
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "GASC 1000"
+      - "GASC 1200"
+      - "GASC 2010"
+      - "GASC 2015"
+      - "GASC 2020"
+      - "GASC 2500"
+      - "GASC 2800"
+      - "GASC 2900"
+      - "GASC 2910"
+      - "GASC 3026"
+      - "GASC 3300"
+      - "GASC 3400"
+      - "GASC 4000"
+      - "GASC 4040"
+      - "GASC 4970"
+      - "FSMT 1210"
+      - "FSMT 1220"
+      - "FSMT 2101"
+      - "FSMT 2104"
+      - "HMGT 3310"
+      - "TURI 3300"
+
+  - id: major-elective-business
+    label: "Major Elective (Business)"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "BADM 1900"
+      - "ENTR 2200"
+
+  - id: major-elective-office
+    label: "Major Elective (Office)"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "OMSY 3030"
+      - "OMSY 3040"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

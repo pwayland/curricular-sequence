@@ -1,0 +1,34 @@
+  agricultural-precision-aas: 1 categories, 11 courses
+  agronomy-bas: 2 categories, 25 courses
+  animal-science-pre-vet-bs: 3 categories, 29 courses
+  biology-bs: 3 categories, 65 courses
+  biomedical-sciences-bs: 4 categories, 40 courses
+  computer-science-aas: 1 categories, 11 courses
+  cyber-security-bs: 3 categories, 32 courses
+  diagnostic-ultrasound-aas: 2 categories, 14 courses
+  early-childhood-education-k5-ba: 2 categories, 27 courses
+  early-childhood-education-pk4-ba: 2 categories, 29 courses
+  electrical-engineering-technology-as: 3 categories, 23 courses
+  engineering-technology-renewable-energy-as: 1 categories, 16 courses
+  fine-arts-bfa: 8 categories, 111 courses
+  geomatics-civil-engineering-technology-as: 3 categories, 17 courses
+  healthcare-billing-aa: 1 categories, 12 courses
+  integral-beauty-aa: 2 categories, 14 courses
+  marine-sciences-bs: 3 categories, 40 courses
+  molecular-medicine-bioprocesses-bs: 2 categories, 25 courses
+  natural-sciences-bs: 2 categories, 25 courses
+  nursing-bsn: 2 categories, 26 courses
+  nursing-rn-to-bsn: 1 categories, 8 courses
+  physical-education-k12-ba: 7 categories, 46 courses
+  renewable-energy-pv-aa: 2 categories, 14 courses
+  social-sciences-ba: 1 categories, 8 courses
+  social-work-ba: 2 categories, 21 courses
+  sports-technology-ba: 1 categories, 22 courses
+  toxicology-bs: 2 categories, 27 courses
+  veterinary-technician-aas: 2 categories, 16 courses
+  veterinary-technology-bs: 2 categories, 26 courses
+  visual-arts-art-teaching-ba: 4 categories, 30 courses
+
+=== Generated 30 degree YAMLs ===
+
+=== 468 courses not in courses-2025-26.yaml ===

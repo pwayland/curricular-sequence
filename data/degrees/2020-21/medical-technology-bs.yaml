@@ -1,0 +1,90 @@
+# medical-technology-bs.yaml — Medical Technology, BS (2020-21)
+# NOTE: Exempt from GEST 2020/2030 and GEHP 3000.
+
+id: medical-technology-bs
+label: "Medical Technology (BS)"
+degree_type: bachelor
+total_credits: 150
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+    - category: scientific-technological
+      _remove: true
+    - category: health-quality
+      _remove: true
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 54
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 2103"
+      - "BIOL 3010"
+      - "BIOL 3105"
+      - "BIOL 3106"
+      - "BIOL 3405"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "CHEM 3320"
+      - "PHYS 3001"
+      - "PHYS 3002"
+      - "MATH 1511"
+      - "MATH 1512"
+
+  - id: core-pick
+    label: "Core Elective"
+    credits: 3
+    rule: pick
+    category_type: core
+    pick_count: 1
+    options:
+      - "CHEM 4220"
+      - "BIOL 4604"
+      - "BMSC 4015"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 48
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MEDT 4501"
+      - "MEDT 4510"
+      - "MEDT 4520"
+      - "MEDT 4531"
+      - "MEDT 4532"
+      - "MEDT 4540"
+      - "MEDT 4560"
+      - "MEDT 4570"
+      - "MEDT 4585"
+      - "MEDT 4593"
+      - "MEDT 4595"
+      - "MEDT 4915"
+      - "MEDT 4916"
+      - "MEDT 4921"
+      - "MEDT 4922"
+      - "MEDT 4923"
+      - "MEDT 4924"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

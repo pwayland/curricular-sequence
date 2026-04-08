@@ -1,0 +1,125 @@
+# architectural-engineering-bs.yaml — Architectural Engineering, BS (2020-21)
+
+id: architectural-engineering-bs
+label: "Architectural Engineering (BS)"
+degree_type: bachelor
+total_credits: 154
+term_type: semester
+max_credits_per_term: 18
+terms_count: 10
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      _remove: true
+    - category: info-computing
+      _remove: true
+    - category: entrepreneurial-culture
+      _remove: true
+    - category: scientific-technological
+      _remove: true
+    - category: health-quality
+      _remove: true
+    - category: philosophical-aesthetic
+      credits: 3
+      subcategories:
+        - id: ethics
+          label: "Ethical Component"
+          credits: 3
+          rule: fixed
+          courses: ["GEPE 4040"]
+          default: "GEPE 4040"
+    - category: historical-social
+      credits: 3
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 3
+          rule: pick
+          options: ["GEHS 2010", "GEHS 3020", "GEHS 3050", "GEHS 4030"]
+          default: "GEHS 2010"
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 30
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CHEM 2115"
+      - "ENGR 1200"
+      - "ENGR 2130"
+      - "ENGR 3200"
+      - "MATH 1500"
+      - "MATH 2251"
+      - "MATH 2252"
+      - "MATH 3350"
+      - "PHYS 3311"
+      - "PHYS 3312"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 45
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "AREN 1100"
+      - "AREN 2220"
+      - "AREN 3020"
+      - "AREN 3025"
+      - "AREN 3110"
+      - "AREN 4021"
+      - "AREN 4022"
+      - "AREN 4110"
+      - "AREN 4120"
+      - "AREN 4200"
+      - "AREN 4210"
+      - "AREN 4220"
+      - "AREN 4230"
+      - "AREN 4250"
+      - "AREN 4810"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 43
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ELEN 4375"
+      - "ELEN 4110"
+      - "ELEN 4120"
+      - "ENGR 2220"
+      - "ENGR 3365"
+      - "MATH 3250"
+      - "MATH 3400"
+      - "MECN 3005"
+      - "MECN 3010"
+      - "MECN 3115"
+      - "MECN 3165"
+      - "MECN 4201"
+      - "MECN 4230"
+      - "MECN 4235"
+      - "MECN 4710"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: distributive
+    options:
+      - "AREN 4240"
+      - "AREN 4970"
+      - "MECN 3140"
+      - "MECN 4220"
+      - "MECN 4240"
+
+  - id: experience-outside-classroom
+    label: "Experience Outside Classroom"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

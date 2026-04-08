@@ -1,0 +1,35 @@
+# institutional-chaplaincy-aa.yaml — Institutional Chaplaincy, AA (2020-21)
+
+id: institutional-chaplaincy-aa
+label: "Institutional Chaplaincy (AA)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 36
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "CHAP 1101"
+      - "CHAP 1102"
+      - "CHAP 2101"
+      - "CHAP 2102"
+      - "CHAP 2103"
+      - "CHAP 2104"
+      - "CHAP 2105"
+      - "CHAP 2106"
+      - "CHAP 2107"
+      - "CHAP 2108"
+      - "CHAP 2109"
+      - "PSYC 1051"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

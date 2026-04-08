@@ -1,0 +1,180 @@
+# popular-music-ba.yaml — Popular Music, BA (2020-21)
+
+id: popular-music-ba
+label: "Popular Music (BA)"
+degree_type: bachelor
+total_credits: 129
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-core
+    label: "Major Core"
+    credits: 48
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MUSI 1122"
+      - "MUSI 1123"
+      - "MUSI 1531"
+      - "MUSI 1532"
+      - "MUSI 2000"
+      - "MUSI 2531"
+      - "MUSI 2532"
+      - "MUSI 2533"
+      - "MUSI 2623"
+      - "MUSI 2624"
+      - "MUSI 2625"
+      - "MUSI 3901"
+      - "MUSI 4700"
+      - "MUSI 4724"
+      - "MUSI 4734"
+      - "MUSI 4803"
+
+  - id: ensemble-track
+    label: "Ensemble Track"
+    credits: 8
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Instrumental Ensemble:
+        - "MUSI 1323"
+        - "MUSI 1324"
+        - "MUSI 2326"
+        - "MUSI 2327"
+      Choral Ensemble:
+        - "MUSI 1333"
+        - "MUSI 1334"
+        - "MUSI 2335"
+        - "MUSI 2336"
+
+  - id: keyboard-guitar-track
+    label: "Keyboard/Guitar Track"
+    credits: 4
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Piano:
+        - "MUSI 1563"
+        - "MUSI 1564"
+      Guitar:
+        - "MUSI 1661"
+        - "MUSI 1662"
+
+  - id: principal-instrument-track
+    label: "Principal Instrument Track"
+    credits: 18
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Flute:
+        - "MUSI 1501"
+        - "MUSI 1502"
+        - "MUSI 2503"
+        - "MUSI 2504"
+        - "MUSI 3505"
+        - "MUSI 3506"
+      Piano:
+        - "MUSI 1511"
+        - "MUSI 1512"
+        - "MUSI 2513"
+        - "MUSI 2514"
+        - "MUSI 3515"
+        - "MUSI 3516"
+      Cuatro:
+        - "MUSI 1521"
+        - "MUSI 1522"
+        - "MUSI 2523"
+        - "MUSI 2524"
+        - "MUSI 3525"
+        - "MUSI 3526"
+      Saxophone:
+        - "MUSI 1541"
+        - "MUSI 1542"
+        - "MUSI 2543"
+        - "MUSI 2544"
+        - "MUSI 3545"
+        - "MUSI 3546"
+      Trumpet:
+        - "MUSI 1551"
+        - "MUSI 1552"
+        - "MUSI 2553"
+        - "MUSI 2554"
+        - "MUSI 3555"
+        - "MUSI 3556"
+      Trombone:
+        - "MUSI 1571"
+        - "MUSI 1572"
+        - "MUSI 2573"
+        - "MUSI 2574"
+        - "MUSI 3575"
+        - "MUSI 3576"
+      Bass:
+        - "MUSI 1581"
+        - "MUSI 1582"
+        - "MUSI 2583"
+        - "MUSI 2584"
+        - "MUSI 3585"
+        - "MUSI 3586"
+      Guitar:
+        - "MUSI 1591"
+        - "MUSI 1592"
+        - "MUSI 2593"
+        - "MUSI 2594"
+        - "MUSI 3595"
+        - "MUSI 3596"
+      Drums:
+        - "MUSI 1601"
+        - "MUSI 1602"
+        - "MUSI 2603"
+        - "MUSI 2604"
+        - "MUSI 3605"
+        - "MUSI 3606"
+      Percussion:
+        - "MUSI 1611"
+        - "MUSI 1612"
+        - "MUSI 2613"
+        - "MUSI 2614"
+        - "MUSI 3615"
+        - "MUSI 3616"
+      Violin:
+        - "MUSI 1631"
+        - "MUSI 1632"
+        - "MUSI 2633"
+        - "MUSI 2634"
+        - "MUSI 3635"
+        - "MUSI 3636"
+      Voice:
+        - "MUSI 1641"
+        - "MUSI 1642"
+        - "MUSI 2643"
+        - "MUSI 2644"
+        - "MUSI 3645"
+        - "MUSI 3646"
+      Viola:
+        - "MUSI 1651"
+        - "MUSI 1652"
+        - "MUSI 2653"
+        - "MUSI 2654"
+        - "MUSI 3655"
+        - "MUSI 3656"
+      Cello:
+        - "MUSI 1671"
+        - "MUSI 1672"
+        - "MUSI 2673"
+        - "MUSI 2674"
+        - "MUSI 3675"
+        - "MUSI 3676"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

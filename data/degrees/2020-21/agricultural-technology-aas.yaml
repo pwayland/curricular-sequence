@@ -1,0 +1,34 @@
+# agricultural-technology-aas.yaml — Agricultural Technology, AAS (2020-21)
+
+id: agricultural-technology-aas
+label: "Agricultural Technology (AAS)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 36
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 1100"
+      - "AGRO 1100"
+      - "AGRO 1120"
+      - "AGRO 2200"
+      - "AGRO 2211"
+      - "AGRO 2212"
+      - "AGRO 2220"
+      - "AGRO 2230"
+      - "AGRO 2240"
+      - "AGRO 2250"
+      - "AGRO 2910"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

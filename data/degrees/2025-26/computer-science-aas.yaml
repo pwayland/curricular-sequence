@@ -1,0 +1,38 @@
+id: computer-science-aas
+label: "Computer Science (AAS)"
+degree_type: associate
+total_credits: 62
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 35
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMP 2051"
+      - "COMP 2052"
+      - "COMP 2053"
+      - "COMP 2120"
+      - "COMP 2200"
+      - "COMP 2315"
+      - "COMP 2400"
+      - "COMP 2700"
+      - "COMP 2800"
+      - "COMP 2970"
+      - "MATH 1500"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

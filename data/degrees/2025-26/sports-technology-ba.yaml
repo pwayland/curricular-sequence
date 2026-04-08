@@ -1,0 +1,49 @@
+id: sports-technology-ba
+label: "Sports Technology (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 66
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HPER 2210"
+      - "HPER 2270"
+      - "HPER 2330"
+      - "HPER 3010"
+      - "HPER 3050"
+      - "HPER 3051"
+      - "HPER 3330"
+      - "HPER 3360"
+      - "HPER 3380"
+      - "HPER 3430"
+      - "HPER 3480"
+      - "HPER 3495"
+      - "HPER 3800"
+      - "HPER 4020"
+      - "HPER 4170"
+      - "HPER 4180"
+      - "HPER 4200"
+      - "HPER 4305"
+      - "HPER 4308"
+      - "HPER 4310"
+      - "HPER 4441"
+      - "HPER 4442"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

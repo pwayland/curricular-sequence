@@ -1,0 +1,750 @@
+  # ── ENDE ────────────────────────────────────────────────
+  ENDE 1100:
+    title: "Introducción al Desarrollo Empresarial"
+    credits: 2
+    prereqs: []
+  ENDE 3315:
+    title: "Procedimientos Fundamentales en el Establecimiento de Negocios"
+    credits: 3
+    prereqs: ["ENDE 1100"]
+  ENDE 3316:
+    title: "Administración de Negocios"
+    credits: 3
+    prereqs: ["ENDE 3315"]
+  ENDE 3320:
+    title: "Comercio electrónico en Desarrollo Empresarial"
+    credits: 4
+    prereqs: []
+  # ── ENTR ────────────────────────────────────────────────
+  ENTR 2200:
+    title: "Fundamento Empresarial"
+    credits: 3
+    prereqs: []
+  ENTR 2212:
+    title: "Emprendedorismo Social"
+    credits: 3
+    prereqs: []
+  ENTR 3900:
+    title: "Estrategias Empresariales y Gerenciales"
+    credits: 3
+    prereqs: ["ENTR 2200", "MKTG 1210"]
+  ENTR 3910:
+    title: "Empresas de Familia"
+    credits: 3
+    prereqs: ["ENTR 3900"]
+  ENTR 4400:
+    title: "Diseño y Desarrollo de Un Plan de Negocio"
+    credits: 3
+    prereqs: ["ACCT 1162", "ENTR 3900"]
+  ENTR 4910:
+    title: "Práctica Empresarial y Gerencial"
+    credits: 3
+    prereqs: ["ACCT 1162", "ENTR 4400"]
+  ENTR 4930:
+    title: "Proyecto Empresarial O Gerencial"
+    credits: 3
+    prereqs: ["ENTR 4400"]
+  # ── FINA ────────────────────────────────────────────────
+  FINA 1000:
+    title: "Ética en las Finanzas"
+    credits: 3
+    prereqs: []
+  FINA 2101:
+    title: "Finanzas Corporativas I"
+    credits: 3
+    prereqs: ["ACCT 1161", "GEMA 1200"]
+  FINA 2102:
+    title: "Finanzas Corporativas II"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 2150:
+    title: "Hoja de Cálculo Electrónica en Finanzas"
+    credits: 3
+    prereqs: []
+  FINA 3130:
+    title: "Administración del Crédito"
+    credits: 3
+    prereqs: ["FINA 2101", "MAEC 2222"]
+  FINA 3150:
+    title: "Finanza Personal"
+    credits: 3
+    prereqs: []
+  FINA 3235:
+    title: "Moneda y Banca"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  FINA 3300:
+    title: "Mercados Financieros"
+    credits: 3
+    prereqs: ["FINA 2102", "MAEC 2222"]
+  FINA 3400:
+    title: "Introducción alriesgo y al Seguro"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 3500:
+    title: "Introducción A los Bienes Raíces"
+    credits: 3
+    prereqs: ["FINA 2101"]
+  FINA 3700:
+    title: "Fundamentos de Inversiones"
+    credits: 3
+    prereqs: ["FINA 3300"]
+  FINA 4100:
+    title: "Finanza Internacional"
+    credits: 3
+    prereqs: ["FINA 3700"]
+  FINA 4910:
+    title: "Práctica en Finanzas"
+    credits: 3
+    prereqs: []
+  FINA 4970:
+    title: "Seminario en Finanzas"
+    credits: 3
+    prereqs: ["FINA 4100"]
+  # ── FSMT ────────────────────────────────────────────────
+  FSMT 1210:
+    title: "Higiene y Seguridad en Servicios de Alimentos"
+    credits: 1
+    prereqs: []
+  FSMT 1220:
+    title: "Práctica y Teoría del Servicio"
+    credits: 2
+    prereqs: []
+  FSMT 2101:
+    title: "Sistemas de Compras, Control de Inventario y Almacenamiento"
+    credits: 2
+    prereqs: []
+  FSMT 2104:
+    title: "Servicio de Buffet y Catering"
+    credits: 3
+    prereqs: ["FSMT 1210", "TURI 3302"]
+  # ── HCAD ────────────────────────────────────────────────
+  HCAD 1100:
+    title: "Fundamentos en el Cuidado de Servicio de Salud"
+    credits: 3
+    prereqs: []
+  HCAD 2100:
+    title: "Introducción a la Política de Salud Pública"
+    credits: 3
+    prereqs: ["HCAD 1100"]
+  HCAD 2200:
+    title: "Aspectos Éticos y Legales en el Servicio de Cuidado de Salud"
+    credits: 3
+    prereqs: ["HCAD 2100"]
+  HCAD 3000:
+    title: "Tecnología de la Información y Comunicación en la Administración 
+de Servicios de Salud"
+    credits: 3
+    prereqs: ["GEIC 1010", "HCAD 2200"]
+  HCAD 4000:
+    title: "Aspectos Financieros en el Servicio de Cuidado de la Salud"
+    credits: 3
+    prereqs: ["ACCT 1162", "FINA 2100"]
+  HCAD 4200:
+    title: "Seminario Integrador"
+    credits: 3
+    prereqs: []
+  # ── HRMA ────────────────────────────────────────────────
+  HRMA 2100:
+    title: "Administración de Recursos Humanos"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3000:
+    title: "Comportamiento Organizacional"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3100:
+    title: "Liderazgo y Supervisión"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  HRMA 3200:
+    title: "Seguridad e Higiene Laboral"
+    credits: 3
+    prereqs: []
+  HRMA 3400:
+    title: "Capacitación y Desarrollo"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 3500:
+    title: "Legislación Laboral"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 3600:
+    title: "Administración de Compensaciones"
+    credits: 3
+    prereqs: []
+  HRMA 4100:
+    title: "Sindicación y Negociación Colectiva"
+    credits: 3
+    prereqs: ["HRMA 2100"]
+  HRMA 4915:
+    title: "Práctica Supervisada"
+    credits: 3
+    prereqs: []
+  HRMA 4970:
+    title: "Seminario Integrador"
+    credits: 3
+    prereqs: []
+  # ── INTB ────────────────────────────────────────────────
+  INTB 2100:
+    title: "Introducción A los Negocios Internacionales"
+    credits: 3
+    prereqs: []
+  INTB 2200:
+    title: "Conciencia Cultural en los Negocios Internacionales"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  INTB 2301:
+    title: "Principios de Importación y Exportación de Productos"
+    credits: 3
+    prereqs: ["INTB 2100"]
+  INTB 2302:
+    title: "Licencias y Regulaciones para la Importación y Exportación de Productos"
+    credits: 3
+    prereqs: ["INTB 2301"]
+  INTB 3330:
+    title: "Gerencia de Recursos Humanos Internacional"
+    credits: 3
+    prereqs: ["BADM 1900", "INTB 2100"]
+  INTB 3600:
+    title: "Ambiente de los Negocios Internacionales en las Américas, Europa y el Pacífico"
+    credits: 3
+    prereqs: ["INTB 2200"]
+  INTB 3710:
+    title: "Contrato de Venta Internacional y los Términos de Comercio Internacional"
+    credits: 3
+    prereqs: ["INTB 2301"]
+  INTB 3750:
+    title: "Instituciones Financieras E Inversiones Internacionales"
+    credits: 3
+    prereqs: ["FINA 2101", "INTB 2100"]
+  INTB 3800:
+    title: "Administración del Transporte Internacional: Marítimo, Aéreo y Terrestre"
+    credits: 3
+    prereqs: ["INTB 2301"]
+  INTB 3900:
+    title: "Sistemas de Información Gerencial Internacional"
+    credits: 3
+    prereqs: ["INTB 2100"]
+  INTB 4200:
+    title: "Sistemas de Distribución Internacional"
+    credits: 3
+    prereqs: ["INTB 2100"]
+  INTB 4220:
+    title: "Estrategia de Negocios Internacionales"
+    credits: 3
+    prereqs: ["INTB 2100", "MKTG 1210"]
+  INTB 4911:
+    title: "Práctica en los Negocios Internacionales"
+    credits: 3
+    prereqs: ["INTB 2302", "MAEC 3243"]
+  # ── ITEC ────────────────────────────────────────────────
+  ITEC 1100:
+    title: "Introducción A la Tecnología de la Información"
+    credits: 3
+    prereqs: []
+  ITEC 1200:
+    title: "Algoritmos de Programación"
+    credits: 3
+    prereqs: []
+  ITEC 2301:
+    title: "Cobol I"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 2310:
+    title: "Programación Visual en Sistemas de Información"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 2450:
+    title: "Desarrollo de Página Web"
+    credits: 3
+    prereqs: []
+  ITEC 2560:
+    title: "Programación de Aplicaciones Móviles"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 3130:
+    title: "Diseño y Manejo de Bases de Datos"
+    credits: 3
+    prereqs: ["ITEC 2310"]
+  ITEC 3330:
+    title: "Lenguaje de Programación"
+    credits: 3
+    prereqs: ["ITEC 1200"]
+  ITEC 3350:
+    title: "Telecomunicaciones y Redes en los Negocios"
+    credits: 3
+    prereqs: ["ITEC 2450"]
+  ITEC 3400:
+    title: "Negocios electrónicos"
+    credits: 3
+    prereqs: ["ITEC 2450"]
+  ITEC 3420:
+    title: "Análisis y Diseño de Sistemas de Información"
+    credits: 3
+    prereqs: ["ITEC 3130"]
+  ITEC 3570:
+    title: "Programación de Internet"
+    credits: 3
+    prereqs: ["ITEC 2450"]
+  ITEC 4500:
+    title: "Auditoría y Seguridad de los Sistemas de Información"
+    credits: 3
+    prereqs: ["ITEC 3420"]
+  ITEC 4870:
+    title: "Administración de Proyectos de Sistemas de Información"
+    credits: 3
+    prereqs: ["ITEC 4500"]
+  ITEC 4915:
+    title: "Práctica"
+    credits: 3
+    prereqs: []
+  ITEC 4916:
+    title: "Proyecto"
+    credits: 3
+    prereqs: []
+  ITEC 4970:
+    title: "Seminario en Sistemas de Información"
+    credits: 3
+    prereqs: ["ITEC 3420"]
+  # ── MAEC ────────────────────────────────────────────────
+  MAEC 1213:
+    title: "Historia del Pensamiento Económico"
+    credits: 3
+    prereqs: []
+  MAEC 2140:
+    title: "Fundamentos de Métodos Cuantitativos"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MAEC 2211:
+    title: "Principios de Microeconomía"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MAEC 2212:
+    title: "Principios de Macroeconomía"
+    credits: 3
+    prereqs: ["MAEC 2211"]
+  MAEC 2221:
+    title: "Estadística Básica"
+    credits: 3
+    prereqs: ["GEMA 1200"]
+  MAEC 2222:
+    title: "Estadística Gerencial"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+  MAEC 2320:
+    title: "Economía Política"
+    credits: 3
+    prereqs: []
+  MAEC 3234:
+    title: "Economía laboral"
+    credits: 3
+    prereqs: ["MAEC 2211"]
+  MAEC 3236:
+    title: "Finanza Pública y Política Fiscal"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 3240:
+    title: "El Uso de las Matemáticas en la Toma de decisiones"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+  MAEC 3243:
+    title: "Economía Internacional"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 3250:
+    title: "Estadística Intermedia"
+    credits: 3
+    prereqs: ["MAEC 2222"]
+  MAEC 3330:
+    title: "Desarrollo Económico de Puerto Rico"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 4210:
+    title: "Economía de las Empresas Multinacionales"
+    credits: 3
+    prereqs: []
+  MAEC 4213:
+    title: "Macroeconomía Aplicada A los Negocios"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  MAEC 4214:
+    title: "Análisis Económico Intermedio (Micro)"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+  MAEC 4220:
+    title: "Introducción A la Econometría"
+    credits: 3
+    prereqs: ["MAEC 2222"]
+  MAEC 4334:
+    title: "Administración de Recursos energéticos y Medio Ambiente"
+    credits: 3
+    prereqs: []
+  MAEC 4520:
+    title: "Desarrollo Económico de Áreas"
+    credits: 3
+    prereqs: ["MAEC 2211"]
+  # ── MDME ────────────────────────────────────────────────
+  MDME 1101:
+    title: "Fundamentos de Mercadeo para Medios Digitales"
+    credits: 3
+    prereqs: []
+  MDME 2201:
+    title: "Desarrollo de Herramientas Web"
+    credits: 3
+    prereqs: ["DGDM 1104"]
+  MDME 2203:
+    title: "Estrategias de Posicionamiento en Buscadores"
+    credits: 3
+    prereqs: ["MDME 2201"]
+  MDME 3020:
+    title: "Estrategias de Mercadeo para Medios Sociales"
+    credits: 3
+    prereqs: ["MDME 2201"]
+  MDME 3045:
+    title: "Mercadeo para Correo electrónico"
+    credits: 3
+    prereqs: ["MDME 3020"]
+  MDME 3115:
+    title: "Estrategia para Diseño de Contenido"
+    credits: 3
+    prereqs: ["MDME 3020"]
+  MDME 4012:
+    title: "Analítica Web"
+    credits: 3
+    prereqs: ["MDME 3115"]
+  MDME 4041:
+    title: "Mercadeo Inbound"
+    credits: 3
+    prereqs: ["MDME 3115"]
+  MDME 4910:
+    title: "Práctica en Mercadeo para Medios Digitales"
+    credits: 3
+    prereqs: []
+  MDME 4973:
+    title: "Seminario en Mercadeo para Medios Digitales"
+    credits: 3
+    prereqs: ["MDME 3020", "MDME 4910"]
+  # ── MGOI ────────────────────────────────────────────────
+  MGOI 2100:
+    title: "Diseño Organizacional"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  MGOI 3240:
+    title: "Ética y Responsabilidad Social"
+    credits: 3
+    prereqs: []
+  MGOI 3300:
+    title: "Liderazgo y Cambio Organizacional"
+    credits: 3
+    prereqs: ["BADM 2650", "ENTR 2200"]
+  MGOI 3400:
+    title: "Comunicación Organizacional"
+    credits: 3
+    prereqs: ["BADM 2650", "MGOI 3300"]
+  MGOI 4245:
+    title: "Innovación y Creatividad"
+    credits: 3
+    prereqs: ["ENTR 3900", "MGOI 3300"]
+  MGOI 4900:
+    title: "Simulación Gerencial"
+    credits: 2
+    prereqs: []
+  # ── MKTG ────────────────────────────────────────────────
+  MKTG 1210:
+    title: "Introducción al Mercadeo"
+    credits: 3
+    prereqs: []
+  MKTG 1220:
+    title: "Introducción al Mercadeo Agrícola"
+    credits: 3
+    prereqs: []
+  MKTG 2220:
+    title: "Gerencia de Mercadeo"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 2223:
+    title: "Comportamiento del Consumidor"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 2910:
+    title: "Práctica"
+    credits: 3
+    prereqs: []
+  MKTG 2970:
+    title: "Seminario en Ventas"
+    credits: 3
+    prereqs: []
+  MKTG 3230:
+    title: "Comunicación Integrada de Mercadeo"
+    credits: 3
+    prereqs: ["MKTG 2223"]
+  MKTG 3233:
+    title: "Relaciones Públicas en la Organización"
+    credits: 3
+    prereqs: ["MKTG 3230"]
+  MKTG 3234:
+    title: "Venta Personal"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3235:
+    title: "Gerencia de Ventas"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3236:
+    title: "Venta al detal"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3237:
+    title: "Mercadeo de Servicios"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3238:
+    title: "Principios de Publicidad"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3239:
+    title: "Mercadeo Social"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 3240:
+    title: "Ética en el Mercadeo"
+    credits: 3
+    prereqs: ["MKTG 1210"]
+  MKTG 3241:
+    title: "Arte Gráfico en Mercadeo"
+    credits: 3
+    prereqs: []
+  MKTG 3242:
+    title: "Mercadeo de Medios Sociales"
+    credits: 3
+    prereqs: ["MKTG 3230"]
+  MKTG 3243:
+    title: "Logística de Distribución"
+    credits: 3
+    prereqs: []
+  MKTG 4240:
+    title: "Mercadeo Estratégico"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4243:
+    title: "Investigación de Mercadeo"
+    credits: 3
+    prereqs: ["MAEC 2221", "MKTG 2220"]
+  MKTG 4244:
+    title: "Mercadeo Global"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4245:
+    title: "Mercadeo Digital"
+    credits: 3
+    prereqs: ["MKTG 4240"]
+  MKTG 4246:
+    title: "Gerencia del Producto"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4248:
+    title: "Mercadeo de Pequeños Negocios"
+    credits: 3
+    prereqs: ["MKTG 2220"]
+  MKTG 4820:
+    title: "Mercadeo Analítico"
+    credits: 3
+    prereqs: ["MAEC 2222", "MKTG 2220"]
+  MKTG 4910:
+    title: "Práctica Supervisada en Mercadeo"
+    credits: 3
+    prereqs: []
+  MKTG 4973:
+    title: "Seminario Integrador en Mercadeo"
+    credits: 3
+    prereqs: []
+  # ── OMSY ────────────────────────────────────────────────
+  OMSY 1000:
+    title: "Destrezas en el Manejo del Teclado"
+    credits: 3
+    prereqs: []
+  OMSY 1010:
+    title: "Escritura Abreviada en Español"
+    credits: 3
+    prereqs: ["GESP 1101"]
+  OMSY 1015:
+    title: "Escritura Abreviada en Inglés"
+    credits: 3
+    prereqs: ["GEEN 1102"]
+  OMSY 1101:
+    title: "Procesamiento de Información I"
+    credits: 4
+    prereqs: []
+  OMSY 1102:
+    title: "Procesamiento de Información II"
+    credits: 4
+    prereqs: ["OMSY 1101"]
+  OMSY 2000:
+    title: "Producción de Documentos Empresariales"
+    credits: 4
+    prereqs: ["OMSY 1102"]
+  OMSY 2040:
+    title: "Hoja de Cálculo Electrónica"
+    credits: 3
+    prereqs: ["GEIC 1010", "OMSY 1101"]
+  OMSY 2060:
+    title: "Administración de Documentos y Bases de Datos"
+    credits: 4
+    prereqs: ["OMSY 1101"]
+  OMSY 2233:
+    title: "Procesamiento de Información en Oficinas de Asuntos Legales"
+    credits: 4
+    prereqs: ["OMSY 1102"]
+  OMSY 2240:
+    title: "Procesamiento de Información en Oficinas de Servicios de Salud"
+    credits: 3
+    prereqs: ["OMSY 1101"]
+  OMSY 2250:
+    title: "El Recurso Humano en el Ambiente Organizacional"
+    credits: 3
+    prereqs: []
+  OMSY 2400:
+    title: "Terminología Médica"
+    credits: 3
+    prereqs: []
+  OMSY 2500:
+    title: "Aspectos Legales y Éticos en la Información Médica"
+    credits: 3
+    prereqs: []
+  OMSY 3000:
+    title: "Facturación de Servicios de Salud"
+    credits: 3
+    prereqs: ["OMSY 2240", "OMSY 2400"]
+  OMSY 3030:
+    title: "Comunicación Empresarial en Español"
+    credits: 3
+    prereqs: ["GEIC 1010", "GESP 1102", "OMSY 1101"]
+  OMSY 3040:
+    title: "Comunicación Empresarial en Inglés"
+    credits: 3
+    prereqs: ["GEEN 1101", "GEIC 1010", "OMSY 1101"]
+  OMSY 3050:
+    title: "Diseño de Arte en la Oficina"
+    credits: 3
+    prereqs: ["OMSY 2000"]
+  OMSY 3080:
+    title: "Administración de Oficina"
+    credits: 3
+    prereqs: ["OMSY 1102"]
+  OMSY 3430:
+    title: "Codificación Electrónica de Diagnósticos y Procedimientos"
+    credits: 3
+    prereqs: ["OMSY 3000"]
+  OMSY 3440:
+    title: "Administración del Récord Médico Electrónico"
+    credits: 3
+    prereqs: []
+  OMSY 3500:
+    title: "Comunicación Empresarial Interactiva en Inglés"
+    credits: 3
+    prereqs: ["GEEN 1103"]
+  OMSY 4010:
+    title: "Integración de Programas de Aplicaciones en la Administración de Oficinas"
+    credits: 3
+    prereqs: ["OMSY 2000"]
+  OMSY 4500:
+    title: "Telecomunicaciones en la Oficina"
+    credits: 3
+    prereqs: ["OMSY 2000"]
+  OMSY 4910:
+    title: "Práctica Profesional"
+    credits: 3
+    prereqs: ["OMSY 4970"]
+  OMSY 4920:
+    title: "Diseño y Administración de Adiestramientos"
+    credits: 3
+    prereqs: []
+  OMSY 4970:
+    title: "Seminario Integrador"
+    credits: 3
+    prereqs: ["OMSY 4910"]
+  # ── OPMS ────────────────────────────────────────────────
+  OPMS 3000:
+    title: "Gerencia de Operaciones de Manufactura y Servicio"
+    credits: 3
+    prereqs: ["BADM 1900", "MAEC 2140"]
+  OPMS 3340:
+    title: "Política y Estrategia Gerenciales"
+    credits: 3
+    prereqs: ["BADM 1900"]
+  OPMS 3500:
+    title: "Logística y Gerencia de la Cadena de Suministros"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  OPMS 3820:
+    title: "Ciencias Gerenciales"
+    credits: 3
+    prereqs: ["MAEC 2140"]
+  OPMS 4300:
+    title: "Gerencia de Operaciones de Servicio"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  OPMS 4500:
+    title: "Gerencia de Proyectos"
+    credits: 3
+    prereqs: ["OPMS 3000"]
+  # ── REAL ────────────────────────────────────────────────
+  REAL 2500:
+    title: "Economía en Bienes Raíces"
+    credits: 3
+    prereqs: ["MAEC 2212"]
+  REAL 2600:
+    title: "Principios Legales de Bienes Raíces"
+    credits: 3
+    prereqs: []
+  REAL 2700:
+    title: "Obligaciones y Contratos en Bienes Raíces"
+    credits: 3
+    prereqs: ["REAL 2600"]
+  REAL 3800:
+    title: "Financiamiento de Bienes Raíces"
+    credits: 3
+    prereqs: ["FINA 3500"]
+  REAL 3900:
+    title: "Principios de Administración de Propiedades Inmuebles"
+    credits: 3
+    prereqs: ["BADM 2250", "MAEC 2212"]
+  REAL 4000:
+    title: "Introducción A la Valorización de Bienes Raíces"
+    credits: 3
+    prereqs: ["FINA 3500", "MAEC 2221"]
+  REAL 4100:
+    title: "Ética en Negocios de Bienes Raíces"
+    credits: 2
+    prereqs: ["FINA 3500"]
+  REAL 4400:
+    title: "Mercados Financieros y el Sector Bancario en los Bienes Raíces"
+    credits: 3
+    prereqs: ["FINA 3500"]
+  REAL 4910:
+    title: "Internado"
+    credits: 3
+    prereqs: []
+  # ── SRIM ────────────────────────────────────────────────
+  SRIM 1020:
+    title: "Fundamentos del deporte y la Recreación"
+    credits: 3
+    prereqs: []
+  SRIM 2300:
+    title: "Introducción al Mercadeo deportivo"
+    credits: 3
+    prereqs: []
+  SRIM 3030:
+    title: "Desarrollo de Programaciones de Centros Deportivos y Recreativos"
+    credits: 3
+    prereqs: []
+  # ── STAT ────────────────────────────────────────────────
+  STAT 1201:
+    title: "Estadística I"
+    credits: 3
+    prereqs: ["GEMA 1000", "GEMA 1200"]
+  STAT 1202:
+    title: "Estadística II"
+    credits: 3
+    prereqs: ["STAT 1201"]

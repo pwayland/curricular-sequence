@@ -1,0 +1,65 @@
+id: psychology-ba
+label: "Psychology (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 54
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "PSYC 1051"
+      - "PSYC 1052"
+      - "PSYC 2001"
+      - "PSYC 2010"
+      - "PSYC 3001"
+      - "PSYC 3002"
+      - "PSYC 3100"
+      - "PSYC 3113"
+      - "PSYC 3300"
+      - "PSYC 4000"
+      - "PSYC 4103"
+      - "PSYC 4200"
+      - "PSYC 4213"
+      - "PSYC 4234"
+      - "PSYC 4600"
+      - "PSYC 4971"
+      - "ANTH 2030"
+      - "BIOL 1006"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 9
+    rule: pick
+    pick_count: 3
+    category_type: distributive
+    options:
+      - "PSYC 3144"
+      - "PSYC 3268"
+      - "PSYC 3313"
+      - "PSYC 3315"
+      - "PSYC 3970"
+      - "PSYC 4100"
+      - "PSYC 4113"
+      - "PSYC 4210"
+      - "PSYC 4300"
+      - "PSYC 4520"
+      - "PSYC 4910"
+      - "CJUS 4500"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

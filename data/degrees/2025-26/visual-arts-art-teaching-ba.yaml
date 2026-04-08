@@ -1,0 +1,72 @@
+id: visual-arts-art-teaching-ba
+label: "Visual Arts with Art Teaching (BA)"
+degree_type: bachelor
+total_credits: 133
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: fundamentals
+    label: "Fundamentals"
+    credits: 26
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ARED 3016"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2870"
+      - "EDUC 4050"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: processes-and-technology
+    label: "Processes and Technology"
+    credits: 14
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ARED 1080"
+      - "ARED 2000"
+      - "ARED 2060"
+      - "ARED 2080"
+      - "ARED 3860"
+      - "ARED 4902"
+
+  - id: clinical-experiences
+    label: "Clinical experiences"
+    credits: 6
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ARED 3080"
+      - "ARED 4913"
+
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 39
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "ARTS 1100"
+      - "ARTS 1102"
+      - "ARTS 1104"
+      - "ARTS 1106"
+      - "ARTS 1300"
+      - "ARTS 1541"
+      - "ARTS 2040"
+      - "ARTS 2250"
+      - "ARTS 2355"
+      - "ARTS 2403"
+      - "ARTS 3403"
+      - "ARTS 3405"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

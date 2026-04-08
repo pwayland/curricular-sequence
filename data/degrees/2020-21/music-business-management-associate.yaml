@@ -34,7 +34,7 @@ categories:
       - "ENTR 2200"
       - "MAEC 2211"
       - "MKTG 1210"
-      - "MUSIC 531"
+      - "MUSI 531"
 
   - id: major-music-elective
     label: "Music Elective"
@@ -43,8 +43,8 @@ categories:
     pick_count: 1
     category_type: major
     options:
-      - "MUSIC 1563"
-      - "MUSIC 1661"
+      - "MUSI 1563"
+      - "MUSI 1661"
 
 # TODO: term_pins — no recommended sequence available from catalog.
 # Obtain from academic advisor or departmental curricular sequence document.

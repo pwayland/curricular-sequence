@@ -1,0 +1,38 @@
+# audio-production-and-postproduction-aas.yaml — Audio Production and Postproduction, AAS (2020-21)
+
+id: audio-production-and-postproduction-aas
+label: "Audio Production and Postproduction (AAS)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 36
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMU 1051"
+      - "COMU 1070"
+      - "COMU 1075"
+      - "COMU 1080"
+      - "COMU 2226"
+      - "COMU 2228"
+      - "COMU 2230"
+      - "COMU 2345"
+      - "COMU 2350"
+      - "COMU 2380"
+      - "COMU 2980"
+      - "ENTR 2200"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

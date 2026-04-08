@@ -1,0 +1,37 @@
+# biotechnology-aas.yaml — Biotechnology, AAS (2020-21)
+
+id: biotechnology-aas
+label: "Biotechnology (AAS)"
+degree_type: associate
+total_credits: 62
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 38
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 2013"
+      - "BIOL 2153"
+      - "BIOL 3105"
+      - "BIOT 2160"
+      - "BIOT 2250"
+      - "BIOT 3250"
+      - "MATH 1500"
+      - "CHEM 1111"
+      - "CHEM 2212"
+
+# Credit check: 24 (gen-ed) + 38 (major) = 62
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

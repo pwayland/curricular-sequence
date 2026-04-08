@@ -45,553 +45,2760 @@ years:
     courses_file: courses/courses-2025-26.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         alias_of: 2020-21/accounting-aas
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         alias_of: 2020-21/accounting-bba
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         alias_of: 2020-21/business-administration-aas
       - id: computer-science-bs
-        label: Computer Science (BS)
+        label: "Computer Science (BS)"
         file: degrees/2025-26/computer-science-bs.yaml
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         file: degrees/2025-26/corporate-communication-ba.yaml
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         alias_of: 2022-23/entrepreneurial-and-managerial-development-bba
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         alias_of: 2020-21/entrepreneurial-development-certificate
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         alias_of: 2020-21/finance-bba
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         alias_of: 2020-21/general-business-administration-bba
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         alias_of: 2020-21/health-services-administration-bba
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         alias_of: 2020-21/hotel-and-restaurant-management-bba
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         alias_of: 2020-21/human-resources-management-bba
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         alias_of: 2020-21/information-technology-bba
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         alias_of: 2020-21/international-business-bba
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         alias_of: 2020-21/management-and-organizational-innovation-bba
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         alias_of: 2020-21/managerial-economics-bba
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         alias_of: 2020-21/marketing-bba
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         alias_of: 2020-21/marketing-for-digital-media-bba
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         alias_of: 2020-21/music-business-management-associate
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         alias_of: 2020-21/music-enterprises-management-bba
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         alias_of: 2020-21/office-systems-administration-aa
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         alias_of: 2020-21/office-systems-administration-ba
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         alias_of: 2020-21/operations-management-of-manufacturing-and-services-bba
       - id: organizational-behavior-bba
-        label: Organizational Behavior (BBA)
+        label: "Organizational Behavior (BBA)"
         alias_of: 2022-23/organizational-behavior-bba
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         alias_of: 2020-21/real-estate-bba
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         alias_of: 2020-21/restaurant-and-food-services-administration-aas
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         alias_of: 2020-21/sales-aas
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         alias_of: 2020-21/sports-and-fitness-management-ba
       - id: tourism-bba
-        label: Tourism (BBA)
+        label: "Tourism (BBA)"
         alias_of: 2020-21/tourism-bba
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         alias_of: 2020-21/tourism-as
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        alias_of: 2020-21/applications-development-bs
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        alias_of: 2020-21/biopsychology-bs
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        alias_of: 2020-21/biotechnology-bs
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        alias_of: 2020-21/communication-in-media-production-bs
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        alias_of: 2020-21/computer-technology-and-networks-bs
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        alias_of: 2020-21/criminal-justice-ba
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        alias_of: 2020-21/criminology-bss
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        alias_of: 2020-21/digital-graphic-design-and-multimedia-bs
+      - id: english-ba
+        label: "English (BA)"
+        alias_of: 2020-21/english-ba
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        alias_of: 2020-21/environmental-sciences-bs
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        alias_of: 2020-21/environmental-technology-bs
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        alias_of: 2020-21/forensic-biology-bs
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        alias_of: 2020-21/forensic-science-bs
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        alias_of: 2020-21/health-sciences-bs
+      - id: history-ba
+        label: "History (BA)"
+        alias_of: 2020-21/history-ba
+        campuses: [Metro]
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        alias_of: 2020-21/humanistic-studies-ba
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        alias_of: 2020-21/mathematics-ba
+        campuses: [Metro, San German]
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        alias_of: 2020-21/medical-emergencies-bs
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        alias_of: 2020-21/medical-technology-bs
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        alias_of: 2020-21/microbiology-bs
+      - id: modern-language-ba
+        label: "Modern Language (BA)"
+        alias_of: 2020-21/modern-language-ba
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        alias_of: 2020-21/networks-and-telecommunications-bs
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        alias_of: 2020-21/nursing-aas
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        alias_of: 2020-21/political-science-ba
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        alias_of: 2020-21/popular-music-ba
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        alias_of: 2020-21/psychology-ba
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        alias_of: 2020-21/security-management-bs
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        alias_of: 2020-21/spanish-ba
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        alias_of: 2020-21/speech-and-language-therapy-bs
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        alias_of: 2020-21/agricultural-technology-aas
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        alias_of: 2020-21/applied-chemistry-bs
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        alias_of: 2020-21/audio-production-and-postproduction-aas
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        alias_of: 2020-21/aviation-sciences-bs
+        campuses: [Bayamon]
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        alias_of: 2020-21/biotechnology-aas
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        alias_of: 2020-21/cardio-respiratory-care-aas
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        alias_of: 2020-21/commercial-pilot-aas
+      - id: communications-aa
+        label: "Communications (AA)"
+        alias_of: 2020-21/communications-aa
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        alias_of: 2020-21/communications-in-public-relations-and-advertising-ba
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        alias_of: 2020-21/computer-technology-and-networks-aas
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        alias_of: 2020-21/computerized-management-information-systems-aas
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        alias_of: 2020-21/criminal-investigation-aa
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        alias_of: 2020-21/criminal-justice-aa
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        alias_of: 2020-21/culinary-and-gastronomic-sciences-aa
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Science (BA)"
+        alias_of: 2020-21/culinary-arts-and-gastronomy-science-ba
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        alias_of: 2020-21/cultural-management-and-ecotourism-aa
+      - id: design-ba
+        label: "Design (BA)"
+        alias_of: 2020-21/design-ba
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        alias_of: 2020-21/design-and-development-of-video-games-bs
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        alias_of: 2020-21/electronic-engineering-technology-as
+      - id: forensic-informatics-aas
+        label: "Computer Forensics (AAS)"
+        alias_of: 2020-21/forensic-informatics-aas
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        alias_of: 2020-21/general-studies-aa
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        alias_of: 2020-21/graphic-design-ava
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        alias_of: 2020-21/graphic-design-bva
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        alias_of: 2020-21/industrial-chemistry-bs
+        campuses: [Bayamon]
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        alias_of: 2020-21/institutional-chaplaincy-aa
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        alias_of: 2020-21/mathematics-bs
+        campuses: [San German]
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        alias_of: 2020-21/medical-emergencies-as
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        alias_of: 2020-21/medical-sonography-in-cardiovascular-sonography-bs
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        alias_of: 2020-21/multidisciplinary-studies-aa
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        alias_of: 2020-21/multidisciplinary-studies-ba
+      - id: music-ba
+        label: "Music (BA)"
+        alias_of: 2020-21/music-ba
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        alias_of: 2020-21/applied-music-bm
+      - id: music-education-general-vocal-bm
+        label: "Music Education General Vocal (BM)"
+        alias_of: 2020-21/music-education-general-vocal-bm
+      - id: music-education-instrumental-bm
+        label: "Music Education Instrumental (BM)"
+        alias_of: 2020-21/music-education-instrumental-bm
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        alias_of: 2020-21/occupational-therapy-as
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        alias_of: 2020-21/optical-science-technology-aas
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        alias_of: 2020-21/pharmacy-technician-aas
+      - id: photography-a
+        label: "Photography (A)"
+        alias_of: 2020-21/photography-a
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        alias_of: 2020-21/physical-therapist-assistant-as
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        alias_of: 2020-21/police-science-aa
+      - id: popular-music-a
+        label: "Popular Music (A)"
+        alias_of: 2020-21/popular-music-a
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        alias_of: 2020-21/radiological-science-in-ct-and-mr-bs
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        alias_of: 2020-21/radiological-technology-aas
+      - id: radiological-technology-bs
+        label: "Radiological Technology (BS)"
+        alias_of: 2020-21/radiological-technology-bs
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        alias_of: 2020-21/recreation-for-elderly-persons-aa
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        alias_of: 2020-21/special-educational-services-assistant-aa
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        alias_of: 2020-21/studies-in-religion-aa
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        alias_of: 2020-21/studies-in-religion-ba
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        alias_of: 2020-21/videogames-and-mobile-applications-aas
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education Preschool (BA)"
+        alias_of: 2020-21/early-childhood-education-preschool-ba
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education with Special Education (BA)"
+        alias_of: 2020-21/elementary-education-special-education-ba
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        alias_of: 2020-21/secondary-education-biology-ba
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        alias_of: 2020-21/secondary-education-history-ba
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        alias_of: 2020-21/secondary-education-mathematics-ba
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        alias_of: 2020-21/secondary-education-social-studies-ba
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        alias_of: 2020-21/secondary-education-spanish-ba
+      - id: special-education-ba
+        label: "Special Education K-12 (BA)"
+        alias_of: 2020-21/special-education-ba
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        alias_of: 2020-21/special-education-autism-ba
+      - id: special-education-deaf-ba
+        label: "Special Education in Deaf (BA)"
+        alias_of: 2020-21/special-education-deaf-ba
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        alias_of: 2020-21/interdisciplinary-special-education-pk12-ba
+      - id: tesl-elementary-ba
+        label: "Teaching of English as a Second Language Elementary (BA)"
+        alias_of: 2020-21/tesl-elementary-ba
+      - id: tesl-secondary-ba
+        label: "Teaching of English as a Second Language Secondary (BA)"
+        alias_of: 2020-21/tesl-secondary-ba
+      - id: school-health-ba
+        label: "School Health (BA)"
+        alias_of: 2020-21/school-health-ba
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education K-12 (BA)"
+        alias_of: 2020-21/physical-education-adapted-ba
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        file: degrees/2025-26/nursing-bsn.yaml
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        file: degrees/2025-26/social-sciences-ba.yaml
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        file: degrees/2025-26/biomedical-sciences-bs.yaml
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        file: degrees/2025-26/social-work-ba.yaml
+      - id: biology-bs
+        label: "Biology (BS)"
+        file: degrees/2025-26/biology-bs.yaml
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        file: degrees/2025-26/marine-sciences-bs.yaml
+        campuses: [Bayamon]
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        file: degrees/2025-26/natural-sciences-bs.yaml
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        file: degrees/2025-26/toxicology-bs.yaml
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        file: degrees/2025-26/computer-science-aas.yaml
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        file: degrees/2025-26/agronomy-bas.yaml
+      - id: animal-science-pre-vet-bs
+        label: "Animal Science with Emphasis in Pre-Veterinary Science (BS)"
+        file: degrees/2025-26/animal-science-pre-vet-bs.yaml
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        file: degrees/2025-26/fine-arts-bfa.yaml
+      - id: early-childhood-education-k5-ba
+        label: "Early Childhood Education: Elementary Level K-5 (BA)"
+        file: degrees/2025-26/early-childhood-education-k5-ba.yaml
+      - id: agricultural-precision-aas
+        label: "Precision Agriculture (AAS)"
+        file: degrees/2025-26/agricultural-precision-aas.yaml
+      - id: cyber-security-bs
+        label: "Cyber Security (BS)"
+        file: degrees/2025-26/cyber-security-bs.yaml
+      - id: electrical-engineering-technology-as
+        label: "Electrical Engineering Technology (AS)"
+        file: degrees/2025-26/electrical-engineering-technology-as.yaml
+      - id: engineering-technology-renewable-energy-as
+        label: "Engineering Technology in Renewable Energy (AS)"
+        file: degrees/2025-26/engineering-technology-renewable-energy-as.yaml
+      - id: geomatics-civil-engineering-technology-as
+        label: "Geomatics and Civil Engineering Technology (AS)"
+        file: degrees/2025-26/geomatics-civil-engineering-technology-as.yaml
+      - id: healthcare-billing-aa
+        label: "Billing of Healthcare Services (AA)"
+        file: degrees/2025-26/healthcare-billing-aa.yaml
+      - id: integral-beauty-aa
+        label: "Integral Beauty (AA)"
+        file: degrees/2025-26/integral-beauty-aa.yaml
+      - id: molecular-medicine-bioprocesses-bs
+        label: "Molecular Medicine and Bioprocesses (BS)"
+        file: degrees/2025-26/molecular-medicine-bioprocesses-bs.yaml
+      - id: nursing-rn-to-bsn
+        label: "Nursing RN to BSN (BSN)"
+        file: degrees/2025-26/nursing-rn-to-bsn.yaml
+      - id: renewable-energy-pv-aa
+        label: "Renewable Energy Technology with Photovoltaic Systems (AA)"
+        file: degrees/2025-26/renewable-energy-pv-aa.yaml
+      - id: sports-technology-ba
+        label: "Sports Technology (BA)"
+        file: degrees/2025-26/sports-technology-ba.yaml
+      - id: diagnostic-ultrasound-aas
+        label: "Ultrasound Diagnostic (AAS)"
+        file: degrees/2025-26/diagnostic-ultrasound-aas.yaml
+      - id: veterinary-technician-aas
+        label: "Veterinary Technician (AAS)"
+        file: degrees/2025-26/veterinary-technician-aas.yaml
+        campuses: [Bayamon]
+      - id: veterinary-technology-bs
+        label: "Veterinary Technology (BS)"
+        file: degrees/2025-26/veterinary-technology-bs.yaml
+        campuses: [Bayamon]
+      - id: visual-arts-art-teaching-ba
+        label: "Visual Arts with Art Teaching (BA)"
+        file: degrees/2025-26/visual-arts-art-teaching-ba.yaml
+      - id: early-childhood-education-pk4-ba
+        label: "Early Childhood Education: Preschool to Fourth Grade PK-4 (BA)"
+        file: degrees/2025-26/early-childhood-education-pk4-ba.yaml
+      - id: physical-education-k12-ba
+        label: "Physical Education K-12 (BA)"
+        file: degrees/2025-26/physical-education-k12-ba.yaml
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        alias_of: 2020-21/architectural-engineering-bs
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        alias_of: 2020-21/computer-engineering-bs
+        campuses: [Bayamon]
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        alias_of: 2020-21/electrical-engineering-bs
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        alias_of: 2020-21/electronic-engineering-technology-bs
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        alias_of: 2020-21/industrial-engineering-bs
+        campuses: [Bayamon]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        alias_of: 2020-21/mechanical-engineering-bs
   - id: 2024-25
     label: 2024-2025
-    courses_file: courses/courses-2025-26.yaml
+    courses_file: courses/courses-2020-21.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         alias_of: 2020-21/accounting-aas
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         alias_of: 2020-21/accounting-bba
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         alias_of: 2020-21/business-administration-aas
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         alias_of: 2020-21/corporate-communication-ba
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         alias_of: 2022-23/entrepreneurial-and-managerial-development-bba
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         alias_of: 2020-21/entrepreneurial-development-certificate
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         alias_of: 2020-21/finance-bba
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         alias_of: 2020-21/general-business-administration-bba
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         alias_of: 2020-21/health-services-administration-bba
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         alias_of: 2020-21/hotel-and-restaurant-management-bba
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         alias_of: 2020-21/human-resources-management-bba
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         alias_of: 2020-21/information-technology-bba
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         alias_of: 2020-21/international-business-bba
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         alias_of: 2020-21/management-and-organizational-innovation-bba
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         alias_of: 2020-21/managerial-economics-bba
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         alias_of: 2020-21/marketing-bba
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         alias_of: 2020-21/marketing-for-digital-media-bba
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         alias_of: 2020-21/music-business-management-associate
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         alias_of: 2020-21/music-enterprises-management-bba
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         alias_of: 2020-21/office-systems-administration-aa
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         alias_of: 2020-21/office-systems-administration-ba
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         alias_of: 2020-21/operations-management-of-manufacturing-and-services-bba
       - id: organizational-behavior-bba
-        label: Organizational Behavior (BBA)
+        label: "Organizational Behavior (BBA)"
         alias_of: 2022-23/organizational-behavior-bba
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         alias_of: 2020-21/real-estate-bba
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         alias_of: 2020-21/restaurant-and-food-services-administration-aas
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         alias_of: 2020-21/sales-aas
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         alias_of: 2020-21/sports-and-fitness-management-ba
       - id: tourism-bba
-        label: Tourism (BBA)
+        label: "Tourism (BBA)"
         alias_of: 2020-21/tourism-bba
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         alias_of: 2020-21/tourism-as
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        alias_of: 2020-21/agricultural-technology-aas
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        alias_of: 2020-21/agronomy-bas
+      - id: animal-science-with-pre-veterinary-bs
+        label: "Animal Science with Pre-Veterinary (BS)"
+        alias_of: 2025-26/animal-science-pre-vet-bs
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        alias_of: 2020-21/applications-development-bs
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        alias_of: 2020-21/applied-chemistry-bs
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        alias_of: 2020-21/applied-music-bm
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        alias_of: 2020-21/architectural-engineering-bs
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        alias_of: 2020-21/audio-production-and-postproduction-aas
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        alias_of: 2020-21/aviation-sciences-bs
+        campuses: [Bayamon]
+      - id: biology-bs
+        label: "Biology (BS)"
+        alias_of: 2020-21/biology-bs
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        alias_of: 2025-26/biomedical-sciences-bs
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        alias_of: 2020-21/biopsychology-bs
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        alias_of: 2020-21/biotechnology-aas
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        alias_of: 2020-21/biotechnology-bs
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        alias_of: 2020-21/cardio-respiratory-care-aas
+      - id: chemistry-bs
+        label: "Chemistry (BS)"
+        alias_of: 2020-21/chemistry-bs
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        alias_of: 2020-21/commercial-pilot-aas
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        alias_of: 2020-21/communication-in-media-production-bs
+      - id: communications-aa
+        label: "Communications (AA)"
+        alias_of: 2020-21/communications-aa
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        alias_of: 2020-21/communications-in-public-relations-and-advertising-ba
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        alias_of: 2020-21/computer-engineering-bs
+        campuses: [Bayamon]
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        alias_of: 2020-21/computer-science-aas
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        alias_of: 2020-21/computer-science-bs
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        alias_of: 2020-21/computer-technology-and-networks-aas
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        alias_of: 2020-21/computer-technology-and-networks-bs
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        alias_of: 2020-21/computerized-management-information-systems-aas
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        alias_of: 2020-21/criminal-investigation-aa
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        alias_of: 2020-21/criminal-justice-aa
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        alias_of: 2020-21/criminal-justice-ba
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        alias_of: 2020-21/criminology-bss
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        alias_of: 2020-21/culinary-and-gastronomic-sciences-aa
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Sciences (BA)"
+        alias_of: 2020-21/culinary-arts-and-gastronomy-science-ba
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        alias_of: 2020-21/cultural-management-and-ecotourism-aa
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        alias_of: 2020-21/design-and-development-of-video-games-bs
+      - id: design-ba
+        label: "Design (BA)"
+        alias_of: 2020-21/design-ba
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        alias_of: 2020-21/digital-graphic-design-and-multimedia-bs
+      - id: early-childhood-education-4-6-ba
+        label: "Early Childhood Education: 4-6 (BA)"
+        alias_of: 2020-21/early-childhood-education-4-6-ba
+      - id: early-childhood-education-k3-ba
+        label: "Early Childhood Education: K-3 (BA)"
+        alias_of: 2020-21/early-childhood-education-k3-ba
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education: Preschool Level (BA)"
+        alias_of: 2020-21/early-childhood-education-preschool-ba
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        alias_of: 2020-21/electrical-engineering-bs
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        alias_of: 2020-21/electronic-engineering-technology-as
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        alias_of: 2020-21/electronic-engineering-technology-bs
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education w/ Special Education (BA)"
+        alias_of: 2020-21/elementary-education-special-education-ba
+      - id: english-ba
+        label: "English (BA)"
+        alias_of: 2020-21/english-ba
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        alias_of: 2020-21/environmental-sciences-bs
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        alias_of: 2020-21/environmental-technology-bs
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        alias_of: 2020-21/fine-arts-bfa
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        alias_of: 2020-21/forensic-biology-bs
+      - id: forensic-informatics-aas
+        label: "Forensic Informatics (AAS)"
+        alias_of: 2020-21/forensic-informatics-aas
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        alias_of: 2020-21/forensic-science-bs
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        alias_of: 2020-21/general-studies-aa
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        alias_of: 2020-21/graphic-design-ava
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        alias_of: 2020-21/graphic-design-bva
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        alias_of: 2020-21/health-sciences-bs
+      - id: history-ba
+        label: "History (BA)"
+        alias_of: 2020-21/history-ba
+        campuses: [Metro]
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        alias_of: 2020-21/humanistic-studies-ba
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        alias_of: 2020-21/industrial-chemistry-bs
+        campuses: [Bayamon]
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        alias_of: 2020-21/industrial-engineering-bs
+        campuses: [Bayamon]
+      - id: informatic-forensic-bs
+        label: "Informatic Forensic (BS)"
+        alias_of: 2020-21/informatic-forensic-bs
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        alias_of: 2020-21/institutional-chaplaincy-aa
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        alias_of: 2020-21/interdisciplinary-special-education-pk12-ba
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        alias_of: 2020-21/marine-sciences-bs
+        campuses: [Bayamon]
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        alias_of: 2020-21/mathematics-ba
+        campuses: [Metro, San German]
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        alias_of: 2020-21/mathematics-bs
+        campuses: [San German]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        alias_of: 2020-21/mechanical-engineering-bs
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        alias_of: 2020-21/medical-emergencies-as
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        alias_of: 2020-21/medical-emergencies-bs
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        alias_of: 2020-21/medical-sonography-in-cardiovascular-sonography-bs
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        alias_of: 2020-21/medical-technology-bs
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        alias_of: 2020-21/microbiology-bs
+      - id: modern-language-ba
+        label: "Modern Languages (BA)"
+        alias_of: 2020-21/modern-language-ba
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        alias_of: 2020-21/multidisciplinary-studies-aa
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        alias_of: 2020-21/multidisciplinary-studies-ba
+      - id: music-ba
+        label: "Music (BA)"
+        alias_of: 2020-21/music-ba
+      - id: music-education-general-vocal-bm
+        label: "Music Education: General Vocal (BM)"
+        alias_of: 2020-21/music-education-general-vocal-bm
+      - id: music-education-instrumental-bm
+        label: "Music Education: Instrumental (BM)"
+        alias_of: 2020-21/music-education-instrumental-bm
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        alias_of: 2020-21/natural-sciences-bs
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        alias_of: 2020-21/networks-and-telecommunications-bs
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        alias_of: 2020-21/nursing-aas
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        alias_of: 2020-21/nursing-bsn
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        alias_of: 2020-21/occupational-therapy-as
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        alias_of: 2020-21/optical-science-technology-aas
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        alias_of: 2020-21/pharmacy-technician-aas
+      - id: photography-a
+        label: "Photography (Associate)"
+        alias_of: 2020-21/photography-a
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education (BA)"
+        alias_of: 2020-21/physical-education-adapted-ba
+      - id: physical-education-elementary-k6-ba
+        label: "Physical Education K-6 (BA)"
+        alias_of: 2020-21/physical-education-elementary-k6-ba
+      - id: physical-education-secondary-7-12-ba
+        label: "Physical Education 7-12 (BA)"
+        alias_of: 2020-21/physical-education-secondary-7-12-ba
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        alias_of: 2020-21/physical-therapist-assistant-as
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        alias_of: 2020-21/police-science-aa
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        alias_of: 2020-21/political-science-ba
+      - id: popular-music-a
+        label: "Popular Music (Associate)"
+        alias_of: 2020-21/popular-music-a
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        alias_of: 2020-21/popular-music-ba
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        alias_of: 2020-21/psychology-ba
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        alias_of: 2020-21/radiological-science-in-ct-and-mr-bs
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        alias_of: 2020-21/radiological-technology-aas
+      - id: radiological-technology-bs
+        label: "Radiological Technology in Mammography and Angiography (BS)"
+        alias_of: 2020-21/radiological-technology-bs
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        alias_of: 2020-21/recreation-for-elderly-persons-aa
+      - id: school-health-ba
+        label: "School Health (BA)"
+        alias_of: 2020-21/school-health-ba
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        alias_of: 2020-21/secondary-education-biology-ba
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        alias_of: 2020-21/secondary-education-history-ba
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        alias_of: 2020-21/secondary-education-mathematics-ba
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        alias_of: 2020-21/secondary-education-social-studies-ba
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        alias_of: 2020-21/secondary-education-spanish-ba
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        alias_of: 2020-21/security-management-bs
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        alias_of: 2025-26/social-sciences-ba
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        alias_of: 2020-21/social-work-ba
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        alias_of: 2020-21/spanish-ba
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        alias_of: 2020-21/special-education-autism-ba
+      - id: special-education-ba
+        label: "Special Education (BA)"
+        alias_of: 2020-21/special-education-ba
+      - id: special-education-deaf-ba
+        label: "Special Education: Deaf (BA)"
+        alias_of: 2020-21/special-education-deaf-ba
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        alias_of: 2020-21/special-educational-services-assistant-aa
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        alias_of: 2020-21/speech-and-language-therapy-bs
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        alias_of: 2020-21/studies-in-religion-aa
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        alias_of: 2020-21/studies-in-religion-ba
+      - id: tesl-elementary-ba
+        label: "TESL Elementary Level (BA)"
+        alias_of: 2020-21/tesl-elementary-ba
+      - id: tesl-secondary-ba
+        label: "TESL Secondary Level (BA)"
+        alias_of: 2020-21/tesl-secondary-ba
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        alias_of: 2020-21/toxicology-bs
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        alias_of: 2020-21/videogames-and-mobile-applications-aas
   - id: 2023-24
     label: 2023-2024
-    courses_file: courses/courses-2025-26.yaml
+    courses_file: courses/courses-2020-21.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         alias_of: 2020-21/accounting-aas
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         alias_of: 2020-21/accounting-bba
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         alias_of: 2020-21/business-administration-aas
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         alias_of: 2020-21/corporate-communication-ba
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         alias_of: 2022-23/entrepreneurial-and-managerial-development-bba
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         alias_of: 2020-21/entrepreneurial-development-certificate
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         alias_of: 2020-21/finance-bba
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         alias_of: 2020-21/general-business-administration-bba
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         alias_of: 2020-21/health-services-administration-bba
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         alias_of: 2020-21/hotel-and-restaurant-management-bba
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         alias_of: 2020-21/human-resources-management-bba
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         alias_of: 2020-21/information-technology-bba
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         alias_of: 2020-21/international-business-bba
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         alias_of: 2020-21/management-and-organizational-innovation-bba
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         alias_of: 2020-21/managerial-economics-bba
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         alias_of: 2020-21/marketing-bba
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         alias_of: 2020-21/marketing-for-digital-media-bba
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         alias_of: 2020-21/music-business-management-associate
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         alias_of: 2020-21/music-enterprises-management-bba
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         alias_of: 2020-21/office-systems-administration-aa
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         alias_of: 2020-21/office-systems-administration-ba
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         alias_of: 2020-21/operations-management-of-manufacturing-and-services-bba
       - id: organizational-behavior-bba
-        label: Organizational Behavior (BBA)
+        label: "Organizational Behavior (BBA)"
         alias_of: 2022-23/organizational-behavior-bba
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         alias_of: 2020-21/real-estate-bba
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         alias_of: 2020-21/restaurant-and-food-services-administration-aas
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         alias_of: 2020-21/sales-aas
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         alias_of: 2020-21/sports-and-fitness-management-ba
       - id: tourism-bba
-        label: Tourism (BBA)
+        label: "Tourism (BBA)"
         alias_of: 2020-21/tourism-bba
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         alias_of: 2020-21/tourism-as
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        alias_of: 2020-21/agricultural-technology-aas
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        alias_of: 2020-21/agronomy-bas
+      - id: animal-science-with-pre-veterinary-bs
+        label: "Animal Science with Pre-Veterinary (BS)"
+        alias_of: 2025-26/animal-science-pre-vet-bs
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        alias_of: 2020-21/applications-development-bs
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        alias_of: 2020-21/applied-chemistry-bs
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        alias_of: 2020-21/applied-music-bm
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        alias_of: 2020-21/architectural-engineering-bs
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        alias_of: 2020-21/audio-production-and-postproduction-aas
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        alias_of: 2020-21/aviation-sciences-bs
+        campuses: [Bayamon]
+      - id: biology-bs
+        label: "Biology (BS)"
+        alias_of: 2020-21/biology-bs
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        alias_of: 2025-26/biomedical-sciences-bs
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        alias_of: 2020-21/biopsychology-bs
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        alias_of: 2020-21/biotechnology-aas
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        alias_of: 2020-21/biotechnology-bs
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        alias_of: 2020-21/cardio-respiratory-care-aas
+      - id: chemistry-bs
+        label: "Chemistry (BS)"
+        alias_of: 2020-21/chemistry-bs
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        alias_of: 2020-21/commercial-pilot-aas
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        alias_of: 2020-21/communication-in-media-production-bs
+      - id: communications-aa
+        label: "Communications (AA)"
+        alias_of: 2020-21/communications-aa
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        alias_of: 2020-21/communications-in-public-relations-and-advertising-ba
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        alias_of: 2020-21/computer-engineering-bs
+        campuses: [Bayamon]
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        alias_of: 2020-21/computer-science-aas
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        alias_of: 2020-21/computer-science-bs
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        alias_of: 2020-21/computer-technology-and-networks-aas
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        alias_of: 2020-21/computer-technology-and-networks-bs
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        alias_of: 2020-21/computerized-management-information-systems-aas
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        alias_of: 2020-21/criminal-investigation-aa
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        alias_of: 2020-21/criminal-justice-aa
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        alias_of: 2020-21/criminal-justice-ba
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        alias_of: 2020-21/criminology-bss
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        alias_of: 2020-21/culinary-and-gastronomic-sciences-aa
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Sciences (BA)"
+        alias_of: 2020-21/culinary-arts-and-gastronomy-science-ba
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        alias_of: 2020-21/cultural-management-and-ecotourism-aa
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        alias_of: 2020-21/design-and-development-of-video-games-bs
+      - id: design-ba
+        label: "Design (BA)"
+        alias_of: 2020-21/design-ba
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        alias_of: 2020-21/digital-graphic-design-and-multimedia-bs
+      - id: early-childhood-education-4-6-ba
+        label: "Early Childhood Education: 4-6 (BA)"
+        alias_of: 2020-21/early-childhood-education-4-6-ba
+      - id: early-childhood-education-k3-ba
+        label: "Early Childhood Education: K-3 (BA)"
+        alias_of: 2020-21/early-childhood-education-k3-ba
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education: Preschool Level (BA)"
+        alias_of: 2020-21/early-childhood-education-preschool-ba
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        alias_of: 2020-21/electrical-engineering-bs
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        alias_of: 2020-21/electronic-engineering-technology-as
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        alias_of: 2020-21/electronic-engineering-technology-bs
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education w/ Special Education (BA)"
+        alias_of: 2020-21/elementary-education-special-education-ba
+      - id: english-ba
+        label: "English (BA)"
+        alias_of: 2020-21/english-ba
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        alias_of: 2020-21/environmental-sciences-bs
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        alias_of: 2020-21/environmental-technology-bs
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        alias_of: 2020-21/fine-arts-bfa
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        alias_of: 2020-21/forensic-biology-bs
+      - id: forensic-informatics-aas
+        label: "Forensic Informatics (AAS)"
+        alias_of: 2020-21/forensic-informatics-aas
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        alias_of: 2020-21/forensic-science-bs
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        alias_of: 2020-21/general-studies-aa
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        alias_of: 2020-21/graphic-design-ava
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        alias_of: 2020-21/graphic-design-bva
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        alias_of: 2020-21/health-sciences-bs
+      - id: history-ba
+        label: "History (BA)"
+        alias_of: 2020-21/history-ba
+        campuses: [Metro]
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        alias_of: 2020-21/humanistic-studies-ba
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        alias_of: 2020-21/industrial-chemistry-bs
+        campuses: [Bayamon]
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        alias_of: 2020-21/industrial-engineering-bs
+        campuses: [Bayamon]
+      - id: informatic-forensic-bs
+        label: "Informatic Forensic (BS)"
+        alias_of: 2020-21/informatic-forensic-bs
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        alias_of: 2020-21/institutional-chaplaincy-aa
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        alias_of: 2020-21/interdisciplinary-special-education-pk12-ba
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        alias_of: 2020-21/marine-sciences-bs
+        campuses: [Bayamon]
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        alias_of: 2020-21/mathematics-ba
+        campuses: [Metro, San German]
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        alias_of: 2020-21/mathematics-bs
+        campuses: [San German]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        alias_of: 2020-21/mechanical-engineering-bs
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        alias_of: 2020-21/medical-emergencies-as
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        alias_of: 2020-21/medical-emergencies-bs
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        alias_of: 2020-21/medical-sonography-in-cardiovascular-sonography-bs
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        alias_of: 2020-21/medical-technology-bs
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        alias_of: 2020-21/microbiology-bs
+      - id: modern-language-ba
+        label: "Modern Languages (BA)"
+        alias_of: 2020-21/modern-language-ba
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        alias_of: 2020-21/multidisciplinary-studies-aa
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        alias_of: 2020-21/multidisciplinary-studies-ba
+      - id: music-ba
+        label: "Music (BA)"
+        alias_of: 2020-21/music-ba
+      - id: music-education-general-vocal-bm
+        label: "Music Education: General Vocal (BM)"
+        alias_of: 2020-21/music-education-general-vocal-bm
+      - id: music-education-instrumental-bm
+        label: "Music Education: Instrumental (BM)"
+        alias_of: 2020-21/music-education-instrumental-bm
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        alias_of: 2020-21/natural-sciences-bs
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        alias_of: 2020-21/networks-and-telecommunications-bs
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        alias_of: 2020-21/nursing-aas
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        alias_of: 2020-21/nursing-bsn
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        alias_of: 2020-21/occupational-therapy-as
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        alias_of: 2020-21/optical-science-technology-aas
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        alias_of: 2020-21/pharmacy-technician-aas
+      - id: photography-a
+        label: "Photography (Associate)"
+        alias_of: 2020-21/photography-a
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education (BA)"
+        alias_of: 2020-21/physical-education-adapted-ba
+      - id: physical-education-elementary-k6-ba
+        label: "Physical Education K-6 (BA)"
+        alias_of: 2020-21/physical-education-elementary-k6-ba
+      - id: physical-education-secondary-7-12-ba
+        label: "Physical Education 7-12 (BA)"
+        alias_of: 2020-21/physical-education-secondary-7-12-ba
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        alias_of: 2020-21/physical-therapist-assistant-as
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        alias_of: 2020-21/police-science-aa
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        alias_of: 2020-21/political-science-ba
+      - id: popular-music-a
+        label: "Popular Music (Associate)"
+        alias_of: 2020-21/popular-music-a
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        alias_of: 2020-21/popular-music-ba
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        alias_of: 2020-21/psychology-ba
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        alias_of: 2020-21/radiological-science-in-ct-and-mr-bs
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        alias_of: 2020-21/radiological-technology-aas
+      - id: radiological-technology-bs
+        label: "Radiological Technology in Mammography and Angiography (BS)"
+        alias_of: 2020-21/radiological-technology-bs
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        alias_of: 2020-21/recreation-for-elderly-persons-aa
+      - id: school-health-ba
+        label: "School Health (BA)"
+        alias_of: 2020-21/school-health-ba
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        alias_of: 2020-21/secondary-education-biology-ba
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        alias_of: 2020-21/secondary-education-history-ba
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        alias_of: 2020-21/secondary-education-mathematics-ba
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        alias_of: 2020-21/secondary-education-social-studies-ba
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        alias_of: 2020-21/secondary-education-spanish-ba
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        alias_of: 2020-21/security-management-bs
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        alias_of: 2025-26/social-sciences-ba
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        alias_of: 2020-21/social-work-ba
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        alias_of: 2020-21/spanish-ba
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        alias_of: 2020-21/special-education-autism-ba
+      - id: special-education-ba
+        label: "Special Education (BA)"
+        alias_of: 2020-21/special-education-ba
+      - id: special-education-deaf-ba
+        label: "Special Education: Deaf (BA)"
+        alias_of: 2020-21/special-education-deaf-ba
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        alias_of: 2020-21/special-educational-services-assistant-aa
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        alias_of: 2020-21/speech-and-language-therapy-bs
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        alias_of: 2020-21/studies-in-religion-aa
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        alias_of: 2020-21/studies-in-religion-ba
+      - id: tesl-elementary-ba
+        label: "TESL Elementary Level (BA)"
+        alias_of: 2020-21/tesl-elementary-ba
+      - id: tesl-secondary-ba
+        label: "TESL Secondary Level (BA)"
+        alias_of: 2020-21/tesl-secondary-ba
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        alias_of: 2020-21/toxicology-bs
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        alias_of: 2020-21/videogames-and-mobile-applications-aas
   - id: 2022-23
     label: 2022-2023
-    courses_file: courses/courses-2025-26.yaml
+    courses_file: courses/courses-2020-21.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         alias_of: 2020-21/accounting-aas
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         alias_of: 2020-21/accounting-bba
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         alias_of: 2020-21/business-administration-aas
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         alias_of: 2020-21/corporate-communication-ba
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         file: degrees/2022-23/entrepreneurial-and-managerial-development-bba.yaml
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         alias_of: 2020-21/entrepreneurial-development-certificate
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         alias_of: 2020-21/finance-bba
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         alias_of: 2020-21/general-business-administration-bba
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         alias_of: 2020-21/health-services-administration-bba
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         alias_of: 2020-21/hotel-and-restaurant-management-bba
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         alias_of: 2020-21/human-resources-management-bba
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         alias_of: 2020-21/information-technology-bba
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         alias_of: 2020-21/international-business-bba
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         alias_of: 2020-21/management-and-organizational-innovation-bba
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         alias_of: 2020-21/managerial-economics-bba
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         alias_of: 2020-21/marketing-bba
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         alias_of: 2020-21/marketing-for-digital-media-bba
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         alias_of: 2020-21/music-business-management-associate
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         alias_of: 2020-21/music-enterprises-management-bba
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         alias_of: 2020-21/office-systems-administration-aa
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         alias_of: 2020-21/office-systems-administration-ba
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         alias_of: 2020-21/operations-management-of-manufacturing-and-services-bba
       - id: organizational-behavior-bba
-        label: Organizational Behavior (BBA)
+        label: "Organizational Behavior (BBA)"
         file: degrees/2022-23/organizational-behavior-bba.yaml
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         alias_of: 2020-21/real-estate-bba
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         alias_of: 2020-21/restaurant-and-food-services-administration-aas
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         alias_of: 2020-21/sales-aas
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         alias_of: 2020-21/sports-and-fitness-management-ba
       - id: tourism-bba
-        label: Tourism (BBA)
+        label: "Tourism (BBA)"
         alias_of: 2020-21/tourism-bba
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         alias_of: 2020-21/tourism-as
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        alias_of: 2020-21/agricultural-technology-aas
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        alias_of: 2020-21/agronomy-bas
+      - id: animal-science-with-pre-veterinary-bs
+        label: "Animal Science with Pre-Veterinary (BS)"
+        alias_of: 2025-26/animal-science-pre-vet-bs
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        alias_of: 2020-21/applications-development-bs
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        alias_of: 2020-21/applied-chemistry-bs
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        alias_of: 2020-21/applied-music-bm
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        alias_of: 2020-21/architectural-engineering-bs
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        alias_of: 2020-21/audio-production-and-postproduction-aas
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        alias_of: 2020-21/aviation-sciences-bs
+        campuses: [Bayamon]
+      - id: biology-bs
+        label: "Biology (BS)"
+        alias_of: 2020-21/biology-bs
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        alias_of: 2025-26/biomedical-sciences-bs
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        alias_of: 2020-21/biopsychology-bs
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        alias_of: 2020-21/biotechnology-aas
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        alias_of: 2020-21/biotechnology-bs
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        alias_of: 2020-21/cardio-respiratory-care-aas
+      - id: chemistry-bs
+        label: "Chemistry (BS)"
+        alias_of: 2020-21/chemistry-bs
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        alias_of: 2020-21/commercial-pilot-aas
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        alias_of: 2020-21/communication-in-media-production-bs
+      - id: communications-aa
+        label: "Communications (AA)"
+        alias_of: 2020-21/communications-aa
+      - id: communications-in-public-relations-and-advertising-ba
+        label: "Communications in Public Relations and Advertising (BA)"
+        alias_of: 2020-21/communications-in-public-relations-and-advertising-ba
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        alias_of: 2020-21/computer-engineering-bs
+        campuses: [Bayamon]
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        alias_of: 2020-21/computer-science-aas
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        alias_of: 2020-21/computer-science-bs
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        alias_of: 2020-21/computer-technology-and-networks-aas
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        alias_of: 2020-21/computer-technology-and-networks-bs
+      - id: computerized-management-information-systems-aas
+        label: "Computerized Management Information Systems (AAS)"
+        alias_of: 2020-21/computerized-management-information-systems-aas
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        alias_of: 2020-21/criminal-investigation-aa
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        alias_of: 2020-21/criminal-justice-aa
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        alias_of: 2020-21/criminal-justice-ba
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        alias_of: 2020-21/criminology-bss
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        alias_of: 2020-21/culinary-and-gastronomic-sciences-aa
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Sciences (BA)"
+        alias_of: 2020-21/culinary-arts-and-gastronomy-science-ba
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        alias_of: 2020-21/cultural-management-and-ecotourism-aa
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        alias_of: 2020-21/design-and-development-of-video-games-bs
+      - id: design-ba
+        label: "Design (BA)"
+        alias_of: 2020-21/design-ba
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        alias_of: 2020-21/digital-graphic-design-and-multimedia-bs
+      - id: early-childhood-education-4-6-ba
+        label: "Early Childhood Education: 4-6 (BA)"
+        alias_of: 2020-21/early-childhood-education-4-6-ba
+      - id: early-childhood-education-k3-ba
+        label: "Early Childhood Education: K-3 (BA)"
+        alias_of: 2020-21/early-childhood-education-k3-ba
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education: Preschool Level (BA)"
+        alias_of: 2020-21/early-childhood-education-preschool-ba
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        alias_of: 2020-21/electrical-engineering-bs
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        alias_of: 2020-21/electronic-engineering-technology-as
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        alias_of: 2020-21/electronic-engineering-technology-bs
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education w/ Special Education (BA)"
+        alias_of: 2020-21/elementary-education-special-education-ba
+      - id: english-ba
+        label: "English (BA)"
+        alias_of: 2020-21/english-ba
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        alias_of: 2020-21/environmental-sciences-bs
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        alias_of: 2020-21/environmental-technology-bs
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        alias_of: 2020-21/fine-arts-bfa
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        alias_of: 2020-21/forensic-biology-bs
+      - id: forensic-informatics-aas
+        label: "Forensic Informatics (AAS)"
+        alias_of: 2020-21/forensic-informatics-aas
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        alias_of: 2020-21/forensic-science-bs
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        alias_of: 2020-21/general-studies-aa
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        alias_of: 2020-21/graphic-design-ava
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        alias_of: 2020-21/graphic-design-bva
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        alias_of: 2020-21/health-sciences-bs
+      - id: history-ba
+        label: "History (BA)"
+        alias_of: 2020-21/history-ba
+        campuses: [Metro]
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        alias_of: 2020-21/humanistic-studies-ba
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        alias_of: 2020-21/industrial-chemistry-bs
+        campuses: [Bayamon]
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        alias_of: 2020-21/industrial-engineering-bs
+        campuses: [Bayamon]
+      - id: informatic-forensic-bs
+        label: "Informatic Forensic (BS)"
+        alias_of: 2020-21/informatic-forensic-bs
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        alias_of: 2020-21/institutional-chaplaincy-aa
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        alias_of: 2020-21/interdisciplinary-special-education-pk12-ba
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        alias_of: 2020-21/marine-sciences-bs
+        campuses: [Bayamon]
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        alias_of: 2020-21/mathematics-ba
+        campuses: [Metro, San German]
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        alias_of: 2020-21/mathematics-bs
+        campuses: [San German]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        alias_of: 2020-21/mechanical-engineering-bs
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        alias_of: 2020-21/medical-emergencies-as
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        alias_of: 2020-21/medical-emergencies-bs
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        alias_of: 2020-21/medical-sonography-in-cardiovascular-sonography-bs
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        alias_of: 2020-21/medical-technology-bs
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        alias_of: 2020-21/microbiology-bs
+      - id: modern-language-ba
+        label: "Modern Languages (BA)"
+        alias_of: 2020-21/modern-language-ba
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        alias_of: 2020-21/multidisciplinary-studies-aa
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        alias_of: 2020-21/multidisciplinary-studies-ba
+      - id: music-ba
+        label: "Music (BA)"
+        alias_of: 2020-21/music-ba
+      - id: music-education-general-vocal-bm
+        label: "Music Education: General Vocal (BM)"
+        alias_of: 2020-21/music-education-general-vocal-bm
+      - id: music-education-instrumental-bm
+        label: "Music Education: Instrumental (BM)"
+        alias_of: 2020-21/music-education-instrumental-bm
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        alias_of: 2020-21/natural-sciences-bs
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        alias_of: 2020-21/networks-and-telecommunications-bs
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        alias_of: 2020-21/nursing-aas
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        alias_of: 2020-21/nursing-bsn
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        alias_of: 2020-21/occupational-therapy-as
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        alias_of: 2020-21/optical-science-technology-aas
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        alias_of: 2020-21/pharmacy-technician-aas
+      - id: photography-a
+        label: "Photography (Associate)"
+        alias_of: 2020-21/photography-a
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education (BA)"
+        alias_of: 2020-21/physical-education-adapted-ba
+      - id: physical-education-elementary-k6-ba
+        label: "Physical Education K-6 (BA)"
+        alias_of: 2020-21/physical-education-elementary-k6-ba
+      - id: physical-education-secondary-7-12-ba
+        label: "Physical Education 7-12 (BA)"
+        alias_of: 2020-21/physical-education-secondary-7-12-ba
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        alias_of: 2020-21/physical-therapist-assistant-as
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        alias_of: 2020-21/police-science-aa
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        alias_of: 2020-21/political-science-ba
+      - id: popular-music-a
+        label: "Popular Music (Associate)"
+        alias_of: 2020-21/popular-music-a
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        alias_of: 2020-21/popular-music-ba
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        alias_of: 2020-21/psychology-ba
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        alias_of: 2020-21/radiological-science-in-ct-and-mr-bs
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        alias_of: 2020-21/radiological-technology-aas
+      - id: radiological-technology-bs
+        label: "Radiological Technology in Mammography and Angiography (BS)"
+        alias_of: 2020-21/radiological-technology-bs
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        alias_of: 2020-21/recreation-for-elderly-persons-aa
+      - id: school-health-ba
+        label: "School Health (BA)"
+        alias_of: 2020-21/school-health-ba
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        alias_of: 2020-21/secondary-education-biology-ba
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        alias_of: 2020-21/secondary-education-history-ba
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        alias_of: 2020-21/secondary-education-mathematics-ba
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        alias_of: 2020-21/secondary-education-social-studies-ba
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        alias_of: 2020-21/secondary-education-spanish-ba
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        alias_of: 2020-21/security-management-bs
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        alias_of: 2025-26/social-sciences-ba
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        alias_of: 2020-21/social-work-ba
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        alias_of: 2020-21/spanish-ba
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        alias_of: 2020-21/special-education-autism-ba
+      - id: special-education-ba
+        label: "Special Education (BA)"
+        alias_of: 2020-21/special-education-ba
+      - id: special-education-deaf-ba
+        label: "Special Education: Deaf (BA)"
+        alias_of: 2020-21/special-education-deaf-ba
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        alias_of: 2020-21/special-educational-services-assistant-aa
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        alias_of: 2020-21/speech-and-language-therapy-bs
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        alias_of: 2020-21/studies-in-religion-aa
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        alias_of: 2020-21/studies-in-religion-ba
+      - id: tesl-elementary-ba
+        label: "TESL Elementary Level (BA)"
+        alias_of: 2020-21/tesl-elementary-ba
+      - id: tesl-secondary-ba
+        label: "TESL Secondary Level (BA)"
+        alias_of: 2020-21/tesl-secondary-ba
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        alias_of: 2020-21/toxicology-bs
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        alias_of: 2020-21/videogames-and-mobile-applications-aas
   - id: 2021-22
     label: 2021-2022
-    courses_file: courses/courses-2025-26.yaml
+    courses_file: courses/courses-2020-21.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         alias_of: 2020-21/accounting-aas
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         alias_of: 2020-21/accounting-bba
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        alias_of: 2020-21/agricultural-technology-aas
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        alias_of: 2020-21/agronomy-bas
+      - id: animal-science-with-pre-veterinary-bs
+        label: "Animal Science with Pre-Veterinary (BS)"
+        alias_of: 2020-21/animal-science-with-pre-veterinary-bs
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        alias_of: 2020-21/applications-development-bs
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        alias_of: 2020-21/applied-chemistry-bs
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        alias_of: 2020-21/applied-music-bm
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        alias_of: 2020-21/architectural-engineering-bs
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        alias_of: 2020-21/audio-production-and-postproduction-aas
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        alias_of: 2020-21/aviation-sciences-bs
+        campuses: [Bayamon]
+      - id: biology-bs
+        label: "Biology (BS)"
+        alias_of: 2020-21/biology-bs
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        alias_of: 2020-21/biomedical-sciences-bs
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        alias_of: 2020-21/biopsychology-bs
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        alias_of: 2020-21/biotechnology-aas
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        alias_of: 2020-21/biotechnology-bs
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         alias_of: 2020-21/business-administration-aas
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        alias_of: 2020-21/cardio-respiratory-care-aas
+      - id: chemistry-bs
+        label: "Chemistry (BS)"
+        alias_of: 2020-21/chemistry-bs
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        alias_of: 2020-21/commercial-pilot-aas
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        alias_of: 2020-21/communication-in-media-production-bs
+      - id: communications-aa
+        label: "Communications (AA)"
+        alias_of: 2020-21/communications-aa
       - id: communications-in-public-relations-and-advertising-ba
-        label: Communications in Public Relations and Advertising (BA)
+        label: "Communications in Public Relations and Advertising (BA)"
         alias_of: 2020-21/communications-in-public-relations-and-advertising-ba
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        alias_of: 2020-21/computer-engineering-bs
+        campuses: [Bayamon]
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        alias_of: 2020-21/computer-science-aas
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        alias_of: 2020-21/computer-science-bs
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        alias_of: 2020-21/computer-technology-and-networks-aas
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        alias_of: 2020-21/computer-technology-and-networks-bs
       - id: computerized-management-information-systems-aas
-        label: Computerized Management Information Systems (AAS)
+        label: "Computerized Management Information Systems (AAS)"
         alias_of: 2020-21/computerized-management-information-systems-aas
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         alias_of: 2020-21/corporate-communication-ba
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        alias_of: 2020-21/criminal-investigation-aa
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        alias_of: 2020-21/criminal-justice-aa
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        alias_of: 2020-21/criminal-justice-ba
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        alias_of: 2020-21/criminology-bss
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        alias_of: 2020-21/culinary-and-gastronomic-sciences-aa
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Sciences (BA)"
+        alias_of: 2020-21/culinary-arts-and-gastronomy-science-ba
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        alias_of: 2020-21/cultural-management-and-ecotourism-aa
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        alias_of: 2020-21/design-and-development-of-video-games-bs
+      - id: design-ba
+        label: "Design (BA)"
+        alias_of: 2020-21/design-ba
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        alias_of: 2020-21/digital-graphic-design-and-multimedia-bs
+      - id: early-childhood-education-4-6-ba
+        label: "Early Childhood Education: 4-6 (BA)"
+        alias_of: 2020-21/early-childhood-education-4-6-ba
+      - id: early-childhood-education-k3-ba
+        label: "Early Childhood Education: K-3 (BA)"
+        alias_of: 2020-21/early-childhood-education-k3-ba
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education: Preschool Level (BA)"
+        alias_of: 2020-21/early-childhood-education-preschool-ba
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        alias_of: 2020-21/electrical-engineering-bs
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        alias_of: 2020-21/electronic-engineering-technology-as
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        alias_of: 2020-21/electronic-engineering-technology-bs
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education w/ Special Education (BA)"
+        alias_of: 2020-21/elementary-education-special-education-ba
+      - id: english-ba
+        label: "English (BA)"
+        alias_of: 2020-21/english-ba
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         alias_of: 2020-21/entrepreneurial-and-managerial-development-bba
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         alias_of: 2020-21/entrepreneurial-development-certificate
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        alias_of: 2020-21/environmental-sciences-bs
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        alias_of: 2020-21/environmental-technology-bs
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         alias_of: 2020-21/finance-bba
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        alias_of: 2020-21/fine-arts-bfa
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        alias_of: 2020-21/forensic-biology-bs
+      - id: forensic-informatics-aas
+        label: "Forensic Informatics (AAS)"
+        alias_of: 2020-21/forensic-informatics-aas
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        alias_of: 2020-21/forensic-science-bs
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         alias_of: 2020-21/general-business-administration-bba
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        alias_of: 2020-21/general-studies-aa
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        alias_of: 2020-21/graphic-design-ava
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        alias_of: 2020-21/graphic-design-bva
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        alias_of: 2020-21/health-sciences-bs
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         alias_of: 2020-21/health-services-administration-bba
+      - id: history-ba
+        label: "History (BA)"
+        alias_of: 2020-21/history-ba
+        campuses: [Metro]
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         alias_of: 2020-21/hotel-and-restaurant-management-bba
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         alias_of: 2020-21/human-resources-management-bba
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        alias_of: 2020-21/humanistic-studies-ba
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        alias_of: 2020-21/industrial-chemistry-bs
+        campuses: [Bayamon]
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        alias_of: 2020-21/industrial-engineering-bs
+        campuses: [Bayamon]
+      - id: informatic-forensic-bs
+        label: "Informatic Forensic (BS)"
+        alias_of: 2020-21/informatic-forensic-bs
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         alias_of: 2020-21/information-technology-bba
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        alias_of: 2020-21/institutional-chaplaincy-aa
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        alias_of: 2020-21/interdisciplinary-special-education-pk12-ba
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         alias_of: 2020-21/international-business-bba
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         alias_of: 2020-21/management-and-organizational-innovation-bba
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         alias_of: 2020-21/managerial-economics-bba
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        alias_of: 2020-21/marine-sciences-bs
+        campuses: [Bayamon]
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         alias_of: 2020-21/marketing-bba
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         alias_of: 2020-21/marketing-for-digital-media-bba
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        alias_of: 2020-21/mathematics-ba
+        campuses: [Metro, San German]
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        alias_of: 2020-21/mathematics-bs
+        campuses: [San German]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        alias_of: 2020-21/mechanical-engineering-bs
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        alias_of: 2020-21/medical-emergencies-as
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        alias_of: 2020-21/medical-emergencies-bs
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        alias_of: 2020-21/medical-sonography-in-cardiovascular-sonography-bs
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        alias_of: 2020-21/medical-technology-bs
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        alias_of: 2020-21/microbiology-bs
+      - id: modern-language-ba
+        label: "Modern Languages (BA)"
+        alias_of: 2020-21/modern-language-ba
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        alias_of: 2020-21/multidisciplinary-studies-aa
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        alias_of: 2020-21/multidisciplinary-studies-ba
+      - id: music-ba
+        label: "Music (BA)"
+        alias_of: 2020-21/music-ba
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         alias_of: 2020-21/music-business-management-associate
+      - id: music-education-general-vocal-bm
+        label: "Music Education: General Vocal (BM)"
+        alias_of: 2020-21/music-education-general-vocal-bm
+      - id: music-education-instrumental-bm
+        label: "Music Education: Instrumental (BM)"
+        alias_of: 2020-21/music-education-instrumental-bm
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         alias_of: 2020-21/music-enterprises-management-bba
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        alias_of: 2020-21/natural-sciences-bs
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        alias_of: 2020-21/networks-and-telecommunications-bs
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        alias_of: 2020-21/nursing-aas
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        alias_of: 2020-21/nursing-bsn
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        alias_of: 2020-21/occupational-therapy-as
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         alias_of: 2020-21/office-systems-administration-aa
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         alias_of: 2020-21/office-systems-administration-ba
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         alias_of: 2020-21/operations-management-of-manufacturing-and-services-bba
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        alias_of: 2020-21/optical-science-technology-aas
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        alias_of: 2020-21/pharmacy-technician-aas
+      - id: photography-a
+        label: "Photography (Associate)"
+        alias_of: 2020-21/photography-a
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education (BA)"
+        alias_of: 2020-21/physical-education-adapted-ba
+      - id: physical-education-elementary-k6-ba
+        label: "Physical Education K-6 (BA)"
+        alias_of: 2020-21/physical-education-elementary-k6-ba
+      - id: physical-education-secondary-7-12-ba
+        label: "Physical Education 7-12 (BA)"
+        alias_of: 2020-21/physical-education-secondary-7-12-ba
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        alias_of: 2020-21/physical-therapist-assistant-as
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        alias_of: 2020-21/police-science-aa
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        alias_of: 2020-21/political-science-ba
+      - id: popular-music-a
+        label: "Popular Music (Associate)"
+        alias_of: 2020-21/popular-music-a
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        alias_of: 2020-21/popular-music-ba
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        alias_of: 2020-21/psychology-ba
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        alias_of: 2020-21/radiological-science-in-ct-and-mr-bs
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        alias_of: 2020-21/radiological-technology-aas
+      - id: radiological-technology-bs
+        label: "Radiological Technology in Mammography and Angiography (BS)"
+        alias_of: 2020-21/radiological-technology-bs
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         alias_of: 2020-21/real-estate-bba
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        alias_of: 2020-21/recreation-for-elderly-persons-aa
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         alias_of: 2020-21/restaurant-and-food-services-administration-aas
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         alias_of: 2020-21/sales-aas
+      - id: school-health-ba
+        label: "School Health (BA)"
+        alias_of: 2020-21/school-health-ba
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        alias_of: 2020-21/secondary-education-biology-ba
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        alias_of: 2020-21/secondary-education-history-ba
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        alias_of: 2020-21/secondary-education-mathematics-ba
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        alias_of: 2020-21/secondary-education-social-studies-ba
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        alias_of: 2020-21/secondary-education-spanish-ba
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        alias_of: 2020-21/security-management-bs
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        alias_of: 2020-21/social-sciences-ba
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        alias_of: 2020-21/social-work-ba
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        alias_of: 2020-21/spanish-ba
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        alias_of: 2020-21/special-education-autism-ba
+      - id: special-education-ba
+        label: "Special Education (BA)"
+        alias_of: 2020-21/special-education-ba
+      - id: special-education-deaf-ba
+        label: "Special Education: Deaf (BA)"
+        alias_of: 2020-21/special-education-deaf-ba
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        alias_of: 2020-21/special-educational-services-assistant-aa
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        alias_of: 2020-21/speech-and-language-therapy-bs
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         alias_of: 2020-21/sports-and-fitness-management-ba
-      - id: tourism-bba
-        label: Tourism (BBA)
-        alias_of: 2020-21/tourism-bba
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        alias_of: 2020-21/studies-in-religion-aa
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        alias_of: 2020-21/studies-in-religion-ba
+      - id: tesl-elementary-ba
+        label: "TESL Elementary Level (BA)"
+        alias_of: 2020-21/tesl-elementary-ba
+      - id: tesl-secondary-ba
+        label: "TESL Secondary Level (BA)"
+        alias_of: 2020-21/tesl-secondary-ba
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         alias_of: 2020-21/tourism-as
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        alias_of: 2020-21/tourism-bba
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        alias_of: 2020-21/toxicology-bs
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        alias_of: 2020-21/videogames-and-mobile-applications-aas
   - id: 2020-21
     label: 2020-2021
-    courses_file: courses/courses-2025-26.yaml
+    courses_file: courses/courses-2020-21.yaml
     degrees:
       - id: accounting-aas
-        label: Accounting (AAS)
+        label: "Accounting (AAS)"
         file: degrees/2020-21/accounting-aas.yaml
       - id: accounting-bba
-        label: Accounting (BBA)
+        label: "Accounting (BBA)"
         file: degrees/2020-21/accounting-bba.yaml
+      - id: agricultural-technology-aas
+        label: "Agricultural Technology (AAS)"
+        file: degrees/2020-21/agricultural-technology-aas.yaml
+      - id: agronomy-bas
+        label: "Agronomy (BAS)"
+        file: degrees/2020-21/agronomy-bas.yaml
+      - id: animal-science-with-pre-veterinary-bs
+        label: "Animal Science with Pre-Veterinary (BS)"
+        file: degrees/2020-21/animal-science-with-pre-veterinary-bs.yaml
+      - id: applications-development-bs
+        label: "Applications Development (BS)"
+        file: degrees/2020-21/applications-development-bs.yaml
+      - id: applied-chemistry-bs
+        label: "Applied Chemistry (BS)"
+        file: degrees/2020-21/applied-chemistry-bs.yaml
+      - id: applied-music-bm
+        label: "Applied Music (BM)"
+        file: degrees/2020-21/applied-music-bm.yaml
+      - id: architectural-engineering-bs
+        label: "Architectural Engineering (BS)"
+        file: degrees/2020-21/architectural-engineering-bs.yaml
+      - id: audio-production-and-postproduction-aas
+        label: "Audio Production and Postproduction (AAS)"
+        file: degrees/2020-21/audio-production-and-postproduction-aas.yaml
+      - id: aviation-sciences-bs
+        label: "Aviation Sciences (BS)"
+        file: degrees/2020-21/aviation-sciences-bs.yaml
+        campuses: [Bayamon]
+      - id: biology-bs
+        label: "Biology (BS)"
+        file: degrees/2020-21/biology-bs.yaml
+      - id: biomedical-sciences-bs
+        label: "Biomedical Sciences (BS)"
+        file: degrees/2020-21/biomedical-sciences-bs.yaml
+      - id: biopsychology-bs
+        label: "Biopsychology (BS)"
+        file: degrees/2020-21/biopsychology-bs.yaml
+      - id: biotechnology-aas
+        label: "Biotechnology (AAS)"
+        file: degrees/2020-21/biotechnology-aas.yaml
+      - id: biotechnology-bs
+        label: "Biotechnology (BS)"
+        file: degrees/2020-21/biotechnology-bs.yaml
       - id: business-administration-aas
-        label: Business Administration (AAS)
+        label: "Business Administration (AAS)"
         file: degrees/2020-21/business-administration-aas.yaml
+      - id: cardio-respiratory-care-aas
+        label: "Cardio-Respiratory Care (AAS)"
+        file: degrees/2020-21/cardio-respiratory-care-aas.yaml
+      - id: chemistry-bs
+        label: "Chemistry (BS)"
+        file: degrees/2020-21/chemistry-bs.yaml
+      - id: commercial-pilot-aas
+        label: "Commercial Pilot (AAS)"
+        file: degrees/2020-21/commercial-pilot-aas.yaml
+      - id: communication-in-media-production-bs
+        label: "Communication in Media Production (BS)"
+        file: degrees/2020-21/communication-in-media-production-bs.yaml
+      - id: communications-aa
+        label: "Communications (AA)"
+        file: degrees/2020-21/communications-aa.yaml
       - id: communications-in-public-relations-and-advertising-ba
-        label: Communications in Public Relations and Advertising (BA)
+        label: "Communications in Public Relations and Advertising (BA)"
         file: degrees/2020-21/communications-in-public-relations-and-advertising-ba.yaml
+      - id: computer-engineering-bs
+        label: "Computer Engineering (BS)"
+        file: degrees/2020-21/computer-engineering-bs.yaml
+        campuses: [Bayamon]
+      - id: computer-science-aas
+        label: "Computer Science (AAS)"
+        file: degrees/2020-21/computer-science-aas.yaml
+      - id: computer-science-bs
+        label: "Computer Science (BS)"
+        file: degrees/2020-21/computer-science-bs.yaml
+      - id: computer-technology-and-networks-aas
+        label: "Computer Technology and Networks (AAS)"
+        file: degrees/2020-21/computer-technology-and-networks-aas.yaml
+      - id: computer-technology-and-networks-bs
+        label: "Computer Technology and Networks (BS)"
+        file: degrees/2020-21/computer-technology-and-networks-bs.yaml
       - id: computerized-management-information-systems-aas
-        label: Computerized Management Information Systems (AAS)
+        label: "Computerized Management Information Systems (AAS)"
         file: degrees/2020-21/computerized-management-information-systems-aas.yaml
       - id: corporate-communication-ba
-        label: Corporate Communication (BA)
+        label: "Corporate Communication (BA)"
         file: degrees/2020-21/corporate-communication-ba.yaml
+      - id: criminal-investigation-aa
+        label: "Criminal Investigation (AA)"
+        file: degrees/2020-21/criminal-investigation-aa.yaml
+      - id: criminal-justice-aa
+        label: "Criminal Justice (AA)"
+        file: degrees/2020-21/criminal-justice-aa.yaml
+      - id: criminal-justice-ba
+        label: "Criminal Justice (BA)"
+        file: degrees/2020-21/criminal-justice-ba.yaml
+      - id: criminology-bss
+        label: "Criminology (BSS)"
+        file: degrees/2020-21/criminology-bss.yaml
+      - id: culinary-and-gastronomic-sciences-aa
+        label: "Culinary and Gastronomic Sciences (AA)"
+        file: degrees/2020-21/culinary-and-gastronomic-sciences-aa.yaml
+      - id: culinary-arts-and-gastronomy-science-ba
+        label: "Culinary Arts and Gastronomy Sciences (BA)"
+        file: degrees/2020-21/culinary-arts-and-gastronomy-science-ba.yaml
+      - id: cultural-management-and-ecotourism-aa
+        label: "Cultural Management and Ecotourism (AA)"
+        file: degrees/2020-21/cultural-management-and-ecotourism-aa.yaml
+      - id: design-and-development-of-video-games-bs
+        label: "Design and Development of Video Games (BS)"
+        file: degrees/2020-21/design-and-development-of-video-games-bs.yaml
+      - id: design-ba
+        label: "Design (BA)"
+        file: degrees/2020-21/design-ba.yaml
+      - id: digital-graphic-design-and-multimedia-bs
+        label: "Digital Graphic Design and Multimedia (BS)"
+        file: degrees/2020-21/digital-graphic-design-and-multimedia-bs.yaml
+      - id: early-childhood-education-4-6-ba
+        label: "Early Childhood Education: 4-6 (BA)"
+        file: degrees/2020-21/early-childhood-education-4-6-ba.yaml
+      - id: early-childhood-education-k3-ba
+        label: "Early Childhood Education: K-3 (BA)"
+        file: degrees/2020-21/early-childhood-education-k3-ba.yaml
+      - id: early-childhood-education-preschool-ba
+        label: "Early Childhood Education: Preschool Level (BA)"
+        file: degrees/2020-21/early-childhood-education-preschool-ba.yaml
+      - id: electrical-engineering-bs
+        label: "Electrical Engineering (BS)"
+        file: degrees/2020-21/electrical-engineering-bs.yaml
+        campuses: [Bayamon]
+      - id: electronic-engineering-technology-as
+        label: "Electronic Engineering Technology (AS)"
+        file: degrees/2020-21/electronic-engineering-technology-as.yaml
+      - id: electronic-engineering-technology-bs
+        label: "Electronic Engineering Technology (BS)"
+        file: degrees/2020-21/electronic-engineering-technology-bs.yaml
+      - id: elementary-education-special-education-ba
+        label: "Elementary Education w/ Special Education (BA)"
+        file: degrees/2020-21/elementary-education-special-education-ba.yaml
+      - id: english-ba
+        label: "English (BA)"
+        file: degrees/2020-21/english-ba.yaml
       - id: entrepreneurial-and-managerial-development-bba
-        label: Entrepreneurial and Managerial Development (BBA)
+        label: "Entrepreneurial and Managerial Development (BBA)"
         file: degrees/2020-21/entrepreneurial-and-managerial-development-bba.yaml
       - id: entrepreneurial-development-certificate
-        label: Entrepreneurial Development (Post-Associate Certificate)
+        label: "Entrepreneurial Development (Post-Associate Certificate)"
         file: degrees/2020-21/entrepreneurial-development-certificate.yaml
+      - id: environmental-sciences-bs
+        label: "Environmental Sciences (BS)"
+        file: degrees/2020-21/environmental-sciences-bs.yaml
+      - id: environmental-technology-bs
+        label: "Environmental Technology (BS)"
+        file: degrees/2020-21/environmental-technology-bs.yaml
       - id: finance-bba
-        label: Finance (BBA)
+        label: "Finance (BBA)"
         file: degrees/2020-21/finance-bba.yaml
+      - id: fine-arts-bfa
+        label: "Fine Arts (BFA)"
+        file: degrees/2020-21/fine-arts-bfa.yaml
+      - id: forensic-biology-bs
+        label: "Forensic Biology (BS)"
+        file: degrees/2020-21/forensic-biology-bs.yaml
+      - id: forensic-informatics-aas
+        label: "Forensic Informatics (AAS)"
+        file: degrees/2020-21/forensic-informatics-aas.yaml
+      - id: forensic-science-bs
+        label: "Forensic Science (BS)"
+        file: degrees/2020-21/forensic-science-bs.yaml
+        campuses: [Aguadilla, Barranquitas, Bayamon, Ponce]
       - id: general-business-administration-bba
-        label: General Business Administration (BBA)
+        label: "General Business Administration (BBA)"
         file: degrees/2020-21/general-business-administration-bba.yaml
+      - id: general-studies-aa
+        label: "General Studies (AA)"
+        file: degrees/2020-21/general-studies-aa.yaml
+      - id: graphic-design-ava
+        label: "Graphic Design (AVA)"
+        file: degrees/2020-21/graphic-design-ava.yaml
+      - id: graphic-design-bva
+        label: "Graphic Design (BVA)"
+        file: degrees/2020-21/graphic-design-bva.yaml
+      - id: health-sciences-bs
+        label: "Health Sciences (BS)"
+        file: degrees/2020-21/health-sciences-bs.yaml
       - id: health-services-administration-bba
-        label: Health Services Administration (BBA)
+        label: "Health Services Administration (BBA)"
         file: degrees/2020-21/health-services-administration-bba.yaml
+      - id: history-ba
+        label: "History (BA)"
+        file: degrees/2020-21/history-ba.yaml
+        campuses: [Metro]
       - id: hotel-and-restaurant-management-bba
-        label: Hotel and Restaurant Management (BBA)
+        label: "Hotel and Restaurant Management (BBA)"
         file: degrees/2020-21/hotel-and-restaurant-management-bba.yaml
       - id: human-resources-management-bba
-        label: Human Resources Management (BBA)
+        label: "Human Resources Management (BBA)"
         file: degrees/2020-21/human-resources-management-bba.yaml
+      - id: humanistic-studies-ba
+        label: "Humanistic Studies (BA)"
+        file: degrees/2020-21/humanistic-studies-ba.yaml
+      - id: industrial-chemistry-bs
+        label: "Industrial Chemistry (BS)"
+        file: degrees/2020-21/industrial-chemistry-bs.yaml
+        campuses: [Bayamon]
+      - id: industrial-engineering-bs
+        label: "Industrial Engineering (BS)"
+        file: degrees/2020-21/industrial-engineering-bs.yaml
+        campuses: [Bayamon]
+      - id: informatic-forensic-bs
+        label: "Informatic Forensic (BS)"
+        file: degrees/2020-21/informatic-forensic-bs.yaml
       - id: information-technology-bba
-        label: Information Technology (BBA)
+        label: "Information Technology (BBA)"
         file: degrees/2020-21/information-technology-bba.yaml
+      - id: institutional-chaplaincy-aa
+        label: "Institutional Chaplaincy (AA)"
+        file: degrees/2020-21/institutional-chaplaincy-aa.yaml
+      - id: interdisciplinary-special-education-pk12-ba
+        label: "Interdisciplinary Special Education PK-12 (BA)"
+        file: degrees/2020-21/interdisciplinary-special-education-pk12-ba.yaml
       - id: international-business-bba
-        label: International Business (BBA)
+        label: "International Business (BBA)"
         file: degrees/2020-21/international-business-bba.yaml
       - id: management-and-organizational-innovation-bba
-        label: Management and Organizational Innovation (BBA)
+        label: "Management and Organizational Innovation (BBA)"
         file: degrees/2020-21/management-and-organizational-innovation-bba.yaml
       - id: managerial-economics-bba
-        label: Managerial Economics (BBA)
+        label: "Managerial Economics (BBA)"
         file: degrees/2020-21/managerial-economics-bba.yaml
+      - id: marine-sciences-bs
+        label: "Marine Sciences (BS)"
+        file: degrees/2020-21/marine-sciences-bs.yaml
+        campuses: [Bayamon]
       - id: marketing-bba
-        label: Marketing (BBA)
+        label: "Marketing (BBA)"
         file: degrees/2020-21/marketing-bba.yaml
       - id: marketing-for-digital-media-bba
-        label: Marketing for Digital Media (BBA)
+        label: "Marketing for Digital Media (BBA)"
         file: degrees/2020-21/marketing-for-digital-media-bba.yaml
+      - id: mathematics-ba
+        label: "Mathematics (BA)"
+        file: degrees/2020-21/mathematics-ba.yaml
+        campuses: [Metro, San German]
+      - id: mathematics-bs
+        label: "Mathematics (BS)"
+        file: degrees/2020-21/mathematics-bs.yaml
+        campuses: [San German]
+      - id: mechanical-engineering-bs
+        label: "Mechanical Engineering (BS)"
+        file: degrees/2020-21/mechanical-engineering-bs.yaml
+      - id: medical-emergencies-as
+        label: "Medical Emergencies (AS)"
+        file: degrees/2020-21/medical-emergencies-as.yaml
+      - id: medical-emergencies-bs
+        label: "Medical Emergencies (BS)"
+        file: degrees/2020-21/medical-emergencies-bs.yaml
+      - id: medical-sonography-in-cardiovascular-sonography-bs
+        label: "Medical Sonography in Cardiovascular Sonography (BS)"
+        file: degrees/2020-21/medical-sonography-in-cardiovascular-sonography-bs.yaml
+      - id: medical-technology-bs
+        label: "Medical Technology (BS)"
+        file: degrees/2020-21/medical-technology-bs.yaml
+      - id: microbiology-bs
+        label: "Microbiology (BS)"
+        file: degrees/2020-21/microbiology-bs.yaml
+      - id: modern-language-ba
+        label: "Modern Languages (BA)"
+        file: degrees/2020-21/modern-language-ba.yaml
+      - id: multidisciplinary-studies-aa
+        label: "Multidisciplinary Studies (AA)"
+        file: degrees/2020-21/multidisciplinary-studies-aa.yaml
+      - id: multidisciplinary-studies-ba
+        label: "Multidisciplinary Studies (BA)"
+        file: degrees/2020-21/multidisciplinary-studies-ba.yaml
+      - id: music-ba
+        label: "Music (BA)"
+        file: degrees/2020-21/music-ba.yaml
       - id: music-business-management-associate
-        label: Music Business Management (Associate)
+        label: "Music Business Management (Associate)"
         file: degrees/2020-21/music-business-management-associate.yaml
+      - id: music-education-general-vocal-bm
+        label: "Music Education: General Vocal (BM)"
+        file: degrees/2020-21/music-education-general-vocal-bm.yaml
+      - id: music-education-instrumental-bm
+        label: "Music Education: Instrumental (BM)"
+        file: degrees/2020-21/music-education-instrumental-bm.yaml
       - id: music-enterprises-management-bba
-        label: Music Enterprises Management (BBA)
+        label: "Music Enterprises Management (BBA)"
         file: degrees/2020-21/music-enterprises-management-bba.yaml
+      - id: natural-sciences-bs
+        label: "Natural Sciences (BS)"
+        file: degrees/2020-21/natural-sciences-bs.yaml
+      - id: networks-and-telecommunications-bs
+        label: "Networks and Telecommunications (BS)"
+        file: degrees/2020-21/networks-and-telecommunications-bs.yaml
+      - id: nursing-aas
+        label: "Nursing (AAS)"
+        file: degrees/2020-21/nursing-aas.yaml
+      - id: nursing-bsn
+        label: "Nursing (BSN)"
+        file: degrees/2020-21/nursing-bsn.yaml
+      - id: occupational-therapy-as
+        label: "Occupational Therapy (AS)"
+        file: degrees/2020-21/occupational-therapy-as.yaml
       - id: office-systems-administration-aa
-        label: Office Systems Administration (AA)
+        label: "Office Systems Administration (AA)"
         file: degrees/2020-21/office-systems-administration-aa.yaml
       - id: office-systems-administration-ba
-        label: Office Systems Administration (BA)
+        label: "Office Systems Administration (BA)"
         file: degrees/2020-21/office-systems-administration-ba.yaml
       - id: operations-management-of-manufacturing-and-services-bba
-        label: Operations Management of Manufacturing and Services (BBA)
+        label: "Operations Management of Manufacturing and Services (BBA)"
         file: degrees/2020-21/operations-management-of-manufacturing-and-services-bba.yaml
+      - id: optical-science-technology-aas
+        label: "Optical Science Technology (AAS)"
+        file: degrees/2020-21/optical-science-technology-aas.yaml
+      - id: pharmacy-technician-aas
+        label: "Pharmacy Technician (AAS)"
+        file: degrees/2020-21/pharmacy-technician-aas.yaml
+      - id: photography-a
+        label: "Photography (Associate)"
+        file: degrees/2020-21/photography-a.yaml
+      - id: physical-education-adapted-ba
+        label: "Adapted Physical Education (BA)"
+        file: degrees/2020-21/physical-education-adapted-ba.yaml
+      - id: physical-education-elementary-k6-ba
+        label: "Physical Education K-6 (BA)"
+        file: degrees/2020-21/physical-education-elementary-k6-ba.yaml
+      - id: physical-education-secondary-7-12-ba
+        label: "Physical Education 7-12 (BA)"
+        file: degrees/2020-21/physical-education-secondary-7-12-ba.yaml
+      - id: physical-therapist-assistant-as
+        label: "Physical Therapist Assistant (AS)"
+        file: degrees/2020-21/physical-therapist-assistant-as.yaml
+      - id: police-science-aa
+        label: "Police Science (AA)"
+        file: degrees/2020-21/police-science-aa.yaml
+      - id: political-science-ba
+        label: "Political Science (BA)"
+        file: degrees/2020-21/political-science-ba.yaml
+      - id: popular-music-a
+        label: "Popular Music (Associate)"
+        file: degrees/2020-21/popular-music-a.yaml
+      - id: popular-music-ba
+        label: "Popular Music (BA)"
+        file: degrees/2020-21/popular-music-ba.yaml
+      - id: psychology-ba
+        label: "Psychology (BA)"
+        file: degrees/2020-21/psychology-ba.yaml
+      - id: radiological-science-in-ct-and-mr-bs
+        label: "Radiological Science in CT and MR (BS)"
+        file: degrees/2020-21/radiological-science-in-ct-and-mr-bs.yaml
+      - id: radiological-technology-aas
+        label: "Radiological Technology (AAS)"
+        file: degrees/2020-21/radiological-technology-aas.yaml
+      - id: radiological-technology-bs
+        label: "Radiological Technology in Mammography and Angiography (BS)"
+        file: degrees/2020-21/radiological-technology-bs.yaml
       - id: real-estate-bba
-        label: Real Estate (BBA)
+        label: "Real Estate (BBA)"
         file: degrees/2020-21/real-estate-bba.yaml
+      - id: recreation-for-elderly-persons-aa
+        label: "Recreation for Elderly Persons (AA)"
+        file: degrees/2020-21/recreation-for-elderly-persons-aa.yaml
       - id: restaurant-and-food-services-administration-aas
-        label: Restaurant and Food Services Administration (AAS)
+        label: "Restaurant and Food Services Administration (AAS)"
         file: degrees/2020-21/restaurant-and-food-services-administration-aas.yaml
       - id: sales-aas
-        label: Sales (AAS)
+        label: "Sales (AAS)"
         file: degrees/2020-21/sales-aas.yaml
+      - id: school-health-ba
+        label: "School Health (BA)"
+        file: degrees/2020-21/school-health-ba.yaml
+      - id: secondary-education-biology-ba
+        label: "Secondary Education in Biology (BA)"
+        file: degrees/2020-21/secondary-education-biology-ba.yaml
+      - id: secondary-education-history-ba
+        label: "Secondary Education in History (BA)"
+        file: degrees/2020-21/secondary-education-history-ba.yaml
+      - id: secondary-education-mathematics-ba
+        label: "Secondary Education in Mathematics (BA)"
+        file: degrees/2020-21/secondary-education-mathematics-ba.yaml
+      - id: secondary-education-social-studies-ba
+        label: "Secondary Education in Social Studies (BA)"
+        file: degrees/2020-21/secondary-education-social-studies-ba.yaml
+      - id: secondary-education-spanish-ba
+        label: "Secondary Education in Spanish (BA)"
+        file: degrees/2020-21/secondary-education-spanish-ba.yaml
+      - id: security-management-bs
+        label: "Security Management (BS)"
+        file: degrees/2020-21/security-management-bs.yaml
+      - id: social-sciences-ba
+        label: "Social Sciences (BA)"
+        file: degrees/2020-21/social-sciences-ba.yaml
+      - id: social-work-ba
+        label: "Social Work (BA)"
+        file: degrees/2020-21/social-work-ba.yaml
+      - id: spanish-ba
+        label: "Spanish (BA)"
+        file: degrees/2020-21/spanish-ba.yaml
+      - id: special-education-autism-ba
+        label: "Special Education in Autism (BA)"
+        file: degrees/2020-21/special-education-autism-ba.yaml
+      - id: special-education-ba
+        label: "Special Education (BA)"
+        file: degrees/2020-21/special-education-ba.yaml
+      - id: special-education-deaf-ba
+        label: "Special Education: Deaf (BA)"
+        file: degrees/2020-21/special-education-deaf-ba.yaml
+      - id: special-educational-services-assistant-aa
+        label: "Special Educational Services Assistant (AA)"
+        file: degrees/2020-21/special-educational-services-assistant-aa.yaml
+      - id: speech-and-language-therapy-bs
+        label: "Speech and Language Therapy (BS)"
+        file: degrees/2020-21/speech-and-language-therapy-bs.yaml
       - id: sports-and-fitness-management-ba
-        label: Sports and Fitness Management (BA)
+        label: "Sports and Fitness Management (BA)"
         file: degrees/2020-21/sports-and-fitness-management-ba.yaml
-      - id: tourism-bba
-        label: Tourism (BBA)
-        file: degrees/2020-21/tourism-bba.yaml
+      - id: studies-in-religion-aa
+        label: "Studies in Religion (AA)"
+        file: degrees/2020-21/studies-in-religion-aa.yaml
+      - id: studies-in-religion-ba
+        label: "Studies in Religion (BA)"
+        file: degrees/2020-21/studies-in-religion-ba.yaml
+      - id: tesl-elementary-ba
+        label: "TESL Elementary Level (BA)"
+        file: degrees/2020-21/tesl-elementary-ba.yaml
+      - id: tesl-secondary-ba
+        label: "TESL Secondary Level (BA)"
+        file: degrees/2020-21/tesl-secondary-ba.yaml
       - id: tourism-as
-        label: Tourism with Major in Tour Guide (AS)
+        label: "Tourism with Major in Tour Guide (AS)"
         file: degrees/2020-21/tourism-as.yaml
+      - id: tourism-bba
+        label: "Tourism (BBA)"
+        file: degrees/2020-21/tourism-bba.yaml
+      - id: toxicology-bs
+        label: "Toxicology (BS)"
+        file: degrees/2020-21/toxicology-bs.yaml
+      - id: videogames-and-mobile-applications-aas
+        label: "Videogames and Mobile Applications (AAS)"
+        file: degrees/2020-21/videogames-and-mobile-applications-aas.yaml

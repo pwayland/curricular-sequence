@@ -1,0 +1,57 @@
+# multidisciplinary-studies-ba.yaml — Multidisciplinary Studies, BA (2020-21)
+
+id: multidisciplinary-studies-ba
+label: "Multidisciplinary Studies (BA)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      credits: 6
+      rule: sequence
+      courses: ["GEMA 1001", "GEMA 1002"]
+    - category: historical-social
+      credits: 9
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 9
+          rule: fixed
+          courses: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 44
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ARTS 1102"
+      - "THEA 1500"
+      - "CJUS 2070"
+      - "ENGL 2060"
+      - "ENGL 3025"
+      - "MUSI 1111"
+      - "MUSI 1112"
+      - "PHIL 2354"
+      - "PHIL 3013"
+      - "POLS 1011"
+      - "POLS 4033"
+      - "PSYC 1051"
+      - "SOCI 3753"
+      - "SPAN 3020"
+      - "SPAN 4010"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 24
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,46 @@
+# photography-a.yaml — Photography, Associate (2020-21)
+
+id: photography-a
+label: "Photography (Associate)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: gen-ed-appreciation
+    label: "General Education — Appreciation"
+    credits: 3
+    rule: prereq-order
+    category_type: gen-ed
+    courses:
+      - "GEPE 3010"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMU 1025"
+      - "COMU 1031"
+      - "COMU 1032"
+      - "COMU 1045"
+      - "COMU 2610"
+      - "COMU 2621"
+      - "COMU 2622"
+      - "COMU 2970"
+      - "ENTR 2200"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

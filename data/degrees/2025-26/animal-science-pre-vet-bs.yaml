@@ -1,0 +1,64 @@
+id: animal-science-pre-vet-bs
+label: "Animal Science with Emphasis in Pre-Veterinary Science (BS)"
+degree_type: bachelor
+total_credits: 129
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 44
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 3105"
+      - "BIOL 2153"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 4220"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "MATH 1500"
+      - "PHYS 3001"
+
+  - id: elective
+    label: "Elective"
+    credits: 3
+    rule: prereq-order
+    category_type: elective
+    courses:
+      - "BIOL 3010"
+      - "BIOL 4604"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 34
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "VETC 1100"
+      - "VETC 1120"
+      - "VETC 2200"
+      - "VETC 2201"
+      - "VETC 2202"
+      - "VETC 2210"
+      - "VETC 2213"
+      - "VETC 2220"
+      - "VETC 2240"
+      - "VETC 2250"
+      - "VETC 2255"
+      - "VETC 2910"
+      - "VETC 2970"
+      - "VETC 4970"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

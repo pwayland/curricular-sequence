@@ -23,6 +23,7 @@ const state = {
 
 // ── DOM refs ─────────────────────────────────────────
 const elYear = document.getElementById('catalog-year');
+const elCampus = document.getElementById('campus');
 const elDegree = document.getElementById('degree');
 const elBtnResettle = document.getElementById('btn-resettle');
 const elBtnReset = document.getElementById('btn-reset');
@@ -61,7 +62,9 @@ function populateDegreeDropdown(year) {
     elDegree.disabled = true;
     return;
   }
+  const campus = elCampus.value;
   for (const deg of year.degrees) {
+    if (campus && deg.campuses && !deg.campuses.includes(campus)) continue;
     const opt = document.createElement('option');
     opt.value = deg.id;
     opt.textContent = deg.label;
@@ -73,6 +76,7 @@ function populateDegreeDropdown(year) {
 // ── Events ───────────────────────────────────────────
 function wireEvents() {
   elYear.addEventListener('change', onYearChange);
+  elCampus.addEventListener('change', onCampusChange);
   elDegree.addEventListener('change', onDegreeChange);
   elBtnResettle.addEventListener('click', onResettle);
   elBtnReset.addEventListener('click', onReset);
@@ -90,6 +94,19 @@ function onYearChange() {
   setButtonsEnabled(false);
   hideDegreeInfo();
   showEmptyState('Select a degree.');
+}
+
+function onCampusChange() {
+  populateDegreeDropdown(state.selectedYear);
+  if (state.selectedDegreeId) {
+    state.selectedDegreeId = null;
+    state.userPins = {};
+    state.userSelections = {};
+    state.userGrades = {};
+    setButtonsEnabled(false);
+    hideDegreeInfo();
+    showEmptyState('Select a degree.');
+  }
 }
 
 async function onDegreeChange() {

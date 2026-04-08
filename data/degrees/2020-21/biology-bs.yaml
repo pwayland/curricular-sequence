@@ -1,0 +1,131 @@
+# biology-bs.yaml — Biology, BS (2020-21)
+
+id: biology-bs
+label: "Biology (BS)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: health-quality
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 39
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 2103"
+      - "BIOL 2104"
+      - "BIOL 2153"
+      - "BIOL 3010"
+      - "BIOL 3105"
+      - "BIOL 3106"
+      - "BIOL 3503"
+      - "BIOL 4604"
+      - "BIOL 4605"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 24
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: math-option
+    label: "Math Option"
+    # MATH 1500 (5 cr) or MATH 1511+1512 (3+3=6 cr); total_credits 122 assumes MATH 1500
+    credits: 5
+    rule: pick
+    pick_count: 1
+    category_type: core
+    options:
+      - "MATH 1500"
+      - "MATH 1511"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 12
+    rule: pick
+    pick_count: 4
+    category_type: distributive
+    options:
+      - "BIOL 2800"
+      - "BIOL 3100"
+      - "BIOL 3200"
+      - "BIOL 3213"
+      - "BIOL 3214"
+      - "BIOL 3215"
+      - "BIOL 3216"
+      - "BIOL 3217"
+      - "BIOL 3218"
+      - "BIOL 3219"
+      - "BIOL 3220"
+      - "BIOL 3309"
+      - "BIOL 3405"
+      - "BIOL 3504"
+      - "BIOL 3505"
+      - "BIOL 3601"
+      - "BIOL 3602"
+      - "BIOL 3904"
+      - "BIOL 4105"
+      - "BIOL 4106"
+      - "BIOL 4107"
+      - "BIOL 4108"
+      - "BIOL 4109"
+      - "BIOL 4303"
+      - "BIOL 4304"
+      - "BIOL 4305"
+      - "BIOL 4306"
+      - "BIOL 4307"
+      - "BIOL 4403"
+      - "BIOL 4404"
+      - "BIOL 4405"
+      - "BIOL 4406"
+      - "BIOL 4407"
+      - "BIOL 4433"
+      - "BIOL 4434"
+      - "BIOL 4494"
+      - "BIOL 4503"
+      - "BIOL 4600"
+      - "BIOL 4905"
+      - "BIOL 4909"
+      - "BIOL 4912"
+      - "BIOL 4953"
+      - "BIOL 4954"
+      - "BIOL 4955"
+      - "BIOL 4960"
+      - "CHEM 3320"
+      - "CHEM 4220"
+      - "MASC 3600"
+      - "MASC 3603"
+      - "MASC 3620"
+      - "MASC 4030"
+      - "MASC 4040"
+      - "MATH 2251"
+
+# Credit check: 42 (gen-ed) + 39 (major) + 24 (related) + 5 (math) + 12 (distributive) = 122
+# With MATH 1511+1512 (6 cr) instead of MATH 1500 (5 cr), total = 123
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

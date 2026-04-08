@@ -1,0 +1,79 @@
+# secondary-education-biology-ba.yaml — Secondary Education in Biology, BA (2020-21)
+
+id: secondary-education-biology-ba
+label: "Secondary Education in Biology (BA)"
+degree_type: bachelor
+total_credits: 143
+term_type: semester
+max_credits_per_term: 18
+terms_count: 9
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+    - category: historical-social
+      credits: 9
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 9
+          rule: fixed
+          courses: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+
+categories:
+  - id: core-requirements
+    label: "Core Education Requirements"
+    credits: 41
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 1080"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 2890"
+      - "EDUC 3013"
+      - "EDUC 3015"
+      - "EDUC 4011"
+      - "EDUC 4012"
+      - "EDUC 4013"
+      - "EDUC 4050"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 48
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 2103"
+      - "BIOL 2104"
+      - "BIOL 3010"
+      - "BIOL 3106"
+      - "BIOL 3503"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "EDUC 3863"
+      - "MATH 1500"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

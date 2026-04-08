@@ -1,0 +1,53 @@
+# digital-graphic-design-and-multimedia-bs.yaml — Digital Graphic Design and Multimedia, BS (2020-21)
+
+id: digital-graphic-design-and-multimedia-bs
+label: "Digital Graphic Design and Multimedia (BS)"
+degree_type: bachelor
+total_credits: 123
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 72
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "DGDM 1101"
+      - "DGDM 1103"
+      - "DGDM 1104"
+      - "DGDM 1201"
+      - "DGDM 1202"
+      - "DGDM 2201"
+      - "DGDM 2202"
+      - "DGDM 2203"
+      - "DGDM 2204"
+      - "DGDM 2205"
+      - "DGDM 2206"
+      - "DGDM 3014"
+      - "DGDM 3015"
+      - "DGDM 3016"
+      - "DGDM 3021"
+      - "DGDM 3022"
+      - "DGDM 4003"
+      - "DGDM 4004"
+      - "DGDM 4005"
+      - "DGDM 4006"
+      - "DGDM 4007"
+      - "DGDM 4013"
+      - "DGDM 4014"
+      - "DGDM 4910"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

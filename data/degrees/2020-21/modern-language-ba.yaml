@@ -1,0 +1,77 @@
+# modern-language-ba.yaml — Modern Languages, BA (2020-21)
+
+id: modern-language-ba
+label: "Modern Languages (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-track
+    label: "Major Language Track"
+    credits: 54
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Italian:
+        - "ITAL 1011"
+        - "ITAL 1012"
+        - "ITAL 2021"
+        - "ITAL 2022"
+        - "ITAL 3010"
+        - "ITAL 3020"
+        - "ITAL 3021"
+        - "ITAL 3022"
+        - "ITAL 4010"
+      German:
+        - "GERM 1011"
+        - "GERM 1012"
+        - "GERM 2021"
+        - "GERM 2022"
+        - "GERM 3010"
+        - "GERM 3020"
+        - "GERM 3201"
+        - "GERM 3022"
+        - "GERM 4010"
+      French:
+        - "FREN 1011"
+        - "FREN 1012"
+        - "FREN 2021"
+        - "FREN 2022"
+        - "FREN 3010"
+        - "FREN 3020"
+        - "FREN 3021"
+        - "FREN 3022"
+        - "FREN 4010"
+      Portuguese:
+        - "PORT 1011"
+        - "PORT 1012"
+        - "PORT 2021"
+        - "PORT 2022"
+        - "PORT 3010"
+        - "PORT 3020"
+        - "PORT 3021"
+        - "PORT 3022"
+        - "PORT 4010"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 3
+    rule: prereq-order
+    category_type: distributive
+    courses:
+      - "HUMA 4010"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 15
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

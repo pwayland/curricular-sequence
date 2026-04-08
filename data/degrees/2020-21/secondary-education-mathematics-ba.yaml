@@ -1,0 +1,83 @@
+# secondary-education-mathematics-ba.yaml — Secondary Education in Mathematics, BA (2020-21)
+
+id: secondary-education-mathematics-ba
+label: "Secondary Education in Mathematics (BA)"
+degree_type: bachelor
+total_credits: 130
+term_type: semester
+max_credits_per_term: 18
+terms_count: 9
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+    - category: historical-social
+      credits: 9
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 9
+          rule: fixed
+          courses: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+
+categories:
+  - id: core-requirements
+    label: "Core Education Requirements"
+    credits: 41
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 1080"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 2890"
+      - "EDUC 3013"
+      - "EDUC 3015"
+      - "EDUC 4011"
+      - "EDUC 4012"
+      - "EDUC 4013"
+      - "EDUC 4050"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 27
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EDUC 3869"
+      - "MATH 1500"
+      - "MATH 2100"
+      - "MATH 2251"
+      - "MATH 2380"
+      - "MATH 3130"
+      - "MATH 3350"
+      - "MATH 4391"
+      - "PHYS 3001"
+
+  - id: major-elective
+    label: "Major Elective"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "MATH 2000"
+      - "COMP 2501"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 8
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,33 @@
+# radiological-science-in-ct-and-mr-bs.yaml — Radiological Science in CT and MR, BS (2020-21)
+# NOTE: Completion degree — requires prior AAS in Radiological Technology (78 cr).
+
+id: radiological-science-in-ct-and-mr-bs
+label: "Radiological Science in CT and MR (BS)"
+degree_type: bachelor
+total_credits: 129
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 81
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "CTMR 3000"
+      - "CTMR 3010"
+      - "CTMR 3020"
+      - "CTMR 3025"
+      - "CTMR 3050"
+      - "CTMR 3060"
+      - "CTMR 4030"
+      - "CTMR 4910"
+      - "CTMR 4920"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

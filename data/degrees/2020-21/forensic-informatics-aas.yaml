@@ -1,0 +1,49 @@
+# forensic-informatics-aas.yaml — Forensic Informatics, AAS (2020-21)
+
+id: forensic-informatics-aas
+label: "Forensic Informatics (AAS)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 21
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMF 1110"
+      - "COMF 1220"
+      - "COMF 2110"
+      - "COMF 2120"
+      - "COMF 2220"
+      - "COMF 2230"
+      - "COMF 2231"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 9
+    rule: prereq-order
+    category_type: distributive
+    courses:
+      - "COTN 1120"
+      - "COTN 1220"
+      - "COTN 2121"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 6
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CJUS 1000"
+      - "CJUS 3025"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

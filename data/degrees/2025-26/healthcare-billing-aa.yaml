@@ -1,0 +1,33 @@
+id: healthcare-billing-aa
+label: "Billing of Healthcare Services (AA)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major requirements"
+    credits: 36
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HSBC 2270"
+      - "HSBC 2280"
+      - "HSBC 2290"
+      - "HSBC 2910"
+      - "OMSY 1101"
+      - "OMSY 1102"
+      - "OMSY 2240"
+      - "OMSY 2400"
+      - "OMSY 3000"
+      - "OMSY 3030"
+      - "OMSY 3040"
+      - "OMSY 3440"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

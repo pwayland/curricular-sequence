@@ -1,0 +1,68 @@
+=== Business School Course Scraper ===
+  OK  MKTG -> mktg-mercadeo
+  OK  OMSY -> omsy-administraci-n-de-sistemas-de-oficina
+  OK  MAEC -> maec-econom-a-gerencial
+  OK  FINA -> fina-finanzas
+  OK  ITEC -> itec-tecnolog-a-de-la-informaci-n
+  OK  INTB -> intb-negocios-internacionales
+  OK  ENTR -> entr-desarrollo-empresarial-y-gerencial
+  OK  HRMA -> hrma-gerencia-de-recursos-humanos
+  OK  REAL -> real-bienes-ra-ces
+  OK  MDME -> mdme-mercadeo-para-mercados-digitales
+  OK  HCAD -> hcad-administraci-n-de-servicios-de-salud
+  OK  MGOI -> mgoi-gerencia-e-innovaci-n-organizacional
+  404 ORBE -> orbe-organizaci-n-y-banca-electr-nica
+  OK  OPMS -> opms-gerencia-de-operaciones-de-manufactura-y-servicio
+  OK  STAT -> stat-estad-stica
+  OK  SRIM -> srim-administraci-n-de-instalaciones-recreativas-y-deportivas
+  OK  FSMT -> fsmt-adminsitracion-de-servicios-de-restaurant-y-alimentos
+  OK  ENDE -> ende-desarrollo-empresarial
+
+Valid departments: 17/18
+  ENDE: 4 courses
+  ENTR: 7 courses
+  FINA: 14 courses
+  FSMT: 4 courses
+  HCAD: 6 courses
+  HRMA: 10 courses
+  INTB: 13 courses
+  ITEC: 17 courses
+  MAEC: 19 courses
+  MDME: 10 courses
+  MGOI: 6 courses
+  MKTG: 27 courses
+  OMSY: 26 courses
+  OPMS: 6 courses
+  REAL: 9 courses
+  SRIM: 3 courses
+  STAT: 2 courses
+
+Total courses to fetch: 183
+  Fetched 25/183
+  Fetched 50/183
+  Fetched 75/183
+  Fetched 100/183
+  Fetched 125/183
+  Fetched 150/183
+  Fetched 175/183
+
+Fetched 183 courses, 0 errors
+
+=== Done: 183 courses in 17 departments ===
+  ENDE: 4
+  ENTR: 7
+  FINA: 14
+  FSMT: 4
+  HCAD: 6
+  HRMA: 10
+  INTB: 13
+  ITEC: 17
+  MAEC: 19
+  MDME: 10
+  MGOI: 6
+  MKTG: 27
+  OMSY: 26
+  OPMS: 6
+  REAL: 9
+  SRIM: 3
+  STAT: 2

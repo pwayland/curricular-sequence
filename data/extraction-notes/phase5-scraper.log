@@ -1,0 +1,61 @@
+Discovering URLs...
+Found 389 URLs
+  nursing-bsn -> nursing-bsn/nursing-bsn
+    26 linked courses, 2 text courses, ? credits
+  social-sciences-ba -> social-sciences-ba
+    7 linked courses, 0 text courses, ? credits
+  biomedical-sciences-bs -> biomedical-sciences-bs
+    29 linked courses, 4 text courses, ? credits
+  social-work-ba -> social-work-ba/social-work-ba
+    21 linked courses, 2 text courses, ? credits
+  biology-bs -> biology-bs/biology-bs
+    65 linked courses, 2 text courses, ? credits
+  marine-sciences-bs -> marine-sciences-bs/marine-sciences-bs
+    40 linked courses, 1 text courses, ? credits
+  natural-sciences-bs -> natural-sciences-bs
+    17 linked courses, 1 text courses, ? credits
+  toxicology-bs -> toxicology-bs/toxicology-bs
+    27 linked courses, 7 text courses, ? credits
+  computer-science-aas -> computer-science-aas
+    11 linked courses, 0 text courses, ? credits
+  agronomy-bas -> agronomy-bas
+    25 linked courses, 2 text courses, ? credits
+  animal-science-pre-vet-bs -> animal-science-with-pre-veterinary-bs
+    29 linked courses, 0 text courses, ? credits
+  fine-arts-bfa -> fine-arts-bfa/fine-arts-bfa
+    71 linked courses, 2 text courses, ? credits
+  early-childhood-education-k5-ba: NO MATCH
+  agricultural-precision-aas -> agricultural-precision-aas
+    11 linked courses, 2 text courses, ? credits
+  cyber-security-bs: NO MATCH
+  electrical-engineering-technology-as -> electrical-engineering-technology-as
+    23 linked courses, 3 text courses, ? credits
+  engineering-technology-renewable-energy-as -> engineering-technology-in-renewable-energy
+    16 linked courses, 0 text courses, ? credits
+  geomatics-civil-engineering-technology-as -> geomatics-and-civil-engineering-technology-as
+    17 linked courses, 2 text courses, ? credits
+  healthcare-billing-aa -> healthcare-billing-aa
+    12 linked courses, 1 text courses, ? credits
+  integral-beauty-aa -> integral-beauty-aa
+    14 linked courses, 2 text courses, ? credits
+  molecular-medicine-bioprocesses-bs -> molecular-medicine-and-bioprocesses-bs
+    25 linked courses, 4 text courses, ? credits
+  nursing-rn-to-bsn -> nursing-rn-to-bsn
+    8 linked courses, 8 text courses, ? credits
+  renewable-energy-pv-aa -> renewable-energy-technology-with-photovoltaic-systems
+    14 linked courses, 0 text courses, ? credits
+  sports-technology-ba -> sports-technology-ba/sports-technology-ba
+    22 linked courses, 0 text courses, ? credits
+  diagnostic-ultrasound-aas -> diagnostic-ultrasound
+    14 linked courses, 4 text courses, ? credits
+  veterinary-technician-aas -> veterinary-technician-aas
+    16 linked courses, 0 text courses, ? credits
+  veterinary-technology-bs -> veterinary-technology-bs
+    26 linked courses, 1 text courses, ? credits
+  visual-arts-art-teaching-ba -> artes-visuales-ba
+    30 linked courses, 3 text courses, ? credits
+  early-childhood-education-pk4-ba -> early-childhood-education/early-childhood-education-preschool-to-fourth-grade-pk-4-ba
+    29 linked courses, 7 text courses, ? credits
+  physical-education-k12-ba: NO MATCH
+
+=== 27/30 OK, 3 failed ===

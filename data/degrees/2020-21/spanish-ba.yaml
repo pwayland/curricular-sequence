@@ -1,0 +1,54 @@
+# spanish-ba.yaml — Spanish, BA (2020-21)
+
+id: spanish-ba
+label: "Spanish (BA)"
+degree_type: bachelor
+total_credits: 115
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 40
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "SPAN 2510"
+      - "SPAN 2541"
+      - "SPAN 2542"
+      - "SPAN 3011"
+      - "SPAN 3012"
+      - "SPAN 3020"
+      - "SPAN 3021"
+      - "SPAN 3022"
+      - "SPAN 3071"
+      - "SPAN 3072"
+      - "SPAN 3211"
+      - "SPAN 3212"
+      - "SPAN 4196"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive (4000-level SPAN)"
+    credits: 9
+    rule: open-elective
+    category_type: distributive
+
+  - id: related-language
+    label: "Related Language (FREN, ITAL, PORT, or Latin)"
+    credits: 6
+    rule: open-elective
+    category_type: distributive
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 12
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

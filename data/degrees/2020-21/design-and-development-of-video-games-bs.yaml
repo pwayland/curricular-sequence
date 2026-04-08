@@ -1,0 +1,69 @@
+# design-and-development-of-video-games-bs.yaml — Design and Development of Video Games, BS (2020-21)
+
+id: design-and-development-of-video-games-bs
+label: "Design and Development of Video Games (BS)"
+degree_type: bachelor
+total_credits: 128
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 71
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "COMP 2120"
+      - "COMP 2315"
+      - "COMP 2400"
+      - "COMP 2501"
+      - "COMP 2502"
+      - "COMP 2800"
+      - "COMP 2900"
+      - "COMP 3015"
+      - "COMP 3400"
+      - "COMP 3900"
+      - "GAME 1100"
+      - "GAME 1200"
+      - "GAME 2101"
+      - "GAME 2102"
+      - "GAME 2103"
+      - "GAME 3101"
+      - "GAME 3102"
+      - "GAME 3103"
+      - "GAME 4100"
+      - "MATH 1500"
+      - "MATH 2251"
+      - "PHYS 3300"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "COMP 2850"
+      - "COMU 1051"
+      - "GAME 3400"
+      - "GAME 4300"
+      - "GAME 4400"
+      - "GAME 4500"
+      - "GAME 4910"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

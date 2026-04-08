@@ -1,0 +1,456 @@
+# Batch 9: PHTH, OCTH, OPST, SPTH, SONO
+
+  PHTH 1000:
+    title: "Introducción a la Terapia Física"
+    credits: 3
+    prereqs: []
+
+  PHTH 1010:
+    title: "Principios de Cuidado al Paciente"
+    credits: 3
+    prereqs: []
+
+  PHTH 1211:
+    title: "Anatomía y Fisiología I"
+    credits: 4
+    prereqs: []
+
+  PHTH 1212:
+    title: "Anatomía y Fisiología II"
+    credits: 2
+    prereqs: []
+
+  PHTH 1222:
+    title: "Modalidades Terapéuticas"
+    credits: 5
+    prereqs: [PHTH 1000, PHTH 1010, PHTH 1211]
+
+  PHTH 1223:
+    title: "Patología"
+    credits: 3
+    prereqs: [PHTH 1000, PHTH 1010, PHTH 1211]
+
+  PHTH 2050:
+    title: "Dimensión de la Incapacidad"
+    credits: 2
+    prereqs: [PHTH 1000]
+
+  PHTH 2051:
+    title: "Destrezas de Comunicación en Terapia Física"
+    credits: 3
+    prereqs: [PHTH 1000, PHTH 1010]
+
+  PHTH 2053:
+    title: "Terapia Física Cardiopulmonar"
+    credits: 3
+    prereqs: [PHTH 1212, PHTH 1222, PHTH 1223]
+
+  PHTH 2054:
+    title: "Kinesiología y Anatomía Funcional"
+    credits: 3
+    prereqs: []
+
+  PHTH 2055:
+    title: "Crecimiento y Desarrollo Humano"
+    credits: 2
+    prereqs: []
+
+  PHTH 2151:
+    title: "Rehabilitación Ortopédica"
+    credits: 3
+    prereqs: [PHTH 2053, PHTH 2054, PHTH 2055]
+
+  PHTH 2350:
+    title: "Rehabilitación Neurológica"
+    credits: 4
+    prereqs: [PHTH 2053, PHTH 2054, PHTH 2055]
+
+  PHTH 2921:
+    title: "Internado en Terapia Física I"
+    credits: 2
+    prereqs: [PHTH 2053, PHTH 2054, PHTH 2055]
+
+  PHTH 2922:
+    title: "Internado en Terapia Física II"
+    credits: 3
+    prereqs: [PHTH 2921, PHTH 2151, PHTH 2350]
+
+  PHTH 2923:
+    title: "Internado en Terapia Física III"
+    credits: 4
+    prereqs: [PHTH 2922]
+
+  PHTH 2990:
+    title: "Seminario Integrador"
+    credits: 2
+    prereqs: [PHTH 2151, PHTH 2350, PHTH 2921]
+
+  OCTH 1000:
+    title: "Introducción A Terapia Ocupacional"
+    credits: 3
+    prereqs: []
+
+  OCTH 1031:
+    title: "Modalidades Terapéuticas I"
+    credits: 3
+    prereqs: []
+
+  OCTH 1050:
+    title: "Desarrollo Humano en las Ocupaciones A Través del Ciclo de Vida"
+    credits: 3
+    prereqs: []
+
+  OCTH 1060:
+    title: "Anatomía y Fisiología Aplicada"
+    credits: 3
+    prereqs: []
+
+  OCTH 1111:
+    title: "Disfunción Física I"
+    credits: 3
+    prereqs: [OCTH 1000, OCTH 1050, OCTH 1060]
+
+  OCTH 1120:
+    title: "Procesos en Terapia Ocupacional"
+    credits: 2
+    prereqs: []
+
+  OCTH 1121:
+    title: "Terapia Ocupacional Aplicada A Pediatría I"
+    credits: 3
+    prereqs: [OCTH 1000, OCTH 1050, OCTH 1060]
+
+  OCTH 1132:
+    title: "Modalidades Terapéuticas II"
+    credits: 3
+    prereqs: [OCTH 1000, OCTH 1031, OCTH 1120]
+
+  OCTH 1141:
+    title: "Terapia Ocupacional Aplicada A Psicosocial I"
+    credits: 3
+    prereqs: [OCTH 1000, OCTH 1031, OCTH 1060]
+
+  OCTH 2022:
+    title: "Terapia Ocupacional Aplicada A Pediatría II"
+    credits: 3
+    prereqs: [OCTH 1121]
+
+  OCTH 2042:
+    title: "Terapia Ocupacional Aplicada A Psicosocial II"
+    credits: 3
+    prereqs: [OCTH 1141]
+
+  OCTH 2102:
+    title: "Disfunción Física II"
+    credits: 3
+    prereqs: [OCTH 1111]
+
+  OCTH 2135:
+    title: "Terapia Ocupacional en Actividades del Diario Vivir"
+    credits: 3
+    prereqs: [OCTH 1111, OCTH 1121]
+
+  OCTH 2923:
+    title: "Práctica Clínica I"
+    credits: 3
+    prereqs: [OCTH 1111, OCTH 1121, OCTH 1132, OCTH 1141]
+
+  OCTH 2924:
+    title: "Práctica Clínica II"
+    credits: 5
+    prereqs: [OCTH 2022, OCTH 2042, OCTH 2102, OCTH 2135, OCTH 2923]
+
+  OCTH 2975:
+    title: "Seminario Integrador"
+    credits: 3
+    prereqs: [OCTH 1120, OCTH 2102, OCTH 2135, OCTH 2921]
+
+  OPST 1003:
+    title: "Fundamentos de Óptica"
+    credits: 2
+    prereqs: []
+
+  OPST 1010:
+    title: "Principios de Biología"
+    credits: 3
+    prereqs: []
+
+  OPST 1011:
+    title: "Materiales Oftálmicos I"
+    credits: 3
+    prereqs: [OPST 1003]
+
+  OPST 1012:
+    title: "Materiales Oftálmicos II"
+    credits: 3
+    prereqs: [OPST 1011]
+
+  OPST 1020:
+    title: "Anatomía y Fisiología del Ojo"
+    credits: 3
+    prereqs: [BIOL 1010]
+
+  OPST 1111:
+    title: "Fundamentos de Física I"
+    credits: 3
+    prereqs: []
+
+  OPST 1112:
+    title: "Fundamentos de Física II"
+    credits: 3
+    prereqs: [OPST 1010, OPST 1011]
+
+  OPST 2000:
+    title: "Consideraciones Ético Legales"
+    credits: 2
+    prereqs: []
+
+  OPST 2004:
+    title: "Lentes de Contacto I"
+    credits: 2
+    prereqs: [OPST 1020]
+
+  OPST 2005:
+    title: "Lentes de Contacto II"
+    credits: 3
+    prereqs: [OPST 2004]
+
+  OPST 2010:
+    title: "Despacho de Recetas"
+    credits: 3
+    prereqs: [OPST 1001]
+
+  OPST 2020:
+    title: "Visión Subnormal"
+    credits: 3
+    prereqs: [OPST 1020]
+
+  OPST 2021:
+    title: "Desarrollo Empresarial"
+    credits: 2
+    prereqs: []
+
+  OPST 2103:
+    title: "Materiales Oftálmicos III"
+    credits: 2
+    prereqs: [OPST 1012, OPST 2010]
+
+  OPST 2912:
+    title: "Práctica Clínica II"
+    credits: 2
+    prereqs: [OPST 2000, OPST 2004, OPST 2005, OPST 2010, OPST 2020, OPST 2021, OPST 2103]
+
+  OPST 2913:
+    title: "Práctica Supervisada"
+    credits: 4
+    prereqs: [OPST 1012, OPST 2021]
+
+  SPTH 1010:
+    title: "Anatomía y Fisiología del Habla y Lenguaje"
+    credits: 3
+    prereqs: []
+
+  SPTH 1011:
+    title: "Desarrollo Normal del Lenguaje"
+    credits: 3
+    prereqs: []
+
+  SPTH 1122:
+    title: "Introducción A la Audiología"
+    credits: 3
+    prereqs: [SPTH 1010]
+
+  SPTH 1123:
+    title: "Asuntos Éticos, Legales y Procedimientos Clínicos"
+    credits: 3
+    prereqs: []
+
+  SPTH 1124:
+    title: "Desórdenes de Fluidez en Niños"
+    credits: 3
+    prereqs: [SPTH 1011]
+
+  SPTH 2010:
+    title: "Desórdenes del Articulación y Fonología"
+    credits: 3
+    prereqs: [SPTH 1010, SPTH 1011]
+
+  SPTH 2015:
+    title: "Desórdenes de Voz en Niños"
+    credits: 3
+    prereqs: [SPTH 1010, SPTH 1011, SPTH 1122]
+
+  SPTH 2024:
+    title: "El Uso de la Tecnología en la Práctica de Terapia del Habla y Lenguaje"
+    credits: 3
+    prereqs: []
+
+  SPTH 2110:
+    title: "Fisura de Paladar y Anomalías Cráneofaciales"
+    credits: 3
+    prereqs: [SPTH 2010, SPTH 2015]
+
+  SPTH 2120:
+    title: "Intervención Con Niños Con Impedimentos Auditivos"
+    credits: 3
+    prereqs: [SPTH 1010, SPTH 1122]
+
+  SPTH 2130:
+    title: "Condiciones Cognitivas y Psicosociales Asociadas Con Problemas de Habla y Lenguaje"
+    credits: 3
+    prereqs: [SPTH 1011]
+
+  SPTH 3020:
+    title: "Identificación y Tratamiento de Niños Con desórdenes del Lenguaje Oral"
+    credits: 3
+    prereqs: [SPTH 2021]
+
+  SPTH 3021:
+    title: "Identificación y Tratamiento de Niños Con desórdenes del Lenguaje Escrito"
+    credits: 3
+    prereqs: [SPTH 2021]
+
+  SPTH 3022:
+    title: "Documentación Clínica en la Profesión de Terapia del Habla y Lenguaje"
+    credits: 3
+    prereqs: [SPTH 1123, SPTH 1124, SPTH 2010, SPTH 2015]
+
+  SPTH 3140:
+    title: "Intervención Temprana"
+    credits: 3
+    prereqs: [SPTH 2021]
+
+  SPTH 3141:
+    title: "Intervenciones Terapéuticas para Niños Con Problemas del Habla y Lenguaje"
+    credits: 3
+    prereqs: [SPTH 1124, SPTH 2015, SPTH 3020, SPTH 3021]
+
+  SPTH 3142:
+    title: "Lenguaje de Señas"
+    credits: 3
+    prereqs: []
+
+  SPTH 3143:
+    title: "Disfagia en Niños"
+    credits: 2
+    prereqs: [SPTH 1010]
+
+  SPTH 3210:
+    title: "Ayudas Aumentativas y alternas para la Comunicación en Niños"
+    credits: 3
+    prereqs: []
+
+  SPTH 4141:
+    title: "Seminario Integrador I"
+    credits: 2
+    prereqs: [SPTH 4914]
+
+  SPTH 4142:
+    title: "Seminario Integrador II"
+    credits: 2
+    prereqs: [SPTH 4915]
+
+  SPTH 4914:
+    title: "Práctica I"
+    credits: 1
+    prereqs: [SPTH 1123, SPTH 2120, SPTH 2130, SPTH 3020, SPTH 3021, SPTH 3022, SPTH 3140, SPTH 3141]
+
+  SPTH 4915:
+    title: "Práctica II"
+    credits: 2
+    prereqs: [SPTH 4914]
+
+  SONO 3000:
+    title: "Principios Básicos del Ultrasonido"
+    credits: 3
+    prereqs: []
+
+  SONO 3005:
+    title: "Anatomía y Patofisiología Msk"
+    credits: 3
+    prereqs: []
+
+  SONO 3010:
+    title: "Física de Ultrasonido I"
+    credits: 3
+    prereqs: []
+
+  SONO 3011:
+    title: "Sonografía Msk en Extremidad Superior"
+    credits: 3
+    prereqs: [SONO 3010]
+
+  SONO 3012:
+    title: "Sonografía Msk en Extremidad Inferior"
+    credits: 3
+    prereqs: [SONO 3010]
+
+  SONO 3015:
+    title: "Física de Ultrasonido II"
+    credits: 3
+    prereqs: [SONO 3011]
+
+  SONO 3021:
+    title: "Sonografía de Abdomen"
+    credits: 3
+    prereqs: [SONO 3000, SONO 3010]
+
+  SONO 3022:
+    title: "Sonografía de Pelvis Pediátrica y Adulta"
+    credits: 3
+    prereqs: [SONO 3010]
+
+  SONO 3024:
+    title: "Sonografía Obstétrica"
+    credits: 3
+    prereqs: [SONO 3022]
+
+  SONO 4000:
+    title: "Estudios Sonográficos Especiales"
+    credits: 3
+    prereqs: []
+
+  SONO 4010:
+    title: "Sonografía Músculo Esqueletal"
+    credits: 3
+    prereqs: []
+
+  SONO 4045:
+    title: "Sonografía Cardiovascular"
+    credits: 3
+    prereqs: []
+
+  SONO 4050:
+    title: "Introducción A la Ecocardiografía"
+    credits: 3
+    prereqs: []
+
+  SONO 4055:
+    title: "Patofisiología Cardiovascular"
+    credits: 3
+    prereqs: [SONO 4045]
+
+  SONO 4065:
+    title: "Sonografía Vascular General"
+    credits: 3
+    prereqs: []
+
+  SONO 4075:
+    title: "Sonografía Vascular Avanzada"
+    credits: 3
+    prereqs: [SONO 4045, SONO 4055]
+
+  SONO 4911:
+    title: "Internado de Ultrasonido I"
+    credits: 3
+    prereqs: [SONO 3010]
+
+  SONO 4912:
+    title: "Internado de Ultrasonido II"
+    credits: 3
+    prereqs: [SONO 4911]
+
+  SONO 4913:
+    title: "Internado de Ultrasonido III"
+    credits: 3
+    prereqs: [SONO 4912]

@@ -1,0 +1,75 @@
+id: early-childhood-education-k3-ba
+label: "Early Childhood Education: K-3 (BA)"
+degree_type: bachelor
+total_credits: 127
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      credits: 6
+      rule: sequence
+      courses: ["GEMA 1001", "GEMA 1002"]
+    - category: historical-social
+      credits: 9
+      subcategories:
+        - id: historical
+          label: "Historical Component"
+          credits: 9
+          rule: fixed
+          courses: ["GEHS 2010", "GEHS 4020", "GEHS 4030"]
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 41
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 1080"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 4050"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 2890"
+      - "EDUC 3013"
+      - "EDUC 3015"
+      - "EDUC 4011"
+      - "EDUC 4012"
+      - "EDUC 4013"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 29
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EDUC 2020"
+      - "EDUC 3075"
+      - "EDUC 3083"
+      - "EDUC 3090"
+      - "EDUC 3130"
+      - "EDUC 3150"
+      - "EDUC 3170"
+      - "EDUC 3185"
+      - "EDUC 3235"
+      - "EDUC 3265"
+      - "EDUC 4110"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

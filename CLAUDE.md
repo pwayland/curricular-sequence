@@ -53,16 +53,29 @@ js/
 data/
   catalog-years.yaml                # Master index: years → degrees
   courses/
-    courses-2025-26.yaml            # Course definitions (code, title, credits, prereqs)
+    courses-YYYY-YY.yaml            # Course definitions (one per catalog year)
+    *.py                            # Scraper/generator scripts (see below)
   gen-ed/
     gen-ed-bachelor.yaml            # Shared Bachelor's Gen Ed template (48 cr)
     gen-ed-associate.yaml           # Shared Associate Gen Ed template (24 cr)
   degrees/
-    2025-26/
-      computer-science-bs.yaml      # Example degree file
+    YYYY-YY/                        # Degree files grouped by catalog year
+      *.yaml                        # One file per degree program
+  extraction-notes/                 # Work log: scraper output, comparison reports, pickup prompts
 lib/
   js-yaml.min.js                    # Vendored js-yaml 4.1.0
 ```
+
+### Data Pipeline Scripts
+
+Python scripts in `data/courses/` handle scraping and generating YAML from SmartCatalog. Key scripts:
+- `scraper.py`, `scraper-phase5.py` — fetch degree/course data from SmartCatalog
+- `generate-degrees.py` — produce degree YAML files from scraped JSON
+- `fix-degrees.py`, `fix-degrees-v2.py` — post-generation fixups
+- `gap-report.py` — compare generated data against source for completeness
+- `copy-courses.py`, `scrape-new-courses.py` — incremental course extraction
+
+Output and logs land in `data/extraction-notes/`.
 
 ## Data Format
 
@@ -132,3 +145,16 @@ Modified Kahn's algorithm (topological sort):
 - js-yaml 4.1.0 loaded as global `jsyaml` via script tag
 - CSS custom properties for theming
 - HTML5 Drag and Drop API
+
+## Efficiency Rule: Scripts Over Repetition
+
+**Before doing the same operation more than 3 times with tools (WebFetch, Read, Grep, etc.), STOP and write a script instead.**
+
+Examples:
+- Need to fetch 20+ web pages? Write a Python/Node script that fetches them all and outputs structured data (CSV/JSON). Run it once via Bash. Process the output.
+- Need to extract a field from 50+ YAML files? Write a script that reads them all and outputs a summary. Don't Read them one by one.
+- Need to compare two lists of 100+ items? Write a script that does the diff. Don't reason through it item by item in conversation.
+
+The pattern: **identify the repeated unit of work → write a script that does all N iterations → run it → read the results.** One Bash call beats N tool calls every time.
+
+This applies especially to SmartCatalog scraping. The site has predictable URL patterns and HTML structure. A scraper with `requests` + `BeautifulSoup` (or `fetch` in Node) will always beat sequential WebFetch calls.

@@ -1,0 +1,52 @@
+id: geomatics-civil-engineering-technology-as
+label: "Geomatics and Civil Engineering Technology (AS)"
+degree_type: associate
+total_credits: 68
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 8
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "GEOG 2000"
+      - "MATH 1500"
+
+  - id: concentration-requirements
+    label: "Concentration Requirements"
+    credits: 23
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "GECE 2010"
+      - "GECE 2020"
+      - "GECE 2025"
+      - "GECE 2030"
+      - "GECE 2035"
+      - "GECE 2045"
+      - "GECE 2050"
+      - "GECE 2060"
+      - "GECE 2070"
+      - "GECE 2080"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 13
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "AREN 2220"
+      - "AREN 3020"
+      - "AREN 3025"
+      - "AREN 4021"
+      - "AREN 4022"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

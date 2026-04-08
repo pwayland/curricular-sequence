@@ -1,0 +1,85 @@
+id: physical-education-k12-ba
+label: "Physical Education K-12 (BA)"
+degree_type: bachelor
+total_credits: 135
+term_type: semester
+max_credits_per_term: 18
+terms_count: 9
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: education-core
+    label: "Core Course Requirements in Education"
+    credits: 40
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "EDUC 2000"
+      - "EDUC 2021"
+      - "EDUC 2022"
+      - "EDUC 2031"
+      - "EDUC 2032"
+      - "EDUC 2060"
+      - "EDUC 2870"
+      - "EDUC 3015"
+      - "EDUC 3016"
+      - "EDUC 3026"
+      - "EDUC 4013"
+      - "EDUC 4551"
+      - "EDUC 4552"
+      - "HIST 3010"
+
+  - id: major-core
+    label: "Core Course Requirements in the Major"
+    credits: 32
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "HPER 2140"
+      - "HPER 2210"
+      - "HPER 2220"
+      - "HPER 2270"
+      - "HPER 2330"
+      - "HPER 3310"
+      - "HPER 3330"
+      - "HPER 3350"
+      - "HPER 3360"
+      - "HPER 4170"
+      - "HPER 4370"
+
+  - id: concentration
+    label: "Concentration"
+    credits: 12
+    rule: choose_track
+    category_type: major
+    choose_track:
+      adapted-pe:
+        - "HPER 3470"
+        - "HPER 3475"
+        - "HPER 3495"
+        - "HPER 4130"
+        - "EDUC 3885"
+      elementary-k6:
+        - "HPER 3160"
+        - "HPER 3220"
+        - "HPER 4110"
+        - "EDUC 3878"
+      secondary-7-12:
+        - "HPER 3230"
+        - "HPER 4120"
+        - "HPER 4305"
+        - "EDUC 3875"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 48 (gen-ed) + 40 (education core) + 32 (major core) + 12 (concentration) + 3 (electives) = 135
+# Adapted PE track is 15 credits (3 extra); elementary/secondary tracks are 12 credits.
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

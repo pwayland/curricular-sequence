@@ -1,0 +1,55 @@
+id: toxicology-bs
+label: "Toxicology (BS)"
+degree_type: bachelor
+total_credits: 123
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-course-requirements
+    label: "Core Course Requirements"
+    credits: 43
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 2221"
+      - "CHEM 2222"
+      - "CHEM 3320"
+      - "CHEM 4220"
+      - "MATH 1500"
+      - "MATH 1511"
+      - "MATH 1512"
+      - "MATH 2100"
+      - "MATH 2250"
+      - "MATH 2251"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 32
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "BIOL 1101"
+      - "BIOL 1103"
+      - "TOXI 1120"
+      - "TOXI 2210"
+      - "TOXI 2220"
+      - "TOXI 2230"
+      - "TOXI 3000"
+      - "TOXI 3010"
+      - "TOXI 3603"
+      - "TOXI 3605"
+      - "TOXI 4750"
+      - "TOXI 4751"
+      - "TOXI 4910"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

@@ -1,0 +1,35 @@
+# videogames-and-mobile-applications-aas.yaml — Videogames and Mobile Applications, AAS (2020-21)
+
+id: videogames-and-mobile-applications-aas
+label: "Videogames and Mobile Applications (AAS)"
+degree_type: associate
+total_credits: 60
+term_type: semester
+max_credits_per_term: 18
+terms_count: 4
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 36
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "VGMA 1110"
+      - "VGMA 1120"
+      - "VGMA 1130"
+      - "VGMA 1210"
+      - "VGMA 1220"
+      - "VGMA 1230"
+      - "VGMA 2110"
+      - "VGMA 2120"
+      - "VGMA 2130"
+      - "VGMA 2210"
+      - "VGMA 2220"
+      - "VGMA 2230"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

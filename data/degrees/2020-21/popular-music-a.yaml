@@ -1,0 +1,146 @@
+# popular-music-a.yaml — Popular Music, Associate (2020-21)
+
+id: popular-music-a
+label: "Popular Music (Associate)"
+degree_type: associate
+total_credits: 77
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-core
+    label: "Major Core"
+    credits: 30
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MUSI 1122"
+      - "MUSI 1123"
+      - "MUSI 1531"
+      - "MUSI 1532"
+      - "MUSI 2000"
+      - "MUSI 2531"
+      - "MUSI 2532"
+      - "MUSI 2623"
+      - "MUSI 2624"
+      - "MUSI 2703"
+
+  - id: ensemble-track
+    label: "Ensemble Track"
+    credits: 8
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Instrumental Ensemble:
+        - "MUSI 1323"
+        - "MUSI 1324"
+        - "MUSI 2326"
+        - "MUSI 2327"
+      Choral Ensemble:
+        - "MUSI 1333"
+        - "MUSI 1334"
+        - "MUSI 2335"
+        - "MUSI 2336"
+
+  - id: keyboard-guitar-track
+    label: "Keyboard/Guitar Track"
+    credits: 4
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Piano:
+        - "MUSI 1563"
+        - "MUSI 1564"
+      Guitar:
+        - "MUSI 1661"
+        - "MUSI 1662"
+
+  - id: principal-instrument-track
+    label: "Principal Instrument Track"
+    credits: 8
+    rule: choose_track
+    category_type: major
+    choose_track:
+      Flute:
+        - "MUSI 1501"
+        - "MUSI 1502"
+        - "MUSI 2503"
+        - "MUSI 2504"
+      Piano:
+        - "MUSI 1511"
+        - "MUSI 1512"
+        - "MUSI 2513"
+        - "MUSI 2514"
+      Cuatro:
+        - "MUSI 1521"
+        - "MUSI 1522"
+        - "MUSI 2523"
+        - "MUSI 2524"
+      Saxophone:
+        - "MUSI 1541"
+        - "MUSI 1542"
+        - "MUSI 2543"
+        - "MUSI 2544"
+      Trumpet:
+        - "MUSI 1551"
+        - "MUSI 1552"
+        - "MUSI 2553"
+        - "MUSI 2554"
+      Trombone:
+        - "MUSI 1571"
+        - "MUSI 1572"
+        - "MUSI 2573"
+        - "MUSI 2574"
+      Bass:
+        - "MUSI 1581"
+        - "MUSI 1582"
+        - "MUSI 2583"
+        - "MUSI 2584"
+      Guitar:
+        - "MUSI 1591"
+        - "MUSI 1592"
+        - "MUSI 2593"
+        - "MUSI 2594"
+      Drums:
+        - "MUSI 1601"
+        - "MUSI 1602"
+        - "MUSI 2603"
+        - "MUSI 2604"
+      Percussion:
+        - "MUSI 1611"
+        - "MUSI 1612"
+        - "MUSI 2613"
+        - "MUSI 2614"
+      Violin:
+        - "MUSI 1631"
+        - "MUSI 1632"
+        - "MUSI 2633"
+        - "MUSI 2634"
+      Voice:
+        - "MUSI 1641"
+        - "MUSI 1642"
+        - "MUSI 2643"
+        - "MUSI 2644"
+      Viola:
+        - "MUSI 1651"
+        - "MUSI 1652"
+        - "MUSI 2653"
+        - "MUSI 2654"
+      Cello:
+        - "MUSI 1671"
+        - "MUSI 1672"
+        - "MUSI 2673"
+        - "MUSI 2674"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

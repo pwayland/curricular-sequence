@@ -1,0 +1,43 @@
+# cardio-respiratory-care-aas.yaml — Cardio-Respiratory Care, AAS (2020-21)
+
+id: cardio-respiratory-care-aas
+label: "Cardio-Respiratory Care (AAS)"
+degree_type: associate
+total_credits: 76
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 52
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "CARD 1130"
+      - "CARD 1210"
+      - "CARD 1220"
+      - "CARD 1231"
+      - "CARD 2110"
+      - "CARD 2120"
+      - "CARD 2140"
+      - "CARD 2190"
+      - "CARD 2233"
+      - "CARD 2234"
+      - "CARD 2910"
+      - "BIOL 1003"
+      - "BIOL 2151"
+      - "BIOL 2152"
+      - "BIOL 2154"
+      - "CHEM 2110"
+      - "PHYS 1013"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

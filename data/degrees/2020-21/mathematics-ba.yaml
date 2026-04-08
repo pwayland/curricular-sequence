@@ -1,0 +1,79 @@
+# mathematics-ba.yaml — Mathematics, BA (2020-21)
+
+id: mathematics-ba
+label: "Mathematics (BA)"
+degree_type: bachelor
+total_credits: 120
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 29
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "MATH 1500"
+      - "MATH 2000"
+      - "MATH 2251"
+      - "MATH 2252"
+      - "MATH 2380"
+      - "MATH 2400"
+      - "MATH 3130"
+      - "MATH 3350"
+
+  - id: major-electives
+    label: "Major Electives"
+    credits: 3
+    rule: pick
+    pick_count: 1
+    category_type: major
+    options:
+      - "MATH 4100"
+      - "MATH 4391"
+
+  - id: related-requirements
+    label: "Related Requirements"
+    credits: 15
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "PHYS 3001"
+      - "PHYS 3002"
+      - "STAT 1201"
+      - "STAT 1202"
+      - "COMP 2120"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 12
+    rule: pick
+    pick_count: 4
+    category_type: distributive
+    options:
+      - "MATH 3000"
+      - "MATH 3060"
+      - "MATH 3091"
+      - "MATH 3250"
+      - "MATH 3400"
+      - "MATH 4151"
+      - "MATH 4260"
+      - "MATH 4430"
+      - "MATH 4550"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 13
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

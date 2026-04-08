@@ -1,0 +1,62 @@
+# graphic-design-bva.yaml — Graphic Design, BVA (2020-21)
+
+id: graphic-design-bva
+label: "Graphic Design (BVA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 48
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "ARTS 1100"
+      - "ARTS 1102"
+      - "ARTS 1200"
+      - "ARTS 1220"
+      - "ARTS 1420"
+      - "ARTS 1430"
+      - "ARTS 1541"
+      - "ARTS 1600"
+      - "ARTS 2111"
+      - "ARTS 2331"
+      - "ARTS 2521"
+      - "ARTS 2540"
+      - "ARTS 2541"
+      - "ARTS 3000"
+      - "ARTS 3420"
+      - "ARTS 4000"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 10
+    rule: prereq-order
+    category_type: distributive
+    courses:
+      - "ARTS 3600"
+      - "ARTS 4860"
+      - "ARTS 4911"
+      - "ARTS 4920"
+
+  - id: fine-arts-electives
+    label: "Fine Arts Electives"
+    credits: 9
+    rule: open-elective
+    category_type: elective
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

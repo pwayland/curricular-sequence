@@ -1,0 +1,101 @@
+id: criminal-justice-ba
+label: "Criminal Justice (BA)"
+degree_type: bachelor
+total_credits: 121
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+
+categories:
+  - id: core-requirements
+    label: "Core Requirements"
+    credits: 40
+    rule: prereq-order
+    category_type: core
+    courses:
+      - "CJUS 1000"
+      - "CJUS 2050"
+      - "CJUS 2090"
+      - "CJUS 3025"
+      - "CJUS 3027"
+      - "CJUS 3055"
+      - "CJUS 4500"
+      - "CJUS 4972"
+      - "POLS 1011"
+      - "PSYC 1051"
+      - "PSYC 3001"
+      - "SOCI 1030"
+      - "SOCI 2080"
+
+  - id: prescribed-distributive
+    label: "Prescribed Distributive"
+    credits: 6
+    rule: pick
+    pick_count: 2
+    category_type: distributive
+    options:
+      - "CJUS 1010"
+      - "CJUS 2010"
+      - "CJUS 2075"
+      - "CJUS 2080"
+      - "CJUS 2095"
+      - "CJUS 3015"
+      - "CJUS 3085"
+      - "CJUS 3260"
+      - "CJUS 3300"
+      - "CJUS 4020"
+      - "CJUS 4035"
+      - "CJUS 4914"
+      - "CJUS 4915"
+      - "PSYC 4213"
+      - "PSYC 4520"
+      - "SOCI 3753"
+
+  - id: major-concentration
+    label: "Major Concentration"
+    credits: 21
+    rule: choose_track
+    category_type: major
+    choose_track:
+      criminal-investigation:
+        label: "Track A: Criminal Investigation"
+        courses:
+          - "CJUS 2070"
+          - "CJUS 3030"
+          - "CJUS 3035"
+          - "CJUS 3250"
+          - "CJUS 3970"
+          - "CJUS 4040"
+          - "CJUS 4060"
+      cyber-crime-investigation:
+        label: "Track B: Cyber Crime Investigation"
+        courses:
+          - "CYBE 3033"
+          - "CJUS 2070"
+          - "CJUS 3030"
+          - "CJUS 3055"
+          - "CJUS 3970"
+          - "CYBE 4150"
+          - "CYBE 4522"
+      forensic-investigation:
+        label: "Track C: Forensic Investigation"
+        courses:
+          - "CJUS 2070"
+          - "CJUS 2205"
+          - "CJUS 3035"
+          - "CJUS 3241"
+          - "CJUS 3242"
+          - "CJUS 3970"
+          - "CJUS 4014"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 6
+    rule: open-elective
+    category_type: elective
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

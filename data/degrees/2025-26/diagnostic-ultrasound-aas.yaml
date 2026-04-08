@@ -1,0 +1,35 @@
+id: diagnostic-ultrasound-aas
+label: "Ultrasound Diagnostic (AAS)"
+degree_type: associate
+total_credits: 67
+term_type: semester
+max_credits_per_term: 18
+terms_count: 5
+
+gen_ed:
+  template: gen-ed-associate
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 43
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "USDX 1000"
+      - "USDX 1010"
+      - "USDX 1110"
+      - "USDX 2010"
+      - "USDX 2011"
+      - "USDX 2015"
+      - "USDX 2016"
+      - "USDX 2017"
+      - "USDX 2020"
+      - "USDX 2022"
+      - "USDX 2030"
+      - "USDX 2031"
+      - "USDX 2032"
+      - "USDX 2040"
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

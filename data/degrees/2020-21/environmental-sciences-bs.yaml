@@ -1,0 +1,61 @@
+# environmental-sciences-bs.yaml — Environmental Sciences, BS (2020-21)
+
+id: environmental-sciences-bs
+label: "Environmental Sciences (BS)"
+degree_type: bachelor
+total_credits: 122
+term_type: semester
+max_credits_per_term: 18
+terms_count: 8
+
+gen_ed:
+  template: gen-ed-bachelor
+  overrides:
+    - category: scientific-technological
+      _remove: true
+    - category: math
+      default: "GEMA 1200"
+
+categories:
+  - id: major-requirements
+    label: "Major Requirements"
+    credits: 74
+    rule: prereq-order
+    category_type: major
+    courses:
+      - "EVSC 1110"
+      - "EVSC 2500"
+      - "EVSC 3600"
+      - "EVSC 3603"
+      - "EVSC 4504"
+      - "EVSC 4955"
+      - "BIOL 1101"
+      - "BIOL 1102"
+      - "BIOL 1103"
+      - "BIOL 1104"
+      - "BIOL 2103"
+      - "BIOL 2104"
+      - "BIOL 2153"
+      - "BIOL 3105"
+      - "BIOL 3503"
+      - "BIOL 3504"
+      - "BIOL 3505"
+      - "BIOL 4503"
+      - "CHEM 1111"
+      - "CHEM 2212"
+      - "CHEM 3320"
+      - "MATH 1511"
+      - "MATH 1512"
+      - "PHYS 3001"
+      - "PHYS 3002"
+
+  - id: electives
+    label: "Elective Courses"
+    credits: 3
+    rule: open-elective
+    category_type: elective
+
+# Credit check: 45 (gen-ed) + 74 (major) + 3 (electives) = 122
+
+# TODO: term_pins — no recommended sequence available from catalog.
+# Obtain from academic advisor or departmental curricular sequence document.

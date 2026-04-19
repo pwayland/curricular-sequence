@@ -63,7 +63,10 @@ function populateDegreeDropdown(year) {
     return;
   }
   const campus = elCampus.value;
-  for (const deg of year.degrees) {
+  const degrees = [...year.degrees].sort((a, b) =>
+    a.label.localeCompare(b.label, undefined, { sensitivity: 'base' })
+  );
+  for (const deg of degrees) {
     if (campus && deg.campuses && !deg.campuses.includes(campus)) continue;
     const opt = document.createElement('option');
     opt.value = deg.id;

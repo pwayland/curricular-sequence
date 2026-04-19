@@ -71,7 +71,10 @@ export function preparePrint(state) {
     ctx.gradeValues[sel.dataset.gradeKey] = sel.value;
   });
 
-  const printContainer = buildPrintLayout(state, ctx);
+  // Reshape termSlots to match current DOM positions (so drags are reflected).
+  const liveTerms = readCurrentTerms(state);
+
+  const printContainer = buildPrintLayout({ ...state, termSlots: liveTerms }, ctx);
   document.body.appendChild(printContainer);
 
   const cleanup = () => {
@@ -81,6 +84,33 @@ export function preparePrint(state) {
   window.addEventListener('afterprint', cleanup);
 
   window.print();
+}
+
+/**
+ * Rebuild the terms array from the live DOM so that user drags are reflected.
+ * Slots keep all their metadata (rule, categoryId, electiveIndex, etc.) by
+ * popping matches from a code-keyed pool in DOM order.
+ */
+function readCurrentTerms(state) {
+  const pool = new Map();
+  for (const termArr of state.termSlots) {
+    for (const slot of termArr) {
+      if (!pool.has(slot.code)) pool.set(slot.code, []);
+      pool.get(slot.code).push(slot);
+    }
+  }
+  const cols = document.querySelectorAll('.term-column');
+  if (cols.length === 0) return state.termSlots;
+  const newTerms = Array.from({ length: state.termSlots.length }, () => []);
+  cols.forEach(col => {
+    const tIdx = parseInt(col.dataset.term, 10);
+    if (Number.isNaN(tIdx) || tIdx >= newTerms.length) return;
+    col.querySelectorAll('.course-card').forEach(card => {
+      const slots = pool.get(card.dataset.code);
+      if (slots && slots.length) newTerms[tIdx].push(slots.shift());
+    });
+  });
+  return newTerms;
 }
 
 // ── Layout builder ──────────────────────────────────────────────────────────

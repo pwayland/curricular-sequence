@@ -7,6 +7,8 @@ import { settle, validatePlacements } from './settling.js';
 import { renderTermGrid } from './renderer.js';
 import { preparePrint } from './print.js';
 
+// test changes
+
 // ── State ────────────────────────────────────────────
 const state = {
   catalogYears: [],
@@ -55,6 +57,7 @@ function populateYearDropdown() {
     elYear.appendChild(opt);
   }
 }
+
 
 function populateDegreeDropdown(year) {
   elDegree.innerHTML = '<option value="">Select degree...</option>';
